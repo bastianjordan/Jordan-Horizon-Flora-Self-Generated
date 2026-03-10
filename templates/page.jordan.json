@@ -32,6 +32,18 @@
       "block_order": ["group"],
       "settings": { "media_type_1": "image", "image_1": "shopify://shop_images/403-DSC09086.jpg", "section_width": "full-width", "section_height": "medium", "section_height_custom": 5, "color_scheme": "scheme-6", "toggle_overlay": true, "overlay_color": "#00000066", "overlay_style": "solid", "gradient_direction": "to bottom", "padding-block-start": 0, "padding-block-end": 0 }
     },
+    "intro_text": {
+      "type": "section",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": { "text": "<p>HIER FINDEST DU ALLE WISSENSWERTEN INFORMATIONEN ÜBER UNS UND UNSER GELIEBTES OLIVENÖL, EIN WENIG GESCHICHTE ODER ABER AUCH ALLE INFOS ZU ANSTEHENDEN EVENTS & VERKOSTUNGEN.</p>", "width": "100%", "max_width": "narrow", "alignment": "center", "type_preset": "paragraph", "font": "var(--font-body--family)", "font_size": "1rem", "line_height": "normal", "letter_spacing": "normal", "case": "none", "wrap": "pretty", "color": "", "background": false, "background_color": "#00000026", "corner_radius": 0, "padding-block-start": 0, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0 },
+          "blocks": {}
+        }
+      },
+      "block_order": ["text"],
+      "settings": { "content_direction": "column", "gap": 24, "color_scheme": "", "padding-block-start": 40, "padding-block-end": 40 }
+    },
     "mosaic_family": {
       "type": "section",
       "blocks": {
@@ -43,9 +55,27 @@
             "title": { "type": "text", "settings": { "text": "<h3>Die Familie</h3>", "width": "100%", "max_width": "normal", "alignment": "left", "type_preset": "h2", "font": "var(--font-primary--family)", "font_size": "", "line_height": "normal", "letter_spacing": "normal", "case": "none", "wrap": "pretty", "color": "", "background": false, "background_color": "#00000026", "corner_radius": 0, "padding-block-start": 0, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0 }, "blocks": {} }
           },
           "block_order": ["image", "title"]
+        },
+        "card_region": {
+          "type": "_card",
+          "settings": { "link": "shopify://pages/unsere-region" },
+          "blocks": {
+            "image": { "type": "image", "settings": { "image": "shopify://shop_images/281-DSC07992.jpg", "image_position": "cover" }, "blocks": {} },
+            "title": { "type": "text", "settings": { "text": "<h3>Die Region</h3>", "width": "100%", "max_width": "normal", "alignment": "left", "type_preset": "h2", "font": "var(--font-primary--family)", "font_size": "", "line_height": "normal", "letter_spacing": "normal", "case": "none", "wrap": "pretty", "color": "", "background": false, "background_color": "#00000026", "corner_radius": 0, "padding-block-start": 0, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0 }, "blocks": {} }
+          },
+          "block_order": ["image", "title"]
+        },
+        "card_lesbos": {
+          "type": "_card",
+          "settings": { "link": "shopify://pages/unser-ol-lesbos" },
+          "blocks": {
+            "image": { "type": "image", "settings": { "image": "shopify://shop_images/474-DSC00183.jpg", "image_position": "cover" }, "blocks": {} },
+            "title": { "type": "text", "settings": { "text": "<h3>Unser Öl & Lesbos</h3>", "width": "100%", "max_width": "normal", "alignment": "left", "type_preset": "h2", "font": "var(--font-primary--family)", "font_size": "", "line_height": "normal", "letter_spacing": "normal", "case": "none", "wrap": "pretty", "color": "", "background": false, "background_color": "#00000026", "corner_radius": 0, "padding-block-start": 0, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0 }, "blocks": {} }
+          },
+          "block_order": ["image", "title"]
         }
       },
-      "block_order": ["card_family"],
+      "block_order": ["card_family", "card_region", "card_lesbos"],
       "settings": { "content_direction": "row", "gap": 16, "color_scheme": "", "padding-block-start": 40, "padding-block-end": 16 }
     },
     "mosaic_team": {
@@ -59,9 +89,18 @@
             "title": { "type": "text", "settings": { "text": "<h3>Unser Team</h3>", "width": "100%", "max_width": "normal", "alignment": "left", "type_preset": "h2", "font": "var(--font-primary--family)", "font_size": "", "line_height": "normal", "letter_spacing": "normal", "case": "none", "wrap": "pretty", "color": "", "background": false, "background_color": "#00000026", "corner_radius": 0, "padding-block-start": 0, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0 }, "blocks": {} }
           },
           "block_order": ["image", "title"]
+        },
+        "card_standorte": {
+          "type": "_card",
+          "settings": { "link": "shopify://pages/unsere-standorte" },
+          "blocks": {
+            "image": { "type": "image", "settings": { "image": "shopify://shop_images/carl5_klein.jpg", "image_position": "cover" }, "blocks": {} },
+            "title": { "type": "text", "settings": { "text": "<h3>Unsere Standorte</h3>", "width": "100%", "max_width": "normal", "alignment": "left", "type_preset": "h2", "font": "var(--font-primary--family)", "font_size": "", "line_height": "normal", "letter_spacing": "normal", "case": "none", "wrap": "pretty", "color": "", "background": false, "background_color": "#00000026", "corner_radius": 0, "padding-block-start": 0, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0 }, "blocks": {} }
+          },
+          "block_order": ["image", "title"]
         }
       },
-      "block_order": ["card_team"],
+      "block_order": ["card_team", "card_standorte"],
       "settings": { "content_direction": "row", "gap": 16, "color_scheme": "", "padding-block-start": 16, "padding-block-end": 16 }
     },
     "mosaic_engagement": {
@@ -75,15 +114,34 @@
             "title": { "type": "text", "settings": { "text": "<h3>Engagement</h3>", "width": "100%", "max_width": "normal", "alignment": "left", "type_preset": "h2", "font": "var(--font-primary--family)", "font_size": "", "line_height": "normal", "letter_spacing": "normal", "case": "none", "wrap": "pretty", "color": "", "background": false, "background_color": "#00000026", "corner_radius": 0, "padding-block-start": 0, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0 }, "blocks": {} }
           },
           "block_order": ["image", "title"]
+        },
+        "card_events": {
+          "type": "_card",
+          "settings": { "link": "shopify://pages/events" },
+          "blocks": {
+            "image": { "type": "image", "settings": { "image": "shopify://shop_images/535-DSC00758.jpg", "image_position": "cover" }, "blocks": {} },
+            "title": { "type": "text", "settings": { "text": "<h3>Events</h3>", "width": "100%", "max_width": "normal", "alignment": "left", "type_preset": "h2", "font": "var(--font-primary--family)", "font_size": "", "line_height": "normal", "letter_spacing": "normal", "case": "none", "wrap": "pretty", "color": "", "background": false, "background_color": "#00000026", "corner_radius": 0, "padding-block-start": 0, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0 }, "blocks": {} }
+          },
+          "block_order": ["image", "title"]
+        },
+        "card_praemierung": {
+          "type": "_card",
+          "settings": { "link": "shopify://pages/auszeichnungen" },
+          "blocks": {
+            "image": { "type": "image", "settings": { "image": "shopify://shop_images/179-DSC07164.jpg", "image_position": "cover" }, "blocks": {} },
+            "title": { "type": "text", "settings": { "text": "<h3>Prämierungen</h3>", "width": "100%", "max_width": "normal", "alignment": "left", "type_preset": "h2", "font": "var(--font-primary--family)", "font_size": "", "line_height": "normal", "letter_spacing": "normal", "case": "none", "wrap": "pretty", "color": "", "background": false, "background_color": "#00000026", "corner_radius": 0, "padding-block-start": 0, "padding-block-end": 0, "padding-inline-start": 0, "padding-inline-end": 0 }, "blocks": {} }
+          },
+          "block_order": ["image", "title"]
         }
       },
-      "block_order": ["card_engagement"],
+      "block_order": ["card_engagement", "card_events", "card_praemierung"],
       "settings": { "content_direction": "row", "gap": 16, "color_scheme": "", "padding-block-start": 16, "padding-block-end": 40 }
     }
   },
   "order": [
     "main",
     "hero_jordan",
+    "intro_text",
     "mosaic_family",
     "mosaic_team",
     "mosaic_engagement"

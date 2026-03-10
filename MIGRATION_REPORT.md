@@ -17,37 +17,41 @@ Complete content migration from Pipeline 6.4.0 to Flora/Horizon theme, preservin
 
 | Phase | Description | Status |
 |-------|-------------|--------|
-| 1 | Theme Analysis | ✅ Complete |
-| 2 | Section Mapping & Templates | ✅ Complete |
+| 1 | Theme Analysis (Pipeline + Flora + Live-Website) | ✅ Complete |
+| 2 | Section Mapping & Template-Erstellung | ✅ Complete |
 | 3 | Settings & Branding | ✅ Complete |
 | 4 | Header & Footer | ✅ Complete |
 | 5 | Homepage | ✅ Complete |
 | 6 | Product Template | ✅ Complete |
-| 7 | SEO & Structured Data | ✅ Complete |
+| 7 | SEO-Optimierung | ✅ Complete |
 | 8 | Conversion & GEO/AEO | ✅ Complete |
-| 9 | Localization (German) | ✅ Complete |
-| 10 | Validation & Packaging | ✅ Complete |
+| 9 | Lokalisierung | ✅ Complete |
+| 10 | Validierung & Finale ZIP | ✅ Complete |
 
 ---
 
-## Files Modified
+## Files Modified (vs. Flora Original)
 
 ### config/settings_data.json
+- Logo: `shopify://shop_images/Logo.jpg` (50px desktop, 40px mobile)
+- Favicon: `shopify://shop_images/jordan_favicon_final.png`
 - 7 color schemes (scheme-1 white/#5c2b59, scheme-2 dark olive #181e07, scheme-3 black footer, scheme-4 announcement #5c2b59, scheme-5 light #eeeeee, scheme-6 transparent/white, scheme-transparent-dark)
-- Fonts: Optima Nova (headings), Optima Nova (body)
-- Social links: Instagram, Facebook, YouTube, Pinterest, TikTok, LinkedIn, Vimeo
+- Fonts: Optima Nova n8 (headings), n3 (body), n6 (subheading/accent)
+- Text sizes: paragraph 16px, H1 48px, H2 36px, H5 18px, H6 16px
+- Social links: Facebook, Instagram, YouTube, Pinterest, TikTok, LinkedIn, Twitter
 - Cart type: drawer
-- Logo height: 50px desktop, 40px mobile
+- Checkout logo: `shopify://shop_images/Logo.jpg`
 
 ### sections/header-group.json
 - Announcement bar: "AKTION: NOCH €19,98 EUR UND DU BESTELLST VERSANDKOSTENFREI INNERHALB DEUTSCHLANDS" (scheme-4)
-- Logo: shopify://shop_images/Logo.jpg (left position)
+- Logo position: left
 - Menu: center, search right, sticky always
 - Transparent header on homepage (scheme-6)
 - Top row: scheme-2 (dark olive #181e07)
+- Country & language selectors enabled
 
 ### sections/footer-group.json
-- Newsletter: "Newsletter abonnieren" with email signup
+- Newsletter: "Newsletter abonnieren" / "Bleib auf dem Laufenden über Angebote..."
 - All 7 social media links
 - Payment icons enabled
 - Footer policy list + copyright
@@ -60,61 +64,65 @@ Complete content migration from Pipeline 6.4.0 to Flora/Horizon theme, preservin
 - Product schema (conditional on product pages)
 - Article schema (conditional on article pages)
 - CollectionPage schema
-- BreadcrumbList for all page types
-- Speakable specification for GEO/AEO
+- BreadcrumbList for all page types (product, collection, page, blog, article)
+- Speakable specification for GEO/AEO (Phase 8 requirement)
 
 ### layout/theme.liquid
 - Injected `{%- render 'seo-structured-data' -%}` before `{{ content_for_header }}`
+
+### locales/de.json
+- Fixed: "Reviews" → "Bewertungen"
 
 ---
 
 ## Templates Created/Modified
 
 ### Homepage (templates/index.json)
-20 sections with 26 unique Pipeline images:
-- Slideshow (7 slides with full-width images)
-- Hero section (Rebecca image)
+20 sections with 27 image references (incl. mobile):
+- Slideshow (7 slides with Desktop + Mobile Bildern)
+- Hero section (Rebecca Pfiffer Foto, with mobile image)
 - 5 Collection product lists (Olivenöl, Oliven, Balsamico, Feinkost, Kosmetik)
 - Blog news section
 - Featured Balsamico article
 - Welcome richtext
-- Olive harvest video
+- Olive harvest video (screen123.jpg)
 - Bambatsa section
 - Secondary slideshow (3 slides)
 - Olivenöl info section
-- Three-column layout
+- Three-column layout (Familie, Team, Fakten)
 - Featured article
 - Newsletter signup
-- Trust badges (Bio Zertifiziert, Schneller Versand, Premium Qualität)
+- Trust badges (EU Bio, Slow Food, etc.)
 
 ### Product Template (templates/product.json)
+- Flora native product-information section preserved (gallery, add-to-cart, variants)
 - Trust badges section between main product and recommendations
 - German recommendations heading: "Das könnte Ihnen auch gefallen"
-- 3 trust badges with icons and shopify://shop_images references
 
 ### 20 Custom Page Templates
-| Template | Images | Content |
-|----------|--------|---------|
-| page.about | 0 | About page |
-| page.bestes-olivenoel | 2 | Best olive oil |
-| page.contact | 0 | Contact form (German) |
-| page.engagement | 5 | Social engagement |
-| page.events | 1 | Events |
-| page.faq | 0 | FAQ |
-| page.infos | 10 | Information |
-| page.jo-lagerverkauf | 6 | Warehouse sale |
-| page.jordan | 9 | Jordan brand |
-| page.lookbook | 0 | Lookbook |
-| page.oel-und-lesbos | 17 | Oil and Lesbos |
-| page.olivenoel-2 | 14 | Olive oil details |
-| page.olivenoelwissen | 1 | Olive oil knowledge |
-| page.praemierung | 9 | Awards |
-| page.region | 6 | Region |
-| page.schaefer | 25 | Shepherd/cheese |
-| page.standorte | 9 | Locations |
-| page.story | 10 | Brand story |
-| page.team | 21 | Team |
-| page.wir | 9 | About us |
+
+| Template | Images | Sections | Content |
+|----------|--------|----------|---------|
+| page.about | 0 | 5 | About page |
+| page.bestes-olivenoel | 2 | 14 | Best olive oil |
+| page.contact | 1 | 5 | Contact form (German) |
+| page.engagement | 5 | 6 | Social engagement |
+| page.events | 1 | 5 | Events |
+| page.faq | 0 | 7 | FAQ |
+| page.infos | 10 | 8 | Info overview with mosaic navigation |
+| page.jo-lagerverkauf | 6 | 13 | Warehouse sale |
+| page.jordan | 9 | 7 | Jordan brand with mosaic navigation |
+| page.lookbook | 0 | 14 | Lookbook |
+| page.oel-und-lesbos | 17 | 13 | Oil and Lesbos |
+| page.olivenoel-2 | 9 | 14 | Olive oil details |
+| page.olivenoelwissen | 1 | 9 | Olive oil knowledge |
+| page.praemierung | 9 | 13 | Awards |
+| page.region | 6 | 9 | Region |
+| page.schaefer | 26 | 18 | Shepherd/cheese (incl. mobile hero) |
+| page.standorte | 9 | 11 | Locations |
+| page.story | 10 | 10 | Brand story |
+| page.team | 21 | 12 | Team |
+| page.wir | 9 | 11 | About us |
 
 ### 5 Blog Templates
 - blog.news.json, blog.news-2.json
@@ -127,18 +135,27 @@ Complete content migration from Pipeline 6.4.0 to Flora/Horizon theme, preservin
 - collection.olivenoel.json (with filters)
 
 ### Other Modified Templates
-- 404.json — German error page
-- cart.json — German cart labels
+- 404.json — German error page ("Seite nicht gefunden")
+- cart.json — German cart labels ("Warenkorb")
 - list-collections.json — German headings
+- search.json — German search page
 
 ---
 
 ## Image Migration Summary
 
-- **Total unique shopify://shop_images/ references:** 114
-- **Homepage images:** 26 (all Pipeline images preserved)
-- **Page template images:** ~150+ references across 20 templates
-- **All images use shopify://shop_images/ URLs** — persist across theme switches, no re-upload needed
+| Template | Required Min | Actual Count | Status |
+|----------|-------------|--------------|--------|
+| index.json | 27 | 27 | ✅ |
+| page.schaefer.json | 26 | 26 | ✅ |
+| page.team.json | 21 | 21 | ✅ |
+| page.oel-und-lesbos.json | 17 | 17 | ✅ |
+| page.story.json | 10 | 10 | ✅ |
+| page.infos.json | 10 | 10 | ✅ |
+| page.jordan.json | 9 | 9 | ✅ |
+
+- **All images use `shopify://shop_images/` URLs** — persist across theme switches
+- **Total unique image references across all templates:** 120+
 
 ---
 
@@ -146,14 +163,19 @@ Complete content migration from Pipeline 6.4.0 to Flora/Horizon theme, preservin
 
 | Check | Result |
 |-------|--------|
-| JSON validity (templates/) | ✅ All valid |
+| JSON validity (templates/) | ✅ All 40 files valid |
 | JSON validity (config/) | ✅ All valid |
 | JSON validity (sections/) | ✅ All valid |
-| Locale files (JSON5 format) | ⚠️ Expected — Shopify handles natively |
-| Demo content check | ✅ No Savor/placeholder content found |
-| All page templates have main-page | ✅ Verified |
-| shopify://shop_images/ references | ✅ 114 unique images |
-| Flora .liquid files unchanged | ✅ Verified |
+| main-page check (all page.*.json) | ✅ All 21 page templates verified |
+| Image count minimums | ✅ All templates meet Pipeline minimums |
+| Demo content check | ✅ No Savor/Flora placeholder content |
+| Flora .liquid files unchanged | ✅ Verified (except theme.liquid SEO injection) |
+| German localization (de.json) | ✅ All UI texts German |
+| Logo reference in settings | ✅ shopify://shop_images/Logo.jpg |
+| Favicon reference | ✅ shopify://shop_images/jordan_favicon_final.png |
+| Cart drawer enabled | ✅ cart_type: drawer |
+| ZIP structure | ✅ layout/theme.liquid at root, all dirs present |
+| ZIP size | ✅ 1.2 MB |
 
 ---
 
@@ -162,17 +184,47 @@ Complete content migration from Pipeline 6.4.0 to Flora/Horizon theme, preservin
 1. **Flora .liquid files preserved**: All sections/*.liquid, blocks/*.liquid, assets/*, and core layout files remain untouched. Only JSON configuration drives content changes.
 
 2. **Section type mapping**: Pipeline sections mapped to closest Flora equivalents:
-   - Pipeline `slideshow` → Flora `slideshow`
-   - Pipeline `section` → Flora `media-with-content` or `section`
-   - Pipeline `product-list` → Flora `product-list`
-   - Pipeline `featured-blog-posts` → Flora `featured-blog-posts`
+   - Pipeline `section-slideshow` → Flora `slideshow`
+   - Pipeline `section-hero` → Flora `hero`
+   - Pipeline `section-mosaic` → Flora `section` with `_card` blocks
+   - Pipeline `section-double` → Flora `media-with-content`
+   - Pipeline `section-richtext` → Flora `section` with `text` blocks
+   - Pipeline `section-columns` → Flora `section` with `_card` blocks
+   - Pipeline `section-newsletter` → Flora `section` with `email-signup` block
+   - Pipeline `section-icons` → Flora `logo` section
+   - Pipeline `section-accordion` → Flora `section` with `accordion` blocks
+   - Pipeline `section-gallery` → Flora `carousel` or `section` with `image` blocks
+   - Pipeline `section-contact` → Flora `section` with `contact-form` block
    - Pipeline custom HTML → Flora `custom-liquid` blocks
 
-3. **Color scheme strategy**: 7 schemes created to match Pipeline's design language while using Flora's scheme system.
+3. **Color scheme strategy**: 7 schemes created to match Pipeline's design language while using Flora's scheme system. Jordan purple (#5c2b59) used consistently as primary accent.
 
-4. **Trust badges**: Added as standalone section (not modifying product form) to preserve Flora's working product page structure.
+4. **Font choice**: Optima Nova available in Shopify font library — used as specified (n8 headings, n3 body, n6 subheading/accent).
 
-5. **SEO snippet**: Created as separate snippet file rather than modifying theme.liquid directly, for clean separation.
+5. **Trust badges**: Added as standalone section to preserve Flora's working product page structure.
+
+6. **SEO snippet**: Created as separate snippet file, injected before `{{ content_for_header }}` in theme.liquid. Includes speakable specification for GEO/AEO compliance.
+
+7. **Mobile images**: Added `custom_mobile_media` + `image_1_mobile` fields for hero sections where Pipeline used separate desktop/mobile images.
+
+---
+
+## Sections Not 1:1 Migratable
+
+| Pipeline Section | Solution |
+|-----------------|----------|
+| `section-collection-tabs` | Split into multiple `product-list` sections (one per collection) |
+| `section-mosaic` (grid layout) | Flora `section` with `_card` blocks in row layout |
+| `section-look` (product hotspots) | Flora `product-hotspots` section |
+| `section-map` (Google Maps) | Flora `custom-liquid` with embedded iframe |
+| Apps section | Flora `custom-liquid` placeholder |
+
+---
+
+## Custom Liquid Sections Created
+
+- Apps section placeholder on homepage (for external app integrations)
+- Trust badges section (using Flora `section` with `icon` blocks)
 
 ---
 
@@ -180,17 +232,32 @@ Complete content migration from Pipeline 6.4.0 to Flora/Horizon theme, preservin
 
 1. **Test on Shopify preview** before publishing — verify all sections render correctly
 2. **Check menu links** — ensure "main-menu" handle matches your Shopify navigation
-3. **Verify collection handles** — product-list sections reference collection handles that must exist in your store
-4. **Image optimization** — all images reference existing shop_images; verify they display at correct sizes
+3. **Verify collection handles** — product-list sections reference collection handles that must exist
+4. **Image optimization** — all images reference existing shop_images; verify correct display sizes
 5. **Blog handles** — blog templates reference handles (news, rezepte, themen) that must match store blogs
 6. **Mobile testing** — verify responsive behavior of all homepage sections
 7. **Cart drawer** — already enabled; test add-to-cart flow end-to-end
+8. **LLM-Info page** — the existing `/pages/llm-info` page remains accessible in the new theme via `main-page` section
 
 ---
 
-## Technical Notes
+## Hinweise für Review (SEO, Conversion, GEO/AEO)
 
-- Flora uses nested block architecture: sections contain blocks which can contain sub-blocks
-- Flora JSON comment headers (`/* ... */`) are stripped during parsing but preserved in files
-- Pipeline's escaped slashes (`\/`) converted to standard paths for Flora
-- Locale file (en.default.json) uses JSON5 format with comments — this is standard Shopify behavior
+### SEO
+- Structured data: Organization, LocalBusiness, Product, Article, BreadcrumbList, CollectionPage, WebSite with SearchAction
+- H1 hierarchy managed through template JSON (one H1 per page type)
+- Alt-texte: Where possible, German descriptive alt texts added
+- Open Graph / Twitter Cards: Handled natively by Flora/Horizon theme
+- Canonical URLs: Managed by Shopify platform
+
+### Conversion
+- Cart Drawer activated (native Flora)
+- Trust badges on product pages
+- Recommended Products section on product pages
+- Newsletter signup on homepage and footer
+
+### GEO/AEO
+- FAQ sections with natural language Q&A preserved
+- Speakable structured data for key brand statements
+- LLM-Info page (`/pages/llm-info`) accessible via standard page template
+- Semantic keywords embedded in section texts
