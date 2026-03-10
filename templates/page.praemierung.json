@@ -1,0 +1,758 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "blocks": {
+        "kicker": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Jordan Olivenöl</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "0.875rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "title": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Auszeichnungen & Awards</h1>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die größte Auszeichnung für uns ist, wenn es schmeckt.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "kicker",
+        "title",
+        "subtitle"
+      ],
+      "settings": {
+        "media_type_1": "image",
+        "section_width": "full-width",
+        "section_height": "medium",
+        "color_scheme": "scheme-6",
+        "toggle_overlay": true,
+        "overlay_color": "#00000040",
+        "padding-block-start": 0,
+        "padding-block-end": 0,
+        "image_1": "shopify://shop_images/1.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "Title",
+          "settings": {
+            "text": "<h1>{{ closest.page.title }}</h1>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "page-content": {
+          "type": "page-content",
+          "settings": {},
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "page-content"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 32,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 80
+      }
+    },
+    "intro": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/498-DSC00405.jpg",
+            "link": "",
+            "video_loop": true,
+            "video_autoplay": false
+          },
+          "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 24
+          },
+          "blocks": {
+            "heading": {
+              "type": "text",
+              "name": "Heading",
+              "settings": {
+                "text": "<h2>Jeder Mensch, der uns persönlich lobt, löst in uns große Freude aus.</h2>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h2",
+                "font": "var(--font-primary--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Über die Jahre wurden wir über 220 mal international prämiert. Hier die Liste aller Awards und Auszeichnungen: </p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading",
+            "text"
+          ]
+        }
+      },
+      "block_order": [
+        "media",
+        "content"
+      ],
+      "settings": {
+        "media_position": "right",
+        "media_width": "wide",
+        "media_height": "60svh",
+        "section_width": "full-width",
+        "extend_media": true,
+        "color_scheme": "",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "awards_0": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/241115_JordanOlivenoel_Lesbos___Rebecca_Pfiffer_105-Photoroom.jpg",
+            "link": "",
+            "video_loop": true,
+            "video_autoplay": false
+          },
+          "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 24
+          },
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "<ul><li><a href=\"https://www.zhaw.ch/de/lsfm/institute-zentren/ilgi/news/detailansicht-news/event-news/olivenoele-mit-charakter-die-gewinner-des-olive-oil-award-zurich-2025\" target=\"_blank\" title=\"«Public OLIO»-Gewinner 2025 \">Olio Award</a> - Universität Wädenswill - Schweiz ( 2025 )</li><li><a href=\"https://fairplex.com/wp-content/uploads/2025/08/EVOO-Result-Book-By-Medal-FINAL.pdf\" title=\"Los Angeles Extra Virgin Olive Oil Awards\">Los Angeles International Olive Oil Competition</a> ( 2025 )</li><li><a href=\"https://gff.co.uk/directory/producer/?id=16041\" title=\"Great Taste Award\">Great Taste Awards - London</a> ( 2025 )</li><li><a href=\"https://awards.excellenttaste.co/categories/\" title=\"Excellent Taste Awards 2025\">Meditteranean Taste Awards</a> ( 2025 )</li><li><a href=\"https://olymp2025.globalfoodstars.com/product-category/taste/?filter_country=germany\" title=\"Olymp Award Results 2025\">Olymp Awards</a> ( 2025 )</li><li><a href=\"https://jooprize.com/evoo/2025-jordan-olivenol-nativ-extra/\" title=\"Joop 2025\">Japan Olive Oil Price</a> ( 2025 )</li><li><a href=\"https://ciooc2025.globaloliveoilstars.com/product-category/quality/?filter_country=germany\" title=\"Canada IOOC 2025\">Canada IOOC</a> ( 2025 )</li><li><a href=\"https://frantoicelletti.com/en/olio-geniale-competition/winners/\" title=\"Olio Geniale 2025\">Olio Geniale</a> ( 2025 )</li><li>Flos Olei ( 2025 )</li><li><a href=\"https://www.appevo-iooc.it/en/results/\" title=\"EVO IOOC 2025\">EVO IOOC</a> - Italien ( 2025 )</li><li>London ITOC ( 2025 )</li><li><a href=\"https://awards2025.softr.app/\" title=\"Terraolivo IOOC 2025 Awards\">Terra Olivo Jerusalem</a> ( 2025 )</li><li>MONOCULTIVAROLIVEOIL Award ( 2025 )</li><li><a href=\"https://www.olio-nuovo-day.com/\" title=\"Olio Nuovo Days Award Paris 2025\">Olio Nuovo Days Award Paris</a> ( 2025 )</li><li>Masters of Olive Oil - International Contest - Monte Carlo ( 2025 )</li><li>London IOOC ( 2025 )</li><li>Oil China ( 2025 )</li><li>AVPA Olive Oil contest Paris ( 2025 )</li><li>L’Oro del Mediterraneo Italien ( 2025 )</li><li>FILAIOS Kotinos Awards Griechenland ( 2025 )</li><li>CINVE Award Spanien ( 2025 )</li><li>Der Feinschmecker - Olio Award ( 2025 )</li><li>Aipo Verona Award Italien ( 2025 )</li><li>Berlin Olive Oil Global Olive Oil Awards GOOA ( 2025 )</li><li>ESAO Awards Spanien ( 2025 )</li><li>Athena International Olive Oil Competition Griechenland ( 2025 )</li><li>DLG Deutsche Landwirtschafts Gesellschaft Gold ( 2025 )</li><li>EVO IOOC, Italien ( 2024 )</li><li>Kotinos Award, Griechenland ( 2024 )</li><li>Esao Award, Spanien ( 2024 )</li><li>Los Angeles Olive Oil Competition, USA ( 2024 )</li><li>Cinve Award, Spanien ( 2024 )</li><li>L’Oro del Mediterraneo, Italien ( 2024 )</li><li>Athena Award, Griechenland ( 2024 )</li><li>olio geniale, Italien ( 2024 )</li><li>monocultivar, Italien ( 2024 )</li><li>Flos Olei, Italien, ( 2024 )</li><li>vergleich.org Testsieger ( 2024 )</li><li>DLG, Deutschland ( 2024 )</li><li>Dubai Olive Oil Competition, VAE, ( 2024 )</li><li>Mediterranean Taste Award ( 2024 )</li><li>Global Olive Oil Awards GOOA, Deutschland, ( 2024 )</li><li>Oil China Competition, China, ( 2024 )</li><li>Great Taste Awards, ( 2024 )</li><li>London IOOC, UK, ( 2024 )</li><li>London ITOC, UK, ( 2024 )</li><li>Olive Japan, Japan, ( 2024 )</li><li>Canadian IOOC, Canada, ( 2024 )</li><li>Terra Olivo, Israel, ( 2024 )</li><li>Olymp Awards, Griechenland, ( 2024 )</li><li>JOOP, Japan, ( 2024 )</li></ul>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text"
+          ]
+        }
+      },
+      "block_order": [
+        "media",
+        "content"
+      ],
+      "settings": {
+        "media_position": "left",
+        "media_width": "wide",
+        "media_height": "60svh",
+        "section_width": "full-width",
+        "extend_media": true,
+        "color_scheme": "",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "awards_1": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/474-DSC00183_4bd79c05-6f05-4dc3-8e8b-b730020f8663.jpg",
+            "link": "",
+            "video_loop": true,
+            "video_autoplay": false
+          },
+          "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 24
+          },
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "<p></p><ul><li>Olio Award, Zürich ( 2023 )</li><li>Flos Olei, Italien ( 2023 )</li><li>Terra Olivo ( 2023 )</li><li>DLG Gold ( 2023 )</li><li>Olive Trophy ( 2023 )</li><li>Great Taste Awards ( 2023 )</li><li>Esao Award, Spanien ( 2023 )</li><li>GOOA Award, Berlin ( 2023 )</li><li>Vergleich.org, Sehr gut ( 2023 )</li><li>L.A. International Extra Virgin Olive Oil Competition, Los Angeles (2023)</li><li>Premio Biol Italien, Mailand (2023)</li><li>L'oro del Mediterraneo Gocce d’Oro Italien, Pesaro (2023)</li><li>Flos Olei, Italien ( 2023 )</li><li>Olio Award, Zürich ( 2022 )</li><li>Terra Olivo Award, Jerusalem ( 2022 )</li><li>Olymp Awards, Athen ( 2022 )</li><li>EVO IOOC Award Italien, ( 2022 )</li><li>Olive Japan Award, Tokyo ( 2022 )</li><li>New York Olive Oil Competition Award ( 2022 )</li><li>Aipo Award Verona, Italien ( 2022 )</li><li>Canada IOOC Award, ( 2022 )</li><li>London IOOC Award, ( 2022 )</li><li>Oil China Competition Award, ( 2022 )</li><li>Anatolian IOOC Award, Turkey, ( 2022 )</li><li>Berlin GOOA Award ( 2022 )</li><li>Olio Capitale Finalist, Iatlien ( 2022 )</li><li>Olive Trophy Award, Griechenland ( 2022 )</li><li>Ovibeja Award, Portugal ( 2022 )</li><li>Cinve Vinegar Award, Spanien ( 2022 )</li><li>ESAO Award Finalist, Spanien ( 2022 )</li><li>Athena International OOC Award, Griechenland ( 2022 )</li><li>L´Oro del Mediterraneo, Italien ( 2022 )</li><li>Avpa Olive Oil Award, Paris ( 2022 )</li><li>Mediterranean Taste Awards, London ( 2022 )</li><li>Great Taste Awards, London ( 2022 )</li><li>Dubai Olive Oil Competition, Award ( 2022 )</li><li>Vergleich Org Vergleichssieger ( 2022 )</li><li>Vergleich Org Preis-Leistung-Sieger ( 2022 )</li><li>Vergleich Org Bestseller Award ( 2022 )</li><li>Vergleich Org Olivenöl zum Braten Award ( 2022 )</li><li>DLG Prämierung, Frankfurt ( 2022 )</li></ul>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text"
+          ]
+        }
+      },
+      "block_order": [
+        "media",
+        "content"
+      ],
+      "settings": {
+        "media_position": "right",
+        "media_width": "wide",
+        "media_height": "60svh",
+        "section_width": "full-width",
+        "extend_media": true,
+        "color_scheme": "",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "awards_2": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/412-DSC09262.jpg",
+            "link": "",
+            "video_loop": true,
+            "video_autoplay": false
+          },
+          "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 24
+          },
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "<p></p><ul><li>Olio Award, Zürich ( 2021 )</li><li>Terra Olivo, Jerusalem ( 2021 ) </li><li>Great Taste Awards, London ( 2021 )</li><li>Flos Olei Award, Italien ( 2021 )</li><li>Produkt des Jahres - Corpus Culinario, Köln ( 2021 )</li><li>Olymp Awards, London ( 2021 )</li><li>London IOOC ( 2021 )</li><li>DLG Prämierung, Frankfurt ( 2021 )</li><li>Canada IOOC Award ( 2021 )</li><li>Premio Biol Italien ( 2021 )</li><li>New York Olive Oil Competition Award NYOOC USA ( 2021 )</li><li>EVO IOOC International Olive Oil Contest Italien ( 2021 )</li><li>Stiftung Warentest \"gut\" ( 2021 )</li><li>Cinve Award Spanien ( 2021 )</li><li>Anatolien IOOC Türkei ( 2021 )</li><li>Olive Award Japan ( 2021 )</li><li>Athena IOOC Award ( 2021 )</li><li>Monocultivar Italien ( 2021 )</li><li>Aipo Verona Award Gocce Italien ( 2021 )</li><li>Masters of Olive Oil International Contest Monaco ( 2021 )</li><li>Berlin Global Olive Oil Awards GOOA Deutschland ( 2021 )</li><li>Olio Geniale Italien ( 2021 )</li><li>International Olive Oil Competition China ( 2021 )</li><li>Dubai Olive Oil Competition UAE ( 2021 )</li><li>L´Oro del Mediterraneo Italien ( 2021 )</li><li>Vinum Olivenöl Award Deutschland ( 2021 )</li></ul>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text"
+          ]
+        }
+      },
+      "block_order": [
+        "media",
+        "content"
+      ],
+      "settings": {
+        "media_position": "left",
+        "media_width": "wide",
+        "media_height": "60svh",
+        "section_width": "full-width",
+        "extend_media": true,
+        "color_scheme": "",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "awards_3": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/535-DSC00758.jpg",
+            "link": "",
+            "video_loop": true,
+            "video_autoplay": false
+          },
+          "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 24
+          },
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "<ul><li>Great Taste Award ( 2020 )</li><li>L´Oro del Mediterraneo ( 2020 )</li><li>Japan Olive Oil Competition ( 2020 )</li><li>Olive Japan Award ( 2020 )</li><li>Athena Olive Oil Award ( 2020 )</li><li>Terra Olivo Olive Oil Competition ( 2020 )</li><li>Armonia Award ( 2020 )</li><li>DLG ( 2020 )</li><li>Taste Olymp ( 2020 )</li><li>Flos Olei ( 2020 )</li><li>Great Taste Award ( 2019 )</li><li>Terra Olivo ( 2019 )</li><li>The Méditerranean Gold Award ( 2019 )</li><li>Masters of Olive Oil ( 2019 )</li><li>L´orciolo d´Oro U Enohobby ( 2019 )</li><li>Flos Olei ( 2019 )</li></ul>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text"
+          ]
+        }
+      },
+      "block_order": [
+        "media",
+        "content"
+      ],
+      "settings": {
+        "media_position": "right",
+        "media_width": "wide",
+        "media_height": "60svh",
+        "section_width": "full-width",
+        "extend_media": true,
+        "color_scheme": "",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "awards_4": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/238-DSC07622.jpg",
+            "link": "",
+            "video_loop": true,
+            "video_autoplay": false
+          },
+          "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 24
+          },
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "<ul><li>Terra Olivo Gold Award ( 2018 )</li><li>Los Angeles Olive Oil Gold Award ( Los Angeles 2018 )</li><li>EVO IOOC Award ( Italien 2018 )</li><li>DLG Gold ( Frankfurt 2018 )</li><li>The Méditerranean Gold Award ( Italien 2018 )</li><li>20° International Competition of extravirgin olive oils ( Italien 2018 )</li><li>Club del Coli Malatestiani ( Italien 2018 )</li><li>Great Taste Award ** - Ladotyri Olivenölkäse ( London 2018 )</li><li>flos Olei Prämierung ( Rom 2018 )</li><li>Terraolivo International Olive Oil Competition ( Israel 2017 )</li><li>New York International Olive Oil Competition ( USA 2017 )</li><li>Edible Oils AVPA Contest Paris - Jordan Olivenöl ( Frankreich 2017 )</li><li>Great Taste Award - Jordan Oliven ( London 2017 )</li><li>Monocultivar Award: Dr. Gino Celletti - Jordan Olivenöl ( Italien 2017 )</li><li>International Prize BIOL - Jordan Bio Olivenöl ( Italien 2017 )</li><li>Los Angeles International Olive Oil Competition ( USA 2017 )</li><li>bio Press Award - Jordan Bio Olivenöl ( Deutschland 2017 )</li><li>Athena Olive Oil Competiton - Jordan Olivenöl ( Griechenland 2017 )</li></ul>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text"
+          ]
+        }
+      },
+      "block_order": [
+        "media",
+        "content"
+      ],
+      "settings": {
+        "media_position": "left",
+        "media_width": "wide",
+        "media_height": "60svh",
+        "section_width": "full-width",
+        "extend_media": true,
+        "color_scheme": "",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "awards_5": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/179-DSC07164.jpg",
+            "link": "",
+            "video_loop": true,
+            "video_autoplay": false
+          },
+          "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 24
+          },
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "<ul><li>Monocultivar Award: Dr. Gino Celletti - Jordan Olivenöl ( Italien 2016 )</li><li>DLG - Jordan Bio Olivenöl ( Deutschland 2016 )</li><li>DLG - Jordan Olivenöl ( Deutschland 2016 )</li><li>International Prize BIOL - Jordan Bio Olivenöl ( Italien 2016 )</li><li>bio Press Award - Jordan Bio Olivenöl ( Deutschland 2016 )</li><li>Taste Olymp Awards - Jordan Olivenöl ( Griechenland 2016 )</li><li>Athena Olive Oil Competiton - Jordan Olivenöl ( Griechenland 2016 )</li><li>Athena Olive Oil Competiton - Jordan Bio Olivenöl ( Griechenland 2016 )</li><li>Olive Japan - Jordan Olivenöl ( Japan 2016 )</li><li>Great Taste Award - Jordan Olivenöl ( England 2016 )</li><li>Great Taste Award - Jordan Bio Olivenöl ( England 2016 )</li><li>Great Taste Award - Jordan Oliven ( England 2016 )</li><li>China International Olive Oil Competition - Jordan Olivenöl ( China 2016 )</li><li>China International Olive Oil Competition - Jordan Bio Olivenöl ( China 2016 )</li><li>Edible Oils AVPA Contest Paris - Jordan Olivenöl ( Frankreich 2016 )</li><li>Terraolivo International Olive Oil Competition ( Israel 2015 )</li><li>Monocultivar Award: Dr. Gino Celletti ( Italien 2015 )</li><li>World Ranking Extra Virgin Olive Oils ( 2014 )</li><li>World's Best Olive Oils ( 2014 )</li><li>World's Best Organic Olive Oils [BIO] ( 2014 )</li><li>Selection - Die besten Olivenöle ( Deutschland 2014 )</li><li>Selection - Die besten BIO Olivenöle ( Deutschland 2014 )</li><li>DLG - Goldmedaille ( 2014 )</li><li>Terraolivo International Olive Oil Competition ( Israel 2014 )</li><li>New York International Olive Oil Competition ( USA 2014 )</li><li>Los Angeles International Olive Oil Competition ( USA 2014 )</li><li>International Prize BIOL ( Italien 2014 )</li><li>Aristion Olive Oil Competition ( Griechenland 2014 )</li><li>Edible Oils AVPA Contest Paris ( Frankreich 2014 )</li><li>Olive d'Or SIAL Toronto ( Kanada 2014 )</li><li>International Olive Oil Competition ( China 2014 )</li><li>EnoHobby Concorso Internationale Oli Extravergini ( Italien 2014 )</li><li>The Guild of Fine Food ( Great Taste Award 2014 )</li></ul>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text"
+          ]
+        }
+      },
+      "block_order": [
+        "media",
+        "content"
+      ],
+      "settings": {
+        "media_position": "right",
+        "media_width": "wide",
+        "media_height": "60svh",
+        "section_width": "full-width",
+        "extend_media": true,
+        "color_scheme": "",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "awards_6": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/309-1M5B5114_5.jpg",
+            "link": "",
+            "video_loop": true,
+            "video_autoplay": false
+          },
+          "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 24
+          },
+          "blocks": {
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "<ul><li>World's Best Olive Oils ( 2013 )</li><li>The Guild of Fine Food ( Great Taste Award 2013 )</li><li>Terraolivo International Olive Oil Competition ( Israel 2013 )</li><li>DLG - Goldmedaille ( 2013 )</li><li>International Olive Oil Competition ( China 2013 )</li><li>bio Press Verlag ( 2013 )</li><li>New York International Olive Oil Competition 2013 ( USA 2013 )</li><li>Los Angeles International Olive Oil Competition ( USA 2013 )</li><li>OLIVE JAPAN International Olive Oil Competition ( Japan 2013 )</li><li>Leone d'Oro dei Mastri Oleari ( Italien 2012 )</li><li>The Guild of Fine Food ( Great Taste Award 2012 )</li><li>DLG - Goldmedaille ( 2012 )</li><li>Los Angeles International Olive Oil Competition ( USA 2012 )</li><li>International Olive Oil Competition ( China 2012 )</li><li>Landesehrenpreis Lebensmittel NRW ( 2011 )</li><li>Der Feinschmecker ( Olio Award 2011 )</li><li>DLG - Goldmedaille ( 2011 )</li><li>International Prize BIOL ( Italien 2011 )</li><li>International Olive Oil Competition ( China 2011 )</li><li>DLG - Goldmedaille ( 2010 )</li><li>The Guild of Fine Food ( Great Taste Award 2010 )</li><li>International Olive Oil Competition ( China 2010 )</li><li>Landesehrenpreis Lebensmittel NRW ( 2010 )</li><li>DLG - Goldmedaille ( 2009 )</li><li>Der Feinschmecker ( Olio Award 2009 )</li><li>DLG - Goldmedaille ( 2008 )</li><li>THE ROUTES OF THE OLIVE TREE ( UNESCO & IOOC 2008 )</li><li>Der Feinschmecker ( Olio Award 2008 )</li><li>Leone d'Oro dei Mastri Oleari ( Italien 2007 )</li><li>International Olive Oil Competition ( China 2007 )</li><li>The Guild of Fine Food ( Great Taste Award 2007 )</li><li>Der Feinschmecker ( Olio Award 2007 )</li><li>Oil China Award ( 2007 )</li><li>Der Feinschmecker ( Olio Award 2005 )</li><li>Der Feinschmecker ( Olio Award 2004 )</li><li>The Roots of the Olive Tree ( UNESCO & IOOC 2004 / 2005 )</li></ul>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "text"
+          ]
+        }
+      },
+      "block_order": [
+        "media",
+        "content"
+      ],
+      "settings": {
+        "media_position": "left",
+        "media_width": "wide",
+        "media_height": "60svh",
+        "section_width": "full-width",
+        "extend_media": true,
+        "color_scheme": "",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "schema": {
+      "type": "custom-liquid",
+      "blocks": {},
+      "block_order": [],
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Jordan Olivenöl\",\n  \"award\": [\n    \"Los Angeles International Olive Oil Competition 2025\",\n    \"Olio Geniale 2025\",\n    \"MONOCULTIVAROLIVEOIL Award 2025\",\n    \"Olio Nuovo Days Award Paris 2025\",\n    \"AVPA Olive Oil contest Paris 2025\",\n    \"L’Oro del Mediterraneo Italien 2025\",\n    \"FILAIOS Kotinos Awards Griechenland 2025\",\n    \"CINVE Award Spanien 2025\",\n    \"Der Feinschmecker - Olio Award 2025\",\n    \"Aipo Verona Award Italien 2025\",\n    \"Berlin Olive Oil Global Olive Oil Awards GOOA 2025\",\n    \"ESAO Awards Spanien 2025\",\n    \"Athena International Olive Oil Competition Griechenland 2025\",\n    \"EVO IOOC, Italien 2024\",\n    \"Kotinos Award, Griechenland 2024\",\n    \"Esao Award, Spanien 2024\",\n    \"Los Angeles Olive Oil Competition, USA 2024\",\n    \"Cinve Award, Spanien 2024\",\n    \"L’Oro del Mediterraneo, Italien 2024\",\n    \"Athena Award, Griechenland 2024\",\n    \"olio geniale, Italien 2024\",\n    \"monocultivar, Italien 2024\",\n    \"Flos Olei, Italien, 2024\",\n    \"vergleich.org Testsieger 2024\",\n    \"DLG, Deutschland 2024\",\n    \"Dubai Olive Oil Competition, VAE, 2024\",\n    \"Mediterranean Taste Award 2024\",\n    \"Global Olive Oil Awards GOOA, Deutschland, 2024\",\n    \"Oil China Competition, China, 2024\",\n    \"Great Taste Awards, 2024\",\n    \"London IOOC, UK, 2024\",\n    \"London ITOC, UK, 2024\",\n    \"Olive Japan, Japan, 2024\",\n    \"Canadian IOOC, Canada, 2024\",\n    \"Terra Olivo, Israel, 2024\",\n    \"Olymp Awards, Griechenland, 2024\",\n    \"JOOP, Japan, 2024\",\n    \"Olio Award, Zürich 2023\",\n    \"Flos Olei, Italien 2023\",\n    \"Terra Olivo 2023\",\n    \"DLG Gold 2023\",\n    \"Olive Trophy 2023\",\n    \"Great Taste Awards 2023\",\n    \"Esao Award, Spanien 2023\",\n    \"GOOA Award, Berlin 2023\",\n    \"Vergleich.org, Sehr gut 2023\",\n    \"L.A. International Extra Virgin Olive Oil Competition, Los Angeles 2023\",\n    \"Premio Biol Italien, Mailand 2023\",\n    \"L'oro del Mediterraneo Gocce d’Oro Italien, Pesaro 2023\",\n    \"Flos Olei, Italien 2023\",\n    \"Olio Award, Zürich 2022\",\n    \"Terra Olivo Award, Jerusalem 2022\",\n    \"Olymp Awards, Athen 2022\",\n    \"EVO IOOC Award Italien, 2022\",\n    \"Olive Japan Award, Tokyo 2022\",\n    \"New York Olive Oil Competition Award 2022\",\n    \"Aipo Award Verona, Italien 2022\",\n    \"Canada IOOC Award, 2022\",\n    \"London IOOC Award, 2022\",\n    \"Oil China Competition Award, 2022\",\n    \"Anatolian IOOC Award, Turkey, 2022\",\n    \"Berlin GOOA Award 2022\",\n    \"Olio Capitale Finalist, Iatlien 2022\",\n    \"Olive Trophy Award, Griechenland 2022\",\n    \"Ovibeja Award, Portugal 2022\",\n    \"Cinve Vinegar Award, Spanien 2022\",\n    \"ESAO Award Finalist, Spanien 2022\",\n    \"Athena International OOC Award, Griechenland 2022\",\n    \"L´Oro del Mediterraneo, Italien 2022\",\n    \"Avpa Olive Oil Award, Paris 2022\",\n    \"Mediterranean Taste Awards, London 2022\",\n    \"Great Taste Awards, London 2022\",\n    \"Dubai Olive Oil Competition, Award 2022\",\n    \"Vergleich Org Vergleichssieger 2022\",\n    \"Vergleich Org Preis-Leistung-Sieger 2022\",\n    \"Vergleich Org Bestseller Award 2022\",\n    \"Vergleich Org Olivenöl zum Braten Award 2022\",\n    \"DLG Prämierung, Frankfurt 2022\",\n    \"Olio Award, Zürich 2021\",\n    \"Terra Olivo, Jerusalem 2021 ) \",\n    \"Great Taste Awards, London 2021\",\n    \"Flos Olei Award, Italien 2021\",\n    \"Produkt des Jahres - Corpus Culinario, Köln 2021\",\n    \"Olymp Awards, London 2021\",\n    \"London IOOC 2021\",\n    \"DLG Prämierung, Frankfurt 2021\",\n    \"Canada IOOC Award 2021\",\n    \"Premio Biol Italien 2021\",\n    \"New York Olive Oil Competition Award NYOOC USA 2021\",\n    \"EVO IOOC International Olive Oil Contest Italien 2021\",\n    \"Stiftung Warentest gut 2021\",\n    \"Cinve Award Spanien 2021\",\n    \"Anatolien IOOC Türkei 2021\",\n    \"Olive Award Japan 2021\",\n    \"Athena IOOC Award 2021\",\n    \"Monocultivar Italien 2021\",\n    \"Aipo Verona Award Gocce Italien 2021\",\n    \"Masters of Olive Oil International Contest Monaco 2021\",\n    \"Berlin Global Olive Oil Awards GOOA Deutschland 2021\",\n    \"Olio Geniale Italien 2021\",\n    \"International Olive Oil Competition China 2021\",\n    \"Dubai Olive Oil Competition UAE 2021\",\n    \"L´Oro del Mediterraneo Italien 2021\",\n    \"Vinum Olivenöl Award Deutschland 2021\",\n    \"Great Taste Award 2020\",\n    \"L´Oro del Mediterraneo 2020\",\n    \"Japan Olive Oil Competition 2020\",\n    \"Olive Japan Award 2020\",\n    \"Athena Olive Oil Award 2020\",\n    \"Terra Olivo Olive Oil Competition 2020\",\n    \"Armonia Award 2020\",\n    \"DLG 2020\",\n    \"Taste Olymp 2020\",\n    \"Flos Olei 2020\",\n    \"Great Taste Award 2019\",\n    \"Terra Olivo 2019\",\n    \"The Méditerranean Gold Award 2019\",\n    \"Masters of Olive Oil 2019\",\n    \"L´orciolo d´Oro U Enohobby 2019\",\n    \"Flos Olei 2019\",\n    \"Terra Olivo Gold Award 2018\",\n    \"Los Angeles Olive Oil Gold Award Los Angeles 2018\",\n    \"EVO IOOC Award Italien 2018\",\n    \"DLG Gold Frankfurt 2018\",\n    \"The Méditerranean Gold Award Italien 2018\",\n    \"20° International Competition of extravirgin olive oils Italien 2018\",\n    \"Club del Coli Malatestiani Italien 2018\",\n    \"Great Taste Award ** - Ladotyri Olivenölkäse London 2018\",\n    \"flos Olei Prämierung Rom 2018\",\n    \"Terraolivo International Olive Oil Competition Israel 2017\",\n    \"New York International Olive Oil Competition USA 2017\",\n    \"Edible Oils AVPA Contest Paris - Jordan Olivenöl Frankreich 2017\",\n    \"Great Taste Award - Jordan Oliven London 2017\",\n    \"Monocultivar Award: Dr. Gino Celletti - Jordan Olivenöl Italien 2017\",\n    \"International Prize BIOL - Jordan Bio Olivenöl Italien 2017\",\n    \"Los Angeles International Olive Oil Competition USA 2017\",\n    \"bio Press Award - Jordan Bio Olivenöl Deutschland 2017\",\n    \"Athena Olive Oil Competiton - Jordan Olivenöl Griechenland 2017\",\n    \"Monocultivar Award: Dr. Gino Celletti - Jordan Olivenöl Italien 2016\",\n    \"DLG - Jordan Bio Olivenöl Deutschland 2016\",\n    \"DLG - Jordan Olivenöl Deutschland 2016\",\n    \"International Prize BIOL - Jordan Bio Olivenöl Italien 2016\",\n    \"bio Press Award - Jordan Bio Olivenöl Deutschland 2016\",\n    \"Taste Olymp Awards - Jordan Olivenöl Griechenland 2016\",\n    \"Athena Olive Oil Competiton - Jordan Olivenöl Griechenland 2016\",\n    \"Athena Olive Oil Competiton - Jordan Bio Olivenöl Griechenland 2016\",\n    \"Olive Japan - Jordan Olivenöl Japan 2016\",\n    \"Great Taste Award - Jordan Olivenöl England 2016\",\n    \"Great Taste Award - Jordan Bio Olivenöl England 2016\",\n    \"Great Taste Award - Jordan Oliven England 2016\",\n    \"China International Olive Oil Competition - Jordan Olivenöl China 2016\",\n    \"China International Olive Oil Competition - Jordan Bio Olivenöl China 2016\",\n    \"Edible Oils AVPA Contest Paris - Jordan Olivenöl Frankreich 2016\",\n    \"Terraolivo International Olive Oil Competition Israel 2015\",\n    \"Monocultivar Award: Dr. Gino Celletti Italien 2015\",\n    \"World Ranking Extra Virgin Olive Oils 2014\",\n    \"World's Best Olive Oils 2014\",\n    \"World's Best Organic Olive Oils [BIO] 2014\",\n    \"Selection - Die besten Olivenöle Deutschland 2014\",\n    \"Selection - Die besten BIO Olivenöle Deutschland 2014\",\n    \"DLG - Goldmedaille 2014\",\n    \"Terraolivo International Olive Oil Competition Israel 2014\",\n    \"New York International Olive Oil Competition USA 2014\",\n    \"Los Angeles International Olive Oil Competition USA 2014\",\n    \"International Prize BIOL Italien 2014\",\n    \"Aristion Olive Oil Competition Griechenland 2014\",\n    \"Edible Oils AVPA Contest Paris Frankreich 2014\",\n    \"Olive d'Or SIAL Toronto Kanada 2014\",\n    \"International Olive Oil Competition China 2014\",\n    \"EnoHobby Concorso Internationale Oli Extravergini Italien 2014\",\n    \"The Guild of Fine Food Great Taste Award 2014\",\n    \"World's Best Olive Oils 2013\",\n    \"The Guild of Fine Food Great Taste Award 2013\",\n    \"Terraolivo International Olive Oil Competition Israel 2013\",\n    \"DLG - Goldmedaille 2013\",\n    \"International Olive Oil Competition China 2013\",\n    \"bio Press Verlag 2013\",\n    \"New York International Olive Oil Competition 2013 USA 2013\",\n    \"Los Angeles International Olive Oil Competition USA 2013\",\n    \"OLIVE JAPAN International Olive Oil Competition Japan 2013\",\n    \"Leone d'Oro dei Mastri Oleari Italien 2012\",\n    \"The Guild of Fine Food Great Taste Award 2012\",\n    \"DLG - Goldmedaille 2012\",\n    \"Los Angeles International Olive Oil Competition USA 2012\",\n    \"International Olive Oil Competition China 2012\",\n    \"Landesehrenpreis Lebensmittel NRW 2011\",\n    \"Der Feinschmecker Olio Award 2011\",\n    \"DLG - Goldmedaille 2011\",\n    \"International Prize BIOL Italien 2011\",\n    \"International Olive Oil Competition China 2011\",\n    \"DLG - Goldmedaille 2010\",\n    \"The Guild of Fine Food Great Taste Award 2010\",\n    \"International Olive Oil Competition China 2010\",\n    \"Landesehrenpreis Lebensmittel NRW 2010\",\n    \"DLG - Goldmedaille 2009\",\n    \"Der Feinschmecker Olio Award 2009\",\n    \"DLG - Goldmedaille 2008\",\n    \"THE ROUTES OF THE OLIVE TREE UNESCO & IOOC 2008\",\n    \"Der Feinschmecker Olio Award 2008\",\n    \"Leone d'Oro dei Mastri Oleari Italien 2007\",\n    \"International Olive Oil Competition China 2007\",\n    \"The Guild of Fine Food Great Taste Award 2007\",\n    \"Der Feinschmecker Olio Award 2007\",\n    \"Oil China Award 2007\",\n    \"Der Feinschmecker Olio Award 2005\",\n    \"Der Feinschmecker Olio Award 2004\",\n    \"The Roots of the Olive Tree UNESCO & IOOC 2004 / 2005\"\n  ]\n}\n</script>",
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero",
+    "intro",
+    "awards_0",
+    "awards_1",
+    "awards_2",
+    "awards_3",
+    "awards_4",
+    "awards_5",
+    "awards_6",
+    "schema"
+  ]
+}

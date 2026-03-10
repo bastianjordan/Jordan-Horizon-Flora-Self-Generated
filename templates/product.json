@@ -264,6 +264,158 @@
         "padding-block-end": 0
       }
     },
+    "trust_badges_product": {
+      "type": "section",
+      "blocks": {
+        "badge_bio": {
+          "type": "icon",
+          "settings": {
+            "icon": "leaf",
+            "image": "shopify://shop_images/EU_Organic_Logo_Colour_rgb.jpg",
+            "width": "fit-content",
+            "custom_width": 60,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 8,
+            "padding-inline-end": 8
+          },
+          "blocks": {}
+        },
+        "text_bio": {
+          "type": "text",
+          "name": "Bio",
+          "settings": {
+            "text": "<h6>Bio Zertifiziert</h6>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h6",
+            "font": "var(--font-body--family)",
+            "font_size": "0.875rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "badge_shipping": {
+          "type": "icon",
+          "settings": {
+            "icon": "truck",
+            "width": "fit-content",
+            "custom_width": 48,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 8,
+            "padding-inline-end": 8
+          },
+          "blocks": {}
+        },
+        "text_shipping": {
+          "type": "text",
+          "name": "Versand",
+          "settings": {
+            "text": "<h6>Schneller Versand</h6>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h6",
+            "font": "var(--font-body--family)",
+            "font_size": "0.875rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "badge_quality": {
+          "type": "icon",
+          "settings": {
+            "icon": "checkmark",
+            "width": "fit-content",
+            "custom_width": 48,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 8,
+            "padding-inline-end": 8
+          },
+          "blocks": {}
+        },
+        "text_quality": {
+          "type": "text",
+          "name": "Qualität",
+          "settings": {
+            "text": "<h6>Premium Qualität</h6>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h6",
+            "font": "var(--font-body--family)",
+            "font_size": "0.875rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": ["badge_bio", "text_bio", "badge_shipping", "text_shipping", "badge_quality", "text_quality"],
+      "name": "Trust-Badges",
+      "settings": {
+        "content_direction": "row",
+        "vertical_on_mobile": false,
+        "horizontal_alignment": "space-around",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 32,
+        "section_width": "page-width",
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-5",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_opacity": 100,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "padding-block-start": 32,
+        "padding-block-end": 32
+      }
+    },
     "product_recommendations_qggXJq": {
       "type": "product-recommendations",
       "blocks": {
@@ -408,6 +560,7 @@
   },
   "order": [
     "main",
+    "trust_badges_product",
     "product_recommendations_qggXJq"
   ]
 }

@@ -1,0 +1,689 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "blocks": {
+        "kicker": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Jordan Olivenöl</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "0.875rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "title": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Unser Öl & Lesbos</h1>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Eine Information über Lesbos im Allgemeinen und unser \"Jordan Olivenöl\" im Speziellen.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "kicker",
+        "title",
+        "subtitle"
+      ],
+      "settings": {
+        "media_type_1": "image",
+        "section_width": "full-width",
+        "section_height": "medium",
+        "color_scheme": "scheme-6",
+        "toggle_overlay": true,
+        "overlay_color": "#00000040",
+        "padding-block-start": 0,
+        "padding-block-end": 0,
+        "image_1": "shopify://shop_images/498-DSC00405.jpg"
+      }
+    },
+    "text_1": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "Heading",
+          "settings": {
+            "text": "<h2>Die Region und Ihre Oliven</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mittlerweile gibt es über 60 Olivensorten in Griechenland, große, kleine, runde, längliche, saftige und fleischige; ganz abgesehen von den vielen Geschmacksrichtungen.</p><p>Die drei großen Olivenanbaugebiete sind Kreta, Kalamata und Lesbos. Trotz der 11 Millionen Olivenbäume ist das Olivenöl von Lesbos nicht sehr bekannt. Das mag daran liegen, dass das Wort \"Marketing\" hier unbekannt ist und dass die restliche Bevölkerung lieber ein schweres Öl verwendet. Es ist nämlich eine Besonderheit unseres Öls, dass es leicht verdaulich und verträglich ist.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 24,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "gallery_1": {
+      "type": "carousel",
+      "blocks": {
+        "slide_0": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/281-DSC07992.jpg",
+            "link": ""
+          },
+          "blocks": {}
+        },
+        "slide_1": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/240-DSC07696.jpg",
+            "link": ""
+          },
+          "blocks": {}
+        },
+        "slide_2": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/239-DSC07686.jpg",
+            "link": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "slide_0",
+        "slide_1",
+        "slide_2"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "text_2": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "Heading",
+          "settings": {
+            "text": "<h2>Die drei großen Olivenanbaugebiete...</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p> sind Kreta, Kalamata und Lesbos. Trotz der 11 Millionen Olivenbäume ist das Olivenöl von Lesbos nicht sehr bekannt. Das mag daran liegen, dass das Wort \"Marketing\" hier unbekannt ist und dass die restliche Bevölkerung lieber ein schweres Öl verwendet. Es ist nämlich eine Besonderheit unseres Öls, dass es leicht verdaulich und verträglich ist.</p><p>Auf Lesbos werden die Sorten Kolovi, Ladolia und Adramitiani angebaut. Die letztere kommt von der kleinasiatischen Küste und ist weltweit nur auf Lesbos zu finden. Sie bringt nie riesige Erträge, auch das mag ein Grund sein, weshalb sie nicht in anderen Gegenden kultiviert wird. Sie wird im November und Dezember reif und gibt 22-25% Öl aus ihrer Frucht, welches im Vergleich zu anderen Sorten (bis 40%) nicht sehr viel ist. Aber sie ist leicht und hat ein ausgezeichnetes Aroma. Unser \"Jordan Olivenöl\" besteht ausschließlich aus den Sorten Kolovi (1/3 Anteil) und Adramitiani (2/3 Anteile). Ganz frisch, also ein, zwei Monate nach dem Pressen, ist das Öl etwas pfeffrig im Geschmack. Es ist eine Besonderheit, dieses Öls, und meistens bleibt es auch bei den kleineren Olivenbauern zu Hause zum Eigenverbrauch.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 24,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "mosaic_1": {
+      "type": "section",
+      "blocks": {
+        "card_0": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/549-DSC00936.jpg",
+            "link": ""
+          },
+          "blocks": {},
+          "block_order": []
+        },
+        "card_1": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/252-DSC07882.jpg",
+            "link": ""
+          },
+          "blocks": {},
+          "block_order": []
+        },
+        "card_2": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/248-DSC07838.jpg",
+            "link": ""
+          },
+          "blocks": {},
+          "block_order": []
+        }
+      },
+      "block_order": [
+        "card_0",
+        "card_1",
+        "card_2"
+      ],
+      "settings": {
+        "content_direction": "row",
+        "gap": 16,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "text_3": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "Heading",
+          "settings": {
+            "text": "<h2>Unsere Olivenbäume werden auch während der Trockenzeit nicht bewässert.</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Es wird keine Chemie oder ähnliches gegen Insektizide verwendet. Gegen die Fruchtfliege (Tacos) werden ausschließlich Lockstoffe in die Olivenbäume gehangen. Der Boden wird nur mit Naturdünger bereichert und den Rest regeln Sonne und die Natur. Unsere Oliven werden ausschließlich mit der Hand geerntet und anschließend sofort ohne weitere Lagerung verarbeitet.</p><p>Der Fettsäuregehalt unserer Ernte 2011/12 ist 0,14 % ! Seit Oktober 2002 besteht eine neue Verordnung der EU, in der die Güteklassen neu geordnet sind. Nach dieser Verordnung darf ein Olivenöl nur noch als \"natives Olivenöl extra\" bezeichnet werden, wenn der Fettsäuregehalt zwischen 0,1 - 0,8% beträgt. Der Gehalt an Fettsäure sagt etwas über die Qualität aus. Je weniger, desto besser.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 24,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "Title",
+          "settings": {
+            "text": "<h1>{{ closest.page.title }}</h1>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "page-content": {
+          "type": "page-content",
+          "settings": {},
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "page-content"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 32,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 80
+      }
+    },
+    "mosaic_2": {
+      "type": "section",
+      "blocks": {
+        "card_0": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/184-DSC07244.jpg",
+            "link": ""
+          },
+          "blocks": {},
+          "block_order": []
+        },
+        "card_1": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/127-DSC06719.jpg",
+            "link": ""
+          },
+          "blocks": {},
+          "block_order": []
+        },
+        "card_2": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/180-DSC07183.jpg",
+            "link": ""
+          },
+          "blocks": {},
+          "block_order": []
+        }
+      },
+      "block_order": [
+        "card_0",
+        "card_1",
+        "card_2"
+      ],
+      "settings": {
+        "content_direction": "row",
+        "gap": 16,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "gallery_2": {
+      "type": "carousel",
+      "blocks": {
+        "slide_0": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/412-DSC09262.jpg",
+            "link": ""
+          },
+          "blocks": {}
+        },
+        "slide_1": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/119-DSC06500.jpg",
+            "link": ""
+          },
+          "blocks": {}
+        },
+        "slide_2": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/111-DSC06370.jpg",
+            "link": ""
+          },
+          "blocks": {}
+        },
+        "slide_3": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/234-DSC07596.jpg",
+            "link": ""
+          },
+          "blocks": {}
+        },
+        "slide_4": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/125-DSC06666.jpg",
+            "link": ""
+          },
+          "blocks": {}
+        },
+        "slide_5": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/141-DSC06844.jpg",
+            "link": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "slide_0",
+        "slide_1",
+        "slide_2",
+        "slide_3",
+        "slide_4",
+        "slide_5"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "info_text": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "Heading",
+          "settings": {
+            "text": "<h2>Jordan Olivenöl Infotext</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Jordan Olivenöl - <strong>Natives Olivenöl Extra</strong></p><p><br/>Die Oliven für Jordan Olivenöl stammen ausschließlich <strong>aus eigenem Anbau und von Familien aus der Bergregion der Insel Lesbos.</strong> Sie werden von Hand geerntet und auf natürlichem Wege weiterverarbeitet. Eventuelle Eintrübungen und ein manchmal vorkommender Bodensatz sind Merkmale einer natürlichen und hochwertigen Verarbeitung. So gewährleisten wir, dass die wertvollen Fettbegleitstoffe und nicht zuletzt der feinfruchtige Geschmack im Olivenöl erhalten bleiben. Unsere Philosophie: Die Produktion eines der besten Olivenöle überhaupt zu einem fairen Preis. Der hohe Qualitätsanspruch wird durch die zufriedenen Kunden bestätigt. Dazu zählen mittlerweile auch viele <strong>der besten Köche Deutschlands und Frankreichs</strong>. <br/><br/></p><p><strong>Premium Qualität über Generationen - </strong>bereits in der dritten Generation bewirtschaften wir unsere Jordan Olivenhaine auf der griechischen Insel Lesbos. Ende der 1980er Jahre wanderten die Großeltern von Bastian Jordan auf die Insel aus und bauten mitten im Olivenhain Ihr Haus. Von Anfang bis heute lautet die Philosophie der Familie gleich. Heute führt Bastian Jordan den Betrieb in der dritten Generation und die vierte klettert auch bereits auf die Bäume.<br/><br/><strong>Faire Partnerschaft mit unseren griechischen Freunden und Geschäftspartnern.</strong> Außergewöhnliche Qualität zu fairen Preisen für unsere Kunden. Unser Ziel: Produktion eines der besten Olivenöle überhaupt.<br/><br/><strong>Gewinnung des Jordan Olivenöls auf natürliche Weise ohne Filterung - </strong>wir filtern unser Olivenöl nur mit einem feinmaschigen Metallsieb. Anschließende Lagerung in großen Stahltanks, in denen sich verbleibende Schwebstoffe (winzige Restpartikel von Olivenfleisch und Olivenhaut) langsam am Boden absetzen. Das \"Absetzverfahren\" kommt einer natürlichen Filterung gleich. Wir gewinnen unser Öl durch das Auszugsverfahren durch Schleudern unter Luftausschluss. In der Ölmühle werden zunächst die übrigen restlichen Blätter, die man bei der Sortierung per Hand im Olivenhain übersehen hat, abgesaugt. Dann wäscht eine Maschine die Oliven und zerkleinert sie.<br/><br/><strong>Die Schafe und Ziegen in den Jordan Olivenhainen - </strong>als Alternative weiden in den Jordan Olivenhainen Schafe und Ziegen, welche für die Düngung sorgen. Ganz nebenbei reinigen die Tiere die Grundstücke von Pflanzen, die später bei der Olivenernte das Auslegen der Netze erschweren würden. Da es sich bei den Pflanzen um Kräuter und Gewürze handelt, wird die Milch der Tiere sehr delikat. Nicht zuletzt deshalb zählt der Feta von Lesbos zu den besten überhaupt.<br/><br/><strong>Verpackung - </strong>der formschöne Kanister im Retro Design, passt perfekt in jeden Küchenschrank. Er gilt als die beste und sicherste Verpackung für Olivenöl. Er ist zu 100% lichtgeschützt und er stellt die aktuell nachhaltigste Variante einer Verpackung für Olivenöl dar. Der Kanister verfügt über einen Drehverschluss. Dieser kann ein Stück herausgezogen werden und hilft somit zum Dosieren. Das Herausziehen erfordert ein wenig Geschick. Verkehrt herum ausgegossen, kann die Luft aus der Flasche entweichen und es schwappt nichts über. Dieser Verschluss und Ausgießer ist der aktuell beste auf dem Markt verfügbare und er ist selbstverständlich Lebensmittelsafe.<br/><br/><strong>Produktinfos:</strong></p><ul><li>Olivensorten: Adramitiani & Kolovi</li><li>Kultivierung: terrassierte <a href=\"https://jordanolivenoel.de/blogs/news/von-der-mittelmeerregion-bis-zur-neuen-welt-die-globale-verbreitung-der-olivenhaine\" title=\"https://jordanolivenoel.de/blogs/news/von-der-mittelmeerregion-bis-zur-neuen-welt-die-globale-verbreitung-der-olivenhaine\">Olivenhaine</a></li><li>Erntezeitpunkt: Oktober / November</li><li>Erntemethode: Handernte mit Stöcken und Rechen</li><li>Herstellung: kaltes Extraktionsverfahren (unter 27 °C)</li><li>Herkunft: Insel Lesbos / Griechenland, Region Plomari</li><li>Ölmühle: Rafteli-Protouli</li><li>Anbau: eigene Grundstücke und von benachbarten Familien</li><li>Analysewerte: www.jordanolivenoel.de/analyse</li><li>Lagerung: kühl und dunkel bei max. 25 °C</li><li>Haltbarkeit: bis zu 18 Monate (ungeöffnet bis zu 24 Monate)</li></ul><p><strong>Auszeichnungen:</strong></p><ul><li>DLG-prämiert</li><li>Der Feinschmecker</li><li>Great Taste Award - Jordan Olivenöl</li><li>Los Angeles International Olive Oil Competition</li><li>New York International Olive Oil Competition</li></ul>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 24,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "product_image": {
+      "type": "section",
+      "blocks": {
+        "card_0": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/474-DSC00183_4bd79c05-6f05-4dc3-8e8b-b730020f8663.jpg",
+            "link": "shopify://products/jordan-olivenol-natives-olivenol-extra-kanister-1-00-liter"
+          },
+          "blocks": {
+            "title": {
+              "type": "text",
+              "settings": {
+                "text": "<h3>Jordan Olivenöl</h3>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h2",
+                "font": "var(--font-primary--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "title"
+          ]
+        }
+      },
+      "block_order": [
+        "card_0"
+      ],
+      "settings": {
+        "content_direction": "row",
+        "gap": 16,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "text_1",
+    "gallery_1",
+    "text_2",
+    "mosaic_1",
+    "text_3",
+    "main",
+    "mosaic_2",
+    "gallery_2",
+    "info_text",
+    "product_image"
+  ]
+}

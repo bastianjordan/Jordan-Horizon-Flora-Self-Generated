@@ -1,0 +1,1753 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "blocks": {
+        "kicker": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Jordan olivenöl</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "0.875rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "title": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Olivenölwissen</h1>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Was Ihr schon immer wissen wolltet!</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "kicker",
+        "title",
+        "subtitle"
+      ],
+      "settings": {
+        "media_type_1": "image",
+        "section_width": "full-width",
+        "section_height": "medium",
+        "color_scheme": "scheme-6",
+        "toggle_overlay": true,
+        "overlay_color": "#00000040",
+        "padding-block-start": 0,
+        "padding-block-end": 0,
+        "image_1": "shopify://shop_images/403-DSC09086.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "Title",
+          "settings": {
+            "text": "<h1>{{ closest.page.title }}</h1>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "page-content": {
+          "type": "page-content",
+          "settings": {},
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "page-content"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 32,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 80
+      }
+    },
+    "accordion_1": {
+      "type": "section",
+      "blocks": {
+        "section_heading": {
+          "type": "text",
+          "name": "Section Heading",
+          "settings": {
+            "text": "<h2>Wissenswertes über Olivenöl</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "owl_0": {
+          "type": "accordion",
+          "settings": {
+            "title": "Wie wird Olivenöl hergestellt?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Bei der Gewinnung von Olivenöl gibt es zwei unterschiedliche Herstellungsmethoden, die aber auch Gemeinsamkeiten aufweisen. Zum einen gibt es das Extraktionsverfahren. Dabei kommen in einem geschlossenen und weitestgehend vor Luft geschützten Kreislauf ausschließlich moderne Zentrifugensysteme zum Einsatz. Bei dieser Gewinnung spricht man daher auch von der so genannten „Kaltextraktion“. Eine Pressung im herkömmlichen Sinne findet dabei nicht mehr statt. Zum anderen gibt es die traditionelle Produktion mit Einsatz hydraulischer Pressen in einem offenen Kreislauf. Hier spricht man von der „Kaltpressung“ bzw. „kalt gepresst“.<br/><br/>Beim traditionellen Pressen werden die zuvor gewaschenen Oliven in einem großen Behälter zu einem Brei verarbeitet. Dafür werden rotierende, senkrecht angebrachte Mahlsteine verwendet. Dieser Brei wird in mehreren Lagen auf Matten gestrichen und zu einer Art Turm gestapelt. Auf diesen Turm wirkt von oben die hydraulische Presse ein und presst ein Gemisch aus Olivenöl und Wasser heraus. Dieses „Fruchtwasser“ wird anschließend in einer Zentrifuge getrennt, so dass das reine Olivenöl als Endprodukt abfließt. Da dieses eine Art Fruchtsaft mit Resten von Olivenfleisch und Olivenschale ist, wird es am Ende oft noch gefiltert. Das Olivenöl der Familie Jordan wird ausschließlich im Extraktionsverfahren gewonnen. Hierbei erreichen die handgeernteten Oliven die Ölmühle noch am Tag der Ernte und werden innerhalb weniger Stunden weiterverarbeitet. Zunächst werden die restlichen Blätter, die man bei der Handsortierung im Olivenhain übersehen hat, abgesaugt. Dann werden die Oliven maschinell gewaschen und zerkleinert. Es wird also auch hier ein Olivenbrei hergestellt. Dies passiert jedoch durch eine rotierende Spirale, die die Oliven zerschneidet. Die Luftzufuhr ist dabei minimal. Im nächsten Schritt kommt der entstandene Olivenbrei in einen so genannten Dekanter. Dort werden die Feststoffe im Olivenbrei – die Olivenkerne sowie Stücke und Fetzen von Olivenfleisch und Olivenschale – durch Rotation ausgelesen. Übrig bleibt eine Art natürlicher Fruchtsaft, eine Mischung aus Olivenöl und Wasser. Im Dekanter wird jegliche Sauerstoffzufuhr unterbunden, da er geschlossen ist und der Brei durch Schläuche zugeführt wird. Im letzten Arbeitsschritt wird das Öl-Wasser-Gemisch in einer weiteren Zentrifuge voneinander getrennt. Wie beim traditionellen Verfahren wird so reines Olivenöl ohne Pressung und mit minimaler Sauerstoffzufuhr gewonnen.<br/><br/>Bei beiden Verfahren darf die Temperatur der verarbeiteten Stoffe nie über 27 °C steigen. Dies betrifft Oliven, Olivenbrei und Olivenöl-Wasser-Gemisch im Laufe der Verarbeitung. Nur wenn diese Temperatur nicht überschritten wird, handelt es sich um ein „kaltgepresstes“ bzw. „kaltextrahiertes“ Olivenöl.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_1": {
+          "type": "accordion",
+          "settings": {
+            "title": "Wie lange ist Olivenöl haltbar?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Hochwertige Olivenöle, wie das der Familie Jordan, sind geschmacklich länger stabil als minderwertige Öle. Die Haltbarkeit beträgt bis zu zwei Jahre, allenfalls wird das Öl mit der Zeit etwas milder im Geschmack. Minderwertige Olivenöle können dagegen schon nach wenigen Monaten umkippen und Ranznoten annehmen. Sehr hochwertiges Olivenöl, wie das Jordan Olivenöl, kann geöffnet mindestens ein Jahr lang ohne derartige geschmackliche Einbußen genossen werden.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_2": {
+          "type": "accordion",
+          "settings": {
+            "title": "Wie stark kann ich Olivenöl erhitzen?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Natives Olivenöl extra (höchste Güteklasse) können Sie, je nach Sorte, bis zu einer Temperatur von maximal 200 Grad Celsius (°C) verwenden. Das Jordan Olivenöl eignet sich zum Braten, Schmoren, Dünsten, Frittieren und Backen. Die einfach ungesättigten Fettsäuren in einem hochwertigen Olivenöl bleiben bei Hitze länger stabil. Dies ist ein Vorteil gegenüber den mehrfach ungesättigten Fettsäuren von Speiseölen minderer Qualität, wie Samenöle und raffinierte Olivenöle.<br/><br/>Bei einer Temperatur von bis zu 200°C, je nach Sorte und Qualität, bleiben alle wichtigen Fettbegleitstoffe und Antioxidantien im Olivenöl enthalten. Diese machen es so wertvoll und gesund. Die maximale Erhitzbarkeit von Speiseölen und Speisefetten beträgt: Butter 110°C, Margarine 150°C, Maisöl 160°C, Soja- und Sonnenblumenöl 170°C, Schweinefett 180°C, Rapsöl 220°C. Ein Steak können Sie problemlos bei 160 oder 170°C anbraten. Mehr Hitzen bedarf es für die gewünschten Röstaromen nicht.<br/></p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_3": {
+          "type": "accordion",
+          "settings": {
+            "title": "Was versteht man unter Frühernte Olivenöl?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Als Frühernte-Olivenöl werden Olivenöle bezeichnet, die aus noch unreifen Oliven gewonnen werden. Man erkennt den idealen Reifezeitpunkt einer Olive, wenn Sie sich vom grünen ins violette verfärbt. Dies ist jedoch, bevor sie zu dunkel violett wird. Dieser Zeitpunkt ist im Mittelmeerraum meist im November erreicht. Dies ist von Region zu Region und je nach den Wetterverhältnissen leicht unterschiedlich. Um nun genau zu bestimmen, wann die unreifen Oliven kurz vor diesem Zeitpunkt stehen, muss man sehr viel Erfahrung haben. Es ist notwendig, testweise einzelne Oliven zu pflücken und durch das Zerdrücken den Ölgehalt zu prüfen. Im Sommer ist noch kaumÖl ausgebildet. Erst im Oktober ist es in der Regel soweit.<br/><br/>Der Ertrag der unreifen Oliven mit 10-15% ist im Verhältnis zu reifen mit 15-25 % oder überreifen Oliven mit 25-35 % sehr gering.<br/><br/>Derzeit gibt es keine offizielle Regelung zu dem Begriff „Frühernte-Olivenöl“. Demnach sind die Angaben lediglich basierend auf den eigenen Erfahrungen.<br/><br/>Merkmale von Frühernte-Olivenölen sind vor allem im Geschmack zu finden. In der Nase kann bereits das herbe und unreife der Olive wahrgenommen werden. Der besonders krautartige, säuerlich herbe und intensive Geschmack erinnert entfernt auch leicht an unreife Äpfel. Farbliche Hinweise sind trotz des allgemein höheren Cholorophylgehaltes nur in manchen Regionen zu erkennen. In anderen Regionen wieder ist farblich kein Unterschied zu erkennen und deshalb ist dies kein relevantes Merkmal. Insgesamt sind Früh geerntete Olivenöle etwas schärfer und bitterer. Der Säure- und Peroxidgehalt sind meist geringer wobei Polyphenole und Antioxidantien mit hohen Werten gemessen werden. Bei letzteren gibt es zwischen Frühernte-Olivenölen und zum idealen Zeitpunkt geernteten Olivenölen in manchen Regionen keine allzu grossen Unterschiede.<br/><br/>Da die Ausbeute bei Frühernte-Olivenölen deutlich geringer ist, haben Produzenten meist kein Interesse daran. Sie ernten die Oliven so früh nicht. Somit sind solche Olivenöle eher selten zu finden.<br/><br/>Bei Jordan Olivenöl gibt es das Bambatsa Olivenöl aus zu früh geernteten Oliven. Es wurde bereits vielfach international ausgezeichnet. Spitzenkoch Thomas Imbusch geht zu den ersten Kunden und hat uns auf die Idee gebracht.<br/><br/>Nicht zu verwechseln sind Frühernte-Olivenöle mit der Frühabfüllung.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_4": {
+          "type": "accordion",
+          "settings": {
+            "title": "Was sagt die Farbe des Olivenöls aus?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Im Grunde hat die Farbe von Olivenöl nur eine sehr geringe Aussagekraft. Anhand der Farbe lassen sich keine Mischungen verschiedener Qualitäten oder gar verschiedener Speiseöle eindeutig nachweisen.</p><p>In der Regel ist Olivenöl gelb oder grün gefärbt. Einzelne Gelb- oder Grünnuancen lassen darüber hinaus aber keine Rückschlüsse auf Geschmack oder Qualität zu. Anhand der Farbe lässt sich also ausschließlich erkennen, ob extreme Verunreinigungen vorliegen. Das ist der Fall, wenn das Öl andere Farbtöne als gelb oder grün aufweisen sollte. <a href=\"/blogs/news/die-farbe-des-olivenols-was-sie-daruber-wissen-sollten\" title=\"Die Farbe des Olivenöls: Was Sie darüber wissen sollten\">Mehr Infos zur Farbe des Olivenöls...</a></p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_5": {
+          "type": "accordion",
+          "settings": {
+            "title": "Was bedeutet gefiltert und ungefiltert?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Die meisten Produzenten hochwertiger Olivenöle, wie Jordan Olivenöl, filtern ihr Öl nach der Produktion mittels eines feinmaschigen Metallsiebs.</p><p>Das Olivenöl wird anschließend in großen Stahltanks gelagert, in denen sich die verbleibenden Schwebstoffe (winzige Restpartikel von Olivenfleisch und Olivenhaut) langsam am Boden absetzen. Dieses „Absetzverfahren“ kommt einer natürlichen Filterung gleich.</p><p>Dabei kommt es durch die im Olivenöl enthaltenen Schwebstoffe zu eventuellen Eintrübungen je nach Abfüllcharge. Diese Eintrübungen sind analog zum Fruchtfleisch in einem natürlichen Fruchtsaft zu sehen. Sie sind nichts Negatives, sondern enthalten im Gegenteil in hohem Maße gesunde Fettbegleitstoffe und Antioxidantien. Außerdem behält das Olivenöl so seinen charakteristischen Geschmack.</p><p>Viele Massenproduzenten filtern Olivenöl zusätzlich chemisch. Die chemische Filterung ist nicht notwendig, dient aber dazu, die Haltbarkeit ungeachtet von unweigerlich unangenehmen Geschmacksentwicklungen hinauszuzögern. Außerdem wird der charakteristische Geschmack der Olivensorte auf diese Weise zerstört. Chemisch gefilterte Olivenöle schmecken daher mehr oder weniger identisch.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_6": {
+          "type": "accordion",
+          "settings": {
+            "title": "Was haben Singvögel mit Olivenöl zu tun?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Im Gegensatz zu Jordan Olivenöl arbeiten viele andere Produzenten bei der Olivenernte mit sogenannten Vollerntern bei Nachts.</p><p>Die automatischen Erntemaschinen saugen die Vögel mit ein, was für die Tiere tödlich endet. Die Erntemaschinen fahren durch die Olivenhaine und schütteln die Oliven ab und saugen Sie dann ein. Dies passiert auch Nachts um die maximale Zeit auszunutzen. </p><p>Da in der Erntezeit im Winter Millionen von Vögeln, darunter auch viele geschützte Arten, in den mediterranen Gebieten überwintern, sind Sie hier besonders bedroht. </p><p></p><p>Allein in Spanien geht man von einer Zahl von ca. 2,6 Millionen Tieren aus, die jedes Jahr eingesaugt und getötet werden. In Portugal, Frankreich und Italien sind es viele weitere. Laut den Fachleuten sind die Vögel durch helle Lichter und laute Geräusche der Maschinen so verwirrt, dass Sie nicht fliehen.</p><p></p><p><span style=\"text-decoration:underline\">Bei Jordan Olivenöl wird von hand und tagsüber geerntet. Hier kommen keine Tiere zu schaden.</span></p><p>Aufgrund der geografischen Gegebenheiten ist es bei uns rein technisch schon nicht möglich mit Maschinen zu arbeiten. Unsere Olivenhaine liegen auf hügeleigem und unwegsamen Gelände und sind für die Maschinen gar nicht erreichbar. Darüberhinaus tun wir es auch nicht, da ein hochwertiges Olivenöl nur hergestellt werden kann, wenn man zum richtigen Zeitpunkt erntet. Die ist bei uns je nach Jahrgang zwischen Oktober und Dezember. Zu diesem Zeitpunkt sitzen die Oliven noch zu fest am Baum um durch rütteln oder absaugen vom Baum gelöst zu werden. Dies ist erst möglich wenn die Oliven bereits weiter gereift sind. Und dies ist erst viel später der Fall, ab Februar bis Mai des folgenden Jahres. </p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_7": {
+          "type": "accordion",
+          "settings": {
+            "title": "Kann ich Olivenöl welches Schwebstoffe enthält weiterhin verwenden?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Unser Olivenöl wird in großen Stahltanks gelagert, in denen sich, da wir nicht filtern, die verbleibenden Schwebstoffe (winzige Restpartikel von Olivenfleisch und Olivenhaut) langsam am Boden absetzen. Dieses „Absetzverfahren“ kommt einer natürlichen Filterung gleich. Dabei kommt es durch die im Olivenöl enthaltenen Schwebstoffe zu eventuellen Eintrübungen und zur Bildung eines Bodensatzes, die je nach Abfüllcharge unterschiedlich stark ausfallen können. Diese Eintrübungen sind analog zum Fruchtfleisch in einem natürlichen Fruchtsaft zu sehen. Sie stellen ein positives Qualitätsmerkmal dar und enthalten in hohem Maße gesunde Fettbegleitstoffe und Antioxidantien. Außerdem behält das Olivenöl so seinen charakteristischen Geschmack.</p><p>Der Bodensatz ist ein gutes Zeichen.<br/>Wenn Sie in den Genuss kommen das Fruchtfleisch in Ihrem Behälter vorzufinden, empfehlen wir damit Bratkartoffeln oder Pommes zuzubereiten. Sie können das Olivenöl mit Fruchtfleisch auch für alle anderen Bereiche der Küche oder pur verwenden. Es ist geschmacksneutral und kann bedenkenlos mit verzehrt werden.<br/>Wir verzichten auf die chemische Filterung, da diese den charakteristischen Geschmack zerstört und wichtige Begleitstoffe vernichtet.</p><p>Schwebstoffe oder Bodensatz sind nicht in jedem Olivenöl enthalten. Sie kommen meist vor, wenn wir früh nach der Ernte abfüllen und sich die Schwebstoffe noch nicht abgesetzt haben und somit mit in Kanister oder Flasche gelangen und sich dann dort erst absetzen. Danach sind keine Schwebstoffe mehr vorhanden und somit auch kein Bodensatz. Erst wenn wir am Boden des Tanks ankommen, gelangen die sich dort abgesetzten Schwebstoffe wieder in Kanister oder Flaschen.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_8": {
+          "type": "accordion",
+          "settings": {
+            "title": "Olivenöl als Emulgator und Bindemittel",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Angefangen bei klassischen Dressings, Saucen und Mayonnaisen bis hin zu aufwendigen Emulsionen, Cremes und Desserts: Selbst als Bindemittel läßt sich Olivenöl perfekt einsetzen. Beim Emulgieren von Speisen werden durch das Olivenöl andere Zutaten angehoben und es entsteht eine dickere und cremigere Konsistenz, wie zum Beispiel bei Mayonnaise.</p><p>Beim Backen erfüllt Olivenöl meist mehrere Aufgaben auf einmal: Es ist Bindemittel, Gewürz und auch Kochmedium. Es eignet sich nicht nur für herzhafte Backwaren wie Brot und Brötchen, sondern auch für Kekse, Kuchen oder Muffins. Für eine Glasur oder ähnliche, im Endresultat festende, Stoffe funktioniert Olivenöl leider nicht.</p><p>Grundsätzlich sollte man alle pflanzlichen Öle im Verhältnis 1:1 in den Rezepten ersetzen. Bei Butter ist das Verhältnis 4:3. Also ist für jede Tasse Butter zum Beispiel eine ¾ Tasse Olivenöl zu verwenden. Entscheidend ist hierbei wieder, ein hochwertiges Olivenöl mit einem milden und sanften Aroma zu Verwenden.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_9": {
+          "type": "accordion",
+          "settings": {
+            "title": "Olivenöl zur Konservierung",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Dass sich Olivenöl für die Erhaltung von Lebensmitteln eignet wurde einst in der Antike aus der kosmetischen Anwendung von Olivenöl abgeleitet. Dort wurde es zum Anreichern und zum Schutz der Haut eingesetzt. Wenn Lebensmittel komplett in Oliven liegen, entsteht eine hermetische Umgebung die beim Schutz vor Oxidation und mikrobiellem Verderben hilft.</p><p>Olivenöl eignet sich für diesen Zweck in erster Linie wegen seiner natürlichen Antioxidantien. Damit es funktioniert, müssen die Lebensmittel natürlich frei von Bakterien und komplett vom Olivenöl umschlossen sein. Für einen maximalen Effekt muss der Behälter luftdicht verschlossen sein und an einem dunklen kühlen Ort aufbewahrt werden.</p><p>Nach dem Öffnen müssen die Lebensmittel zeitnah verzehrt bzw. verbraucht werden. Die Lebensmittel nehmen während der Lagerung auch ein wenig vom Geschmacks des Olivenöls an und umgekehrt. Ein Teil des Öls kann, je nach Einsatzzweck,  auch ggf. für die weitere Zubereitung verwendet werden.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_10": {
+          "type": "accordion",
+          "settings": {
+            "title": "Wie hoch ist der Verbrauch von Olivenöl pro Kopf in Deutschland?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Der Verbrauch von Olivenöl pro Kopf lag 2016 in Deutschland unter einem Liter (ca. 0,8). 2017 und 2018 bleibt der Verbrauch in Deutschland ungefähr gleich. </p><p>In Griechenland lag der Verbrauch 2016 pro Kopf bei 13 Litern, was weltweit der höchste Wert ist. Gefolgt von Spanien mit 11 Litern und Italien mit 10 Litern. In Portugal lag der Verbrauch pro Kopf und Jahr bei fünf Litern, in der Schweiz bei zwei und in Österreich bei einem Liter im Jahr. In der EU liegt der pro Kopf Verbrauch ca. bei vier Litern im Jahr. In den USA liegt der Verbrauch pro Person im Jahr bei ca. einem Liter. In Syrien wurden 2016 pro Kopf ca. sechs und in Tunesien ca. 10 Liter Olivenöl verbraucht.</p><p>Quelle: IOOC</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_11": {
+          "type": "accordion",
+          "settings": {
+            "title": "Was sind Antioxidantien? Was haben Antioxidantien mit Olivenöl zu tun?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Was sind Antioxidantien? Was haben Antioxidantien mit Olivenöl zu tun?</p><p>Antioxidantien gibt es sowohl in natürlicher als auch in synthetischer Form. Die synthetischen Antioxidantien werden vermehrt in Nahrungsergänzungsmitteln eingesetzt. Im Olivenöl kommen Sie hingegen in natürlicher Form vor. Wo synthetische Antioxidantien oft in zu hoher Konzentration vorkommen, sind natürlich vorkommende Antioxidantien ausbalancierter.</p><p>Antioxidantien bekämpfen oxidativen Stress in der Frucht.</p><p>Der gehalt an Antioxidtaien (Phenolgehalt) in Olivenölen variiert je nach den klimatischen Bedingungen im Erzeugungsgebiet und wird beeinflusst durch weitere Faktoren. Zum Beispiel spielt es eine Rolle, wie die Oliven geerntet werden, wie reif sie sind und wann sie geerntet werden. Auch die Ölgewinnung und -lagerung hat Einfluss. Eine neue Studie zeigt, das Olivenöle die in höheren Lagen Wachsen und weniger Regen abbekommen, wie unser Jordan Olivenöl, einen höheren Gehalt an Antioxidantien aufweisen. </p><p>Diese Antioxidantien sind in frischem Obst und Gemüse enthalten. Da es das einzige Öl ist, das aus einer Frucht gewonnen wird, enthält Olivenöl eine Vielzahl von Substanzen, Antioxidantien und Vitaminen, die ihm einen zusätzlichen Nährwert verleihen.</p><p>Die Erklärung für diesen hohen Gehalt an Antioxidantien ist wahrscheinlich, dass die Olive eine Frucht ist, die der Luft ausgesetzt ist, und sich vor Sauerstoff schützen muss. Es synthetisiert daher eine größere Menge an Antioxidantien, die ins Öl gelangen.</p><p>Natives Olivenöl, d. H. Olivenöl, das nicht raffiniert oder industriell behandelt wurde, ist besonders reich an diesen Stoffen und hat eine starke antioxidative Wirkung.</p><p>Quellen: Polytechnic Institute of Bragança Portugal, Universidad de Granada Spain, International Olive Oil Council, Wikipedia</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_12": {
+          "type": "accordion",
+          "settings": {
+            "title": "Was bedeutet Fettsäuregehalt und freie Fettsäuren?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Begriffe wie Fettsäuregehalt oder Säurezahl hört man oft im Zusammenhang mit der Qualität von Olivenölen. Hier heisst es meist, dass der Wert besonders niedrig sein soll. Hier liegt häufig ein Missverständnis vor.</p><p>Die sogenannte Ölsäure liegt im Schnitt meist bei 70%. Desto höher der Wert desto besser ist die Qualität des Öls. (Der Wert hierfür wird neben vielen anderen Werten gemäß der EU-Verordnung <a href=\"http://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX%3A32013R1348\" target=\"_blank\">EWG Nr. 2568/91</a> bestimmt welche in der Durchführungsverordnung <a href=\"http://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX%3A32013R1348\" target=\"_blank\">(EU) Nr. 1348/2013</a> umgesetzt wurde.)</p><p>Besonders niedrig soll hingegen ein anderer Wert sein um eine besonders gute Qualität zu beschreiben. Hierbei handelt es sich um die sogenannten freien Fettsäuren berechnet in Prozent Ölsäure. Diese freien Fettsäuren spalten sich von einem Glycerinmolekül ab. Dieser Vorgang geschieht dann, wenn die Oliven nach der Ernte zu lange liegen bleiben bevor Sie weiterverarbeitet werden.</p><p>Der Begriff Fettsäuregehalt kommt in der EU-Verordnung <a href=\"http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=uriserv:OJ.L_.2016.326.01.0001.01.DEU#ntr2-L_2016326DE.01000302-E0002\" target=\"_blank\">(EWG) Nr. 2568/91</a> vom 26.09.2016 vor. Hier werden unter dem Überbegriff Fettsäuregehalt einige Fettsäuren zusammengefasst, die bestimmte Grenzwerte nicht überschreiten sollen. Diese heißen Myristinsäure, Linolensäure, Arachinsäure, Eicosensäure, Behensäure und Lignocerinsäure. Ausserdem werden grenzwerte für die Summe der Transisomeren der Linol- und Linolensäure angegeben. Anhand dieser Werte sollen potentielle Fälschungen erkannt werden.</p><p>Wir lassen unser Jordan Olivenöl jedes Jahr analysieren und veröffentlichen die Ergebnisse auf unserer Webseite. Dort finden Sie auch den Wert der freien Fettsäuren, berechnet als Ölsäure.</p><p>Hier geht´s zur Analyse: <a href=\"https://www.jordanolivenoel.de/Analyse\">https://www.jordanolivenoel.de/Analyse</a></p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_13": {
+          "type": "accordion",
+          "settings": {
+            "title": "Weichmacher in Olivenölen und anderen Lebensmitteln",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Weichmacher sind Substanzen, die Polymeren hinzugefügt werden, um eine höhere Flexibilität von Materialien zu ermöglichen. Sie werden häufig in PVC- Produkten wie Bodenbelägen, Kabelisolierungen, Tapeten, Lacken, Farben, Klebern, aber auch in Kosmetika, Medizinprodukten, Spielzeugen, Kleidung und Lebensmittelverpackungen eingesetzt.</p><p>Die wichtigste Substanzklasse im Bereich der Weichmacher sind Phtalsäureester, auch Phtalate genannt. Der bekannteste und am häufigsten verwendete Weichmacher ist Diethylhexylphtalat (DEHP). Dem DEHP chemisch eng verwandt ist Di-isodecylphtalat (DIDP). Ein weiteres häufig in den oben genannten Produkten verwendetes Phthalat ist Butylbenzylphthalat (BBP).</p><p>Während die Gesundheitsgefahr im Falle der DIDP und BBP heute als vernachlässigbar eingeschätzt wird, können DEHP – in großen Mengen aufgenommen – theoretisch die Fortpflanzungsfähigkeit des Menschen beeinträchtigen.</p><p>Da Weichmacher meist chemisch nicht an das Polymer gebunden sind, werden sie nach und nach in die Umgebung abgegeben. Das bedeutet: Weichmacher können auch in Lebensmitteln auftreten, da sie aus Verpackungen in das Lebensmittel migrieren können. Im Falle von flüssigen Lebensmitteln wie Olivenöl können Plastikschläuche mit hohem DEHP-Anteil eine potenzielle Quelle für die Exposition von Weichmachern darstellen. Die Frage ist allerdings: Wie real ist die Gefahr einer Gesundheitsschädigung durch Weichmacher in Olivenölen tatsächlich?</p><p>Zwar wurden bei Testungen der Stiftung Warentest (Heft 11/21) in allen 27 Olivenölen Weichmacher „in geringen bis sehr geringen Mengen“ nachgewiesen. Doch müsse sich, so Projektleiter Dr. Jochen Wittach, niemand Sorgen machen. Der Grund: Die durch Lebensmittel aufgenommenen Mengen an Weichmachern sind schlicht zu niedrig, um dem menschlichen Organismus auch langfristig Schaden zufügen zu können.</p><p>Das Bayerische Landesamt für Gesundheit und Lebensmittelsicherheit kommt in einer im April 2020 aktualisierten Untersuchung zu den gesundheitlichen Auswirkungen von DEHP, DDIP UND BBP zu dem Schluss: Die reale Gesundheitsgefahr durch Weichmacher in Lebensmitteln ist in der Praxis nicht gegeben. So ist zum Beispiel im Falle der DEHP der gesundheitlich bedenkliche Rahmen sowohl bei Kindern als auch bei Erwachsenen gerade einmal zu einem Zehntel ausgeschöpft.</p><p>Und bei einer Testung der Stiftung Warentest im Januar 2016 wiesen gerade einmal 2 der 26 getesteten Öle DEHP- und DIDP-Mengen auf, die theoretisch, also unter Berücksichtigung der sehr streng gefassten Toleranzrate, zu einer gesundheitlichen Einschränkung führen könnten. In den anderen 24 der getesteten Olivenölen konnten keine Phthalate nachgewiesen werden.</p><p>Zu ihnen gehört das Jordan Olivenöl. Kein Wunder: Bei Jordan werden alle Schläuche und anderen möglichen Expositionsquellen wie Transportkisten schon vor ihrem Einsatz hinsichtlich ihres Gehaltes an Weichmachern überprüft. Die Bauern werden darüber informiert, dass keine chemisch behandelten Säcke, Netze oder Planen eingesetzt werden dürfen. Diesbezüglich erfolgt eine regelmäßige Kontrolle. Wer gegen die Regeln verstößt, wird als Lieferant ausgeschlossen.</p><p>Zudem wird unser Olivenöl regelmäßig auf Phthalate analysiert. Die dabei festgestellten minimalen Mengen an Weichmachern können aufgrund der oben beschriebenen Vorsichtsmaßnahmen während des Anbaus, der Ernte und der Verarbeitung unserer Oliven nur durch ubiquitäre Migration erklärt werden. Denn mittlerweile „kommen [Weichmacher] fast überall in der Umwelt vor, etwa im Hausstaub“ wie Test-Experte Dr. Wittach erklärt.</p><p>Ungeachtet dieser von manchen Medien dramatisierten, vermeintlich überall lauernden „Gefahr“ steigt die Lebenserwartung in der westlichen Welt kontinuierlich an. Ein gutes Beispiel bietet das Land des Olivenöls, Griechenland. Hier konsumiert jeder Einwohner jährlich rund 15 Liter Olivenöl. Obwohl Griechenland zu den Ländern mit dem höchsten Zigarettenkonsum gehört, weist die griechische Bevölkerung eine der höchsten Lebenserwartungen weltweit auf.</p><p>Zufall? Oder nicht eher Ergebnis der unbestreitbar gesundheitsfördernden Wirkung des Olivenöls? So verhindern die im Olivenöl in hohem Maße enthaltenen Polyphenole, dass sogenannte freie Radikale die Zellen schädigen können. Dadurch werden die Blutfette vor oxidativem Stress geschützt. Die Folge: Das Risiko, an einem Herzinfarkt zu sterben, sinkt.</p><p>Allen Unkenrufen zum Trotz bleibt also festzuhalten: Olivenöl ist keineswegs eine Gefahrenquelle für die Gesundheit. Das Gegenteil ist der Fall. Vor allem hochwertiges Öl wie das Olivenöl von Jordan ist nicht nur lecker, sondern auch gesund. Kein Wunder, dass sich Olivenöl auch in Deutschland zunehmender Beliebtheit erfreut.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_14": {
+          "type": "accordion",
+          "settings": {
+            "title": "Wie erklären sich die großen Preisunterschiede bei Olivenölen?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Viele Faktoren spielen bei der Preisbildung eine Rolle. Das Gelände und die Lage der Olivenhaine beeinflussen Kosten und damit den Endverbraucherpreis erheblich. In terrassenförmigen Olivenhainen, wie denen der Familie Jordan auf der griechischen Insel Lesbos, ernten die Helfer überwiegend per Hand, da Fahrzeuge und mechanische Geräte nicht geländetauglich sind. Bis zu 80 Prozent der Kosten lassen sich auf den hohen personellen Aufwand während der Ernte und für die der Baumpflege zurückführen.</p><p>Darüber hinaus variieren die Personalkosten zwischen den unterschiedlichen Erzeugerländern. Diese sind in Frankreich und Italien beispielsweise höher als in Griechenland. Neben der Erntemethode beeinflusst auch die Absatzmenge den Preis. Selbstständige Bauern mit kleinen Hainen produzieren zu höheren Kosten als Massenproduzenten. Bei letzteren landen oft unterschiedliche Jahrgänge und Überhänge aus dem gesamten Mittelmeerraum in einer Flasche, erkennbar an ungenauen und daher irreführenden Etikettenangaben und einem minderwertigemn und meist ranzigen Geschmack. Hochwertige Olivenöle werden dagegen nur aus ein oder zwei Sorten aus einem einzigen Anbaugebiet hergestellt. Um die beste Qualität zu erreichen, muss der Bauer die Oliven zudem zügig in die Ölmühle bringen. Der höhere logistische Aufwand schraubt den Preis ebenfalls nach oben. Massenproduzenten lassen Oliven meist mehrere Wochen -– im schlimmsten Fall Monate -– liegen, bevor sie weiterverarbeitet werden.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_15": {
+          "type": "accordion",
+          "settings": {
+            "title": "Kann ich Olivenöl im Kühlschrank aufbewahren?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Die Aufbewahrung im Kühlschrank führt nicht zu einer längeren Haltbarkeit. Dagegen kann Olivenöl bei Kälte sogar flockig werden, wodurch es schwieriger dosierbar wird und an Aroma verliert. Allerdings kann das Öl ohne negative Folgen wieder auf Zimmertemperatur erwärmt werden. Die Aufbewahrung im Kühlschrank ist daher nicht notwendig.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_16": {
+          "type": "accordion",
+          "settings": {
+            "title": "Wie werden Oliven geerntet?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Oliven können in Handarbeit mit Stöcken und Ernterechen oder mit speziellen „Rüttelmaschinen“ und „Staubsaugern“ geerntet werden. Das einzelne Pflücken per Hand ist für eine hohe Qualität des Olivenöls nicht notwendig. Einige Bauern propagieren diese Ernteform aus Marketinggründen. Rüttelmaschinen können erst zum Einsatz kommen, wenn die Oliven überreif sind und sich leicht vom Ast lösen lassen.</p><p>Dabei umfasst die Maschine mit einem Greifarm den Stamm des Olivenbaums und rüttelt ihn für einen kurzen Moment mit einer sehr hohen Frequenz. Danach saugen Spezial-Fahrzeuge die auf den Boden gefallenen Oliven auf. So spart der Massenproduzent die Kosten einer personalintensiven Ernte „per Hand“, verzichtet aber gleichzeitig auf Qualität. Ein Teil der Oliven sind zu diesem späten Erntezeitpunkt bereits verfault. Deshalb dient diese Methode lediglich der Herstellung von minderwertigem Olivenöl. Die Familie Jordan erntet in ihren Olivenhainen ausschließlich per Hand mit Stöcken und Rechen. Das ist zwar die arbeits- und daher kostenintensivste, aber eben auch qualitätsorientierteste Methode, Oliven zu ernten. Auf diese Weise können die Oliven wirklich zum optimalen Reifezeitpunkt geerntet werden. Die vom Baum gelösten Oliven werden in großen Netzen aufgefangen, die zuvor unter den Bäumen ausgelegt werden.</p><p>Bei dieser Erntemethode landen auch kleine Äste und Blätter in den Netzen, die direkt vor Ort ausgelesen werden müssen. Der Verlust dieser Äste und Blätter schadet dem Baum nicht, da er nach der Ernte ohnehin von übermäßigem Wuchs befreit und beschnitten werden muss. Die geernteten Oliven werden zuletzt in Leinensäcke gefüllt und zur Weiterverarbeitung in die Ölmühle transportiert. Es ist wichtig, dass dies innerhalb weniger Stunden geschieht, da in den Oliven, sobald sie vom Baum gelöst werden, die so genannte Fermentation einsetzt. Fermentation beschreibt einen durch Mikroorganismen verursachten Alterungsprozess. Oder einfacher gesagt: die Olive verdirbt. Dieser Zersetzungsprozess muss schnellstmöglich, am besten innerhalb weniger Stunden durch die Weiterverarbeitung beendet werden.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_17": {
+          "type": "accordion",
+          "settings": {
+            "title": "Wann werden Oliven geerntet?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Um ein qualitativ hochwertiges Olivenöl herzustellen, muss der ideale Reifegrad der Olive abgewartet werden. Ist dieser Zeitpunkt erreicht, sollte möglichst zügig geerntet werden. Der richtige Zeitpunkt ist gekommen, sobald sich die Olive vom Grünen ins Violette verfärbt. </p><p>Die Familie Jordan erntet in der Regel im November, da dies meist der ideale Zeitpunkt ist, um die höchste Qualität an Olivenöl zu produzieren.</p><p>Da es sich bei Jordan Olivenöl jedoch um ein Naturprodukt handelt, kann sich der Erntezeitpunkt in Abhängigkeit des Jahresklimas durchaus verschieben. Dann kommt es vor, dass bereits Ende Oktober oder erst Anfang Dezember geerntet wird. Bei der industriellen Massenproduktion großer Produzenten findet die Ernte im Extremfall erst im April oder Mai des Folgejahres statt. Zu diesem Zeitpunkt fallen die überreifen Oliven bereits von alleine auf den Boden und werden mit Spezial-Fahrzeugen vom Boden „aufgesaugt“.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_18": {
+          "type": "accordion",
+          "settings": {
+            "title": "Wie wird Olivenöl hergestellt?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Bei der Gewinnung von Olivenöl gibt es zwei unterschiedliche Herstellungsmethoden, die aber auch Gemeinsamkeiten aufweisen. Zum einen gibt es das Extraktionsverfahren, bei dem in einem geschlossenen und weitestgehend vor Luft geschützten Kreislauf ausschließlich moderne Zentrifugensysteme zum Einsatz kommen. Bei dieser Gewinnung spricht man daher auch von der so genannten „Kaltextraktion“. Eine Pressung im herkömmlichen Sinne findet dabei nicht mehr statt. Zum anderen gibt es die traditionelle Produktion mit Einsatz hydraulischer Pressen in einem offenen Kreislauf. Hier spricht man von der „Kaltpressung“ bzw. „kalt gepresst“.</p><p>Beim traditionellen Pressen werden die zuvor gewaschenen Oliven in einem großen Behälter mit rotierenden, senkrecht angebrachten Mahlsteinen zu einem Brei verarbeitet. Dieser Brei wird in mehreren Lagen auf Matten gestrichen und zu einer Art Turm gestapelt. Auf diesen Turm wirkt von oben die hydraulische Presse ein und presst ein Gemisch aus Olivenöl und Wasser heraus. Dieses „Fruchtwasser“ wird anschließend in einer Zentrifuge getrennt, so dass das reine Olivenöl als Endprodukt abfließt. Da dieses eine Art Fruchtsaft mit Resten von Olivenfleisch und Olivenschale ist, wird es am Ende oft noch gefiltert. Das Olivenöl der Familie Jordan wird ausschließlich im Extraktionsverfahren gewonnen. Hierbei erreichen die handgeernteten Oliven die Ölmühle noch am Tag der Ernte und werden innerhalb weniger Stunden weiterverarbeitet. Zunächst werden die restlichen Blätter, die man bei der Handsortierung im Olivenhain übersehen hat, abgesaugt. Dann werden die Oliven maschinell gewaschen und zerkleinert. Es wird also auch hier ein Olivenbrei hergestellt. Dies passiert jedoch durch eine rotierende Spirale, die die Oliven zerschneidet. Die Luftzufuhr ist dabei minimal. Im nächsten Schritt kommt der entstandene Olivenbrei in einen so genannten Dekanter. Dort werden die Feststoffe im Olivenbrei – die Olivenkerne sowie Stücke und Fetzen von Olivenfleisch und Olivenschale – durch Rotation ausgelesen. Übrig bleibt eine Art natürlicher Fruchtsaft, eine Mischung aus Olivenöl und Wasser. Im Dekanter wird jegliche Sauerstoffzufuhr unterbunden, da er geschlossen ist und der Brei durch Schläuche zugeführt wird. Im letzten Arbeitsschritt wird das Öl-Wasser-Gemisch in einer weiteren Zentrifuge, wie beim traditionellen Verfahren, voneinander getrennt und auf diese Weise reines Olivenöl ohne Pressung und mit minimaler Sauerstoffzufuhr gewonnen.</p><p><br/>Bei beiden Verfahren darf die Temperatur der verarbeiteten Stoffe (Oliven, Olivenbrei, Olivenöl-Wasser-Gemisch) im Laufe der Verarbeitung nie über 27 °C steigen. Nur wenn diese Temperatur nicht überschritten wird, handelt es sich um ein „kaltgepresstes“ bzw. „kaltextrahiertes“ Olivenöl.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_19": {
+          "type": "accordion",
+          "settings": {
+            "title": "Über welche Wirkstoffe verfügt Olivenöl?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Speziell native Olivenöle extra enthalten eine große Zahl strukturell unterschiedlicher Komponenten.</p><p>Zu diesen sogenannten Fett-Begleitstoffen gehören z.B. Vitamine wie Tocopherol (Vitamin E), Flavonoide, Phenole, Kohlenwasserstoffe, Sterole und Geschmacks/Aromastoffe. Während die aromatischen Substanzen für dencharakteristischen Geschmack und das Aroma des Öls verantwortlich sind, erhöhen die anderen Substanzen seine Stabilität, indem sie schädliche und zerstörerische Prozesse, wie die durch freie Radikale verursachte Oxidationvon Lipiden, verhindern.</p><p>Im Olivenöl kommen die sekundären Pflanzenstoffe Phytosterine/Phytostanole vor. Phytosterine/Phytostanole tragen zur Aufrechterhaltung eines normalen Cholesterinspiegels im Blut bei. Die positive Wirkung stellt sich bei einer täglichen Aufnahme von mindestens 0,8 g Phytosterinen/Phytostanolen ein. </p><p>Angesichts möglicher zusätzlicher synergistischer Effekte zwischen allen genannten Fettbegleitstoffen sowie der günstigen Fettsäurezusammensetzung könnten die positiven Wirkungen des Olivenöls in seiner Gesamtheit sogar größer sein als die Summe der positiven Effekte der einzelnen Inhaltsstoffe.</p><p>Immer mehr Wissenschaftler und Ernährungsexperten raten heute zur gesunden Mittelmeerkost, in der das Olivenöl sowohl geschmacklich als auch ernährungsphysiologisch eine überragende Rolle spielt.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_20": {
+          "type": "accordion",
+          "settings": {
+            "title": "Worin unterscheiden sich grüne und schwarze Oliven?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Alle Oliven sind anfangs grün und werden im Verlauf des Reifeprozesses dunkler. Es existieren allerdings rund 1.000 verschiedene Olivenbaumarten und entsprechend viele Olivensorten. Diese unterscheiden sich oft in Größe und Geschmack. Die großen Oliven eignen sich aufgrund ihres hohen Wassergehaltes kaum zur Ölgewinnung. Sie bleiben oft auch im reifen Zustand grün, sind saurer und weniger aromatisch.</p><p>Je kleiner die Sorte ausfällt, desto dunkler wird die Olive im Reifeprozess. Wegen ihres höheren Ölanteils weisen die kleineren Oliven meist einen feineren Geschmack auf. Für Jordan Olivenöl werden ausschließlich die zwei Sorten Adramitiani und Kolovi verwendet. Sie sind beide verhältnismäßig klein und wachsen ausschließlich auf der griechischen Insel Lesbos.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_21": {
+          "type": "accordion",
+          "settings": {
+            "title": "Wie viele Oliven kommen in einen Liter Olivenöl?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Ein Olivenbaum trägt ungefähr 20 Kilogramm Oliven. Daraus lassen sich zwischen zwei und vier Liter Olivenöl gewinnen. Oder anders herum: In einem Liter Olivenöl stecken fünf bis zehn Kilogramm Oliven. Abhängig von Sorte und Auslese.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_22": {
+          "type": "accordion",
+          "settings": {
+            "title": "Was versteht man unter der Fruchtfliege auch bekannt als Olivenfliege?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Die Fruchtfliege, auch bekannt als Olivenfliege (Bactrocera oleae), manchmal auch als \"Takos\" in Griechenland bezeichnet. Diese Fliegenart ist ein bedeutender Schädling in Olivenhainen und kann erheblichen Schaden anrichten. Sie ist in den meisten Mittelmeerländern verbreitet, darunter auch in Griechenland, wo der Olivenanbau eine bedeutende Rolle in der Landwirtschaft spielt.</p><p>Die Olivenfliege legt ihre Eier in die Olivenfrüchte. Nachdem die Larven geschlüpft sind, fressen sie sich in die Frucht hinein und verursachen so erheblichen Schaden. Die betroffenen Früchte können vorzeitig vom Baum fallen oder die Qualität des aus diesen Oliven hergestellten Öls kann beeinträchtigt sein. Zudem sind die angefressenen Früchte anfälliger für Pilz- und Bakterieninfektionen.</p><p>Die Bekämpfung der Olivenfliege kann eine Herausforderung sein. Es gibt verschiedene Strategien, darunter den Einsatz von Insektiziden, Fallen und natürlichen Feinden. Einige Bauern nutzen auch eine Methode namens \"Sterile Insect Technique\" (SIT), bei der sterilisierte Männchen in den Olivenhain freigelassen werden, um die Fortpflanzung der Schädlinge zu stören. Jordan Olivenöl setzt auf organische Methoden zur Schädlingsbekämpfung, wie etwa das Aufhängen von Pheromonfallen zur Anlockung und Beseitigung der Männchen.</p><p>Letztlich kann der Befall durch die Olivenfliege erheblichen Einfluss auf die Qualität des Olivenöls haben, weshalb die Kontrolle dieses Schädlings ein wichtiger Aspekt im Olivenanbau ist.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_23": {
+          "type": "accordion",
+          "settings": {
+            "title": "Mineralölrückstände in Olivenölen: Gesundheitsgefahr oder Panikmache?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Schon seit einigen Jahren sind Rückstände von Mineralölkohlenwasserstoffen in Lebensmitteln ein Thema, das in den Medien einen großen Stellenwert einnimmt. Besonders im Fokus stehen dabei die Olivenöle: Jedes zweite Olivenöl soll laut ÖKO-TEST (Mai 2019) „stark“ mit Mineralölrückständen verunreinigt sein.</p><p>Als einer der ersten Medien hatte die Stiftung Warentest im Januar 2016 das Thema aufgegriffen: Fünf von sechsundzwanzig geprüften Olivenöl waren ihr zufolge stark mit Mineralöl kontaminiert.</p><p>Mineralölkohlenwasserstoffe MOH (Mineral Oil Hydrocarbons) bestehen aus zwei verschiedenen Fraktionen: den gesättigten Kohlenwasserstoffen MOSH (Mineral Oil Saturated Hydrocarbons) – paraffinartige, offenkettige Verbindungen – und den aromatischen Kohlenwasserstoffen MOAH (Mineral Oil Aromatic Hydrocarbons), die aus alkylierten mono bzw. polyaromatischen Substanzen bestehen. Außerdem wurden in Olivenölen sogenannte POSH (Polyolefinic Oligomeric Saturated Hydrocarbons) nachgewiesen. Hierbei handelt es sich um gesättigte Kohlenwasserstoffe, die aus Kunststoffen migrieren und auch in der MOSH-Fraktion auftreten.</p><p>Wie kommen diese Stoffe ins Olivenöl? MOAH befinden sich in Schmierölen, werden also von jeder Maschine freigesetzt. Die Olivenbauern setzen Erntemaschinen ein, die die Oliven vom Baum rütteln. Während der Ernte werden Bäume zurückgeschnitten – häufig mit Kettensägen, die ebenfalls Schmieröl benötigen.</p><p>Die Fahrzeuge, mit denen die Ernte zu den Verarbeitungsstätten gebracht wird, stoßen Abgase aus, in den sich Minarölbestandteile befinden. Die in den Mühlen betriebenen Maschinen werden mit Öl geschmiert – eine weitere Quelle der Kontamination. In einigen kleineren Handwerksbetrieben werden Plastik- statt Stahltanks zur Lagerung des Olivenöls verwendet. Auch die in Plastik enthaltenen Mineralöle können ins Olivenöl übergehen.</p><p>Unsere Jordan Olivenöle weisen im Übrigen bis heute nie Mineralölrückstände über den Grenzwerten auf. Es lassen sich lediglich vereinzelt minimale spuren Nachweisen, die ganz einfach durch ubiquitäre Migration (Übergang durch Abgase vorbeifahrender Autos aus der Luft zB.) zu erklären sind und in jedem Lebensmittel mitunter vorkommen. Das die Jordan Olivenöle nicht belastet sind, liegt zB. daran, dass die Bäume nur selten mit Motorsägen beschnitten werden und vor allem die Ernte von Hand und nicht mit Maschinen durchgeführt wird. Ein weitere Grund ist sicher, das wir selbst die Ernte kontrollieren und somit die menschenmöglichen Faktoren selbst ausschließen können. In unseren jährlichen Analysen kontrollieren wir unsere Jordan Olivenöle dennoch regelmäßig auf Mineralölrückstände.</p><p>Weiterhin zu nennen sind Pflanzenschutzmittel wie Paraffinöl, das von der Europäischen Union allerdings sogar im biologischen Landbau zugelassen ist. Eine weitere Ursache für die Verunreinigung von Lebensmitteln mit Mineralölen besteht in Recyclingverpackungen. Diese beinhalten in der Regel Tageszeitungspapier; die dort eingesetzten mineralölhaltigen Druckfarben können über die Verpackung ins Lebensmittel migrieren. In der Schweiz ist aus diesem Grund der direkte Kontakt von Lebensmitteln zu Recyclingkarton verboten. Die EU hat bis dato keine vergleichbare Regelung eingeführt. Und: Die EU hat bis heute keine Grenzwerte für Mineralöl in Olivenölen festgelegt.</p><p>Der Grund: Es ist nach wie vor unklar, inwieweit die in chemischen Analysen festgestellten Mengen an MOSH und MOAH für den Verbraucher überhaupt schädlich sind. Zwar ist bekannt, dass sich MOSH in der Leber, der Milz, den Lymphdrüsen und im Fettgewebe ablagern können. Ob diese Mengen jedoch für den Körper schädlich sind, ist nicht geklärt. MOAH gelten als möglicherweise krebserregend, einen wissenschaftlichen Beweis für diese These gibt es jedoch bis heute nicht. Zudem stellt sich auch hier die Frage nach der realen Gefahr angesichts minimaler gefundener Rückstände in Lebensmitteln. Die Wirkung von POSH ist bislang kaum erforscht; alle Aussagen zu ihren Auswirkungen auf den menschlichen Organismus sind daher spekulativ.</p><p>Hinzu kommt die Frage, wie verlässlich die Messwerte sind. Da die Quantifizierung von Mineralölwasserstoffen nicht auf der Ebene von Einzelstoffen, sondern hinsichtlich ganzer Stoffgruppen erfolgt und MOSH und MOAH eine große chemische Ähnlichkeit zu in der Natur vorkommenden Kohlenwasserstoffen aufweisen, ist ihre Analytik anspruchsvoll. Entsprechend kommt es immer wieder zu Fehlinterpretationen, was sich auch daran erkennen lässt, dass im Rahmen von Ringversuchen zur Validierung der Testnorm DIN EN 16995 in verschiedenen Tests für dieselbe Probe ganz unterschiedliche Ergebnisse auftraten. Ein genormtes Testverfahren für Lebensmittel steht in der EU nach wie vor nicht zur Verfügung.</p><p>Grundsätzlich stellt sich also die Frage, inwiefern in minimalen Mengen gemessene Rückstände an MOSH, POSH und MOAH nicht durch die in zahlreichen Studien bewiesenen im Olivenöl enthaltenen gesundheitsfördernden Bestandteile mehr als ausgeglichen werden.</p><p>Solange diese Frage ungeklärt ist, sollten sich Verbraucher/-innen vor Augen führen, dass die Lebenserwartung in Griechenland im Jahr 2019 laut Statista mit 81,9 Jahren weltweit zu den höchsten gehörte. Gleichzeitig weist Griechenland den höchsten Pro-Kopf-Verbrauch an Olivenöl auf: 15 Liter konsumiert jeder Einwohner jährlich – in Deutschland ist es gerade mal ein Liter.</p><p>Zur These einer Gesundheitsgefährdung durch Olivenöl passen diese Zahlen nicht wirklich.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_24": {
+          "type": "accordion",
+          "settings": {
+            "title": "Was bedeutet Fettsäuregehalt und freie Fettsäuren?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Begriffe wie Fettsäuregehalt oder Säurezahl hört man oft im Zusammenhang mit der Qualität von Olivenölen. Hier heisst es meist, dass der Wert besonders niedrig sein soll. Hier liegt häufig ein Missverständnis vor.</p><p>Die sogenannte Ölsäure liegt im Schnitt meist bei 70%. Desto höher der Wert desto besser ist die Qualität des Öls. (Der Wert hierfür wird neben vielen anderen Werten gemäß der EU-Verordnung <a href=\"https://web.archive.org/web/20221006234839/http://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX%3A32013R1348\" target=\"_blank\">EWG Nr. 2568/91</a> bestimmt welche in der Durchführungsverordnung <a href=\"https://web.archive.org/web/20221006234839/http://eur-lex.europa.eu/legal-content/DE/ALL/?uri=CELEX%3A32013R1348\" target=\"_blank\">(EU) Nr. 1348/2013</a> umgesetzt wurde.)</p><p>Besonders niedrig soll hingegen ein anderer Wert sein um eine besonders gute Qualität zu beschreiben. Hierbei handelt es sich um die sogenannten freien Fettsäuren berechnet in Prozent Ölsäure. Diese freien Fettsäuren spalten sich von einem Glycerinmolekül ab. Dieser Vorgang geschieht dann, wenn die Oliven nach der Ernte zu lange liegen bleiben bevor Sie weiterverarbeitet werden.</p><p>Der Begriff Fettsäuregehalt kommt in der EU-Verordnung <a href=\"https://web.archive.org/web/20221006234839/http://eur-lex.europa.eu/legal-content/DE/TXT/?uri=uriserv:OJ.L_.2016.326.01.0001.01.DEU#ntr2-L_2016326DE.01000302-E0002\" target=\"_blank\">(EWG) Nr. 2568/91</a> vom 26.09.2016 vor. Hier werden unter dem Überbegriff Fettsäuregehalt einige Fettsäuren zusammengefasst, die bestimmte Grenzwerte nicht überschreiten sollen. Diese heißen Myristinsäure, Linolensäure, Arachinsäure, Eicosensäure, Behensäure und Lignocerinsäure. Ausserdem werden grenzwerte für die Summe der Transisomeren der Linol- und Linolensäure angegeben. Anhand dieser Werte sollen potentielle Fälschungen erkannt werden.</p><p>Wir lassen unser Jordan Olivenöl jedes Jahr analysieren und veröffentlichen die Ergebnisse auf unserer Webseite. Dort finden Sie auch den Wert der freien Fettsäuren, berechnet als Ölsäure.</p><p>Hier geht´s zur <a href=\"/pages/analyse\" title=\"Analyse\">ANALYSE</a></p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_25": {
+          "type": "accordion",
+          "settings": {
+            "title": "Was versteht man unter Frühabfüllung?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Jordan Olivenöl schmeckt von Natur aus mild und sanft. Es gibt aber Olivenölliebhaber, die einen ursprünglichen und kräftigen Geschmack bevorzugen. Um dieser besonderen Vorliebe unserer Kunden gerecht zu werden, haben wir das Konzept der Frühabfüllung entwickelt. Hierbei wird das Olivenöl nach der Pressung - ohne mehrmonatige Zwischenlagerung - direkt in Flaschen abgefüllt. Das Öl behält so seine natürlichen Schweb- und Bitterstoffe, die für das unvergleichlich kräftige Aroma sorgen.</p><p>Diese unvergleichliche Frühabfüllung von unserem Jordan Olivenöl kann jedes Jahr bis Ende November vorbestellt werden. Spätestens im Januar haben wir das junge Öl an Sie versendet.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_26": {
+          "type": "accordion",
+          "settings": {
+            "title": "Was ist besser: Pressung oder Extraktion?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Ein wesentlicher Nachteil der traditionellen Pressung von Olivenöl besteht darin, dass sowohl der Olivenbrei als auch das Olivenöl-Wasser-Gemisch im Laufe der Herstellung in hohem Maße mit Sauerstoff in Verbindung kommt. Bei der so ausgelösten Oxidation reagieren die bioaktiven Substanzen der Oliven mit dem Sauerstoff, was eine Minderung der Qualität bis hin zu einem muffigen, ranzigen Geschmack hervorrufen kann.</p><p>Vor allem die gesunden Fettbegleitstoffe des Olivenöls (Vitamine und Antioxidantien) sind bei einem derart produzierten Olivenöl oftmals nicht so reichhaltig vorhanden. Hinzu kommt, dass die verwendeten Matten aus Zeit- und Kostengründen nie rückstandslos gereinigt werden können und die vorhandenen Reste somit in die Pressung der nächsten Charge eingehen. Daher rüsten immer mehr Qualitätsproduzenten auf das moderne Extraktionsverfahren um, auch wenn dies hohe Anschaffungskosten nach sich zieht.</p><p>Die moderne Kaltextraktion. ( Bildquelle: Informationsgemeinschaft Olivenöl, Syntax Werbeagentur GmbH )</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_27": {
+          "type": "accordion",
+          "settings": {
+            "title": "Wie lagere ich Olivenöl am besten?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Olivenöl sollte in jedem Fall vor direkter Sonneneinstrahlung geschützt werden und dauerhaft unter 24 Grad Zimmertemperatur gelagert werden. Gerade bei größeren Mengen Olivenöl empfiehlt es sich, das Öl in lichtundurchlässigen Behältern, wie Kanistern oder dunklen Glasflaschen, zu lagern. Die Behälter sollten luftdicht verschlossen und vor erneuter Nutzung restlos gesäubert werden. Die ideale Lagertemperatur für Olivenöl liegt bei 15 Grad.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_28": {
+          "type": "accordion",
+          "settings": {
+            "title": "Was sind Polyphenole?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Polyphenole sind sekundäre Pflanzenstoffe und im Allgemeinen an der Abwehr von UV-Strahlung oder Krankheitserregern beteiligt. In den letzten zehn Jahren gibt es immer größeses Interesse an den potenziellen gesundheitlichen Vorteilen von diätetischen Pflanzenpolyphenolen als Antioxidantien. Epidemiologische Studien und damit verbundene Metaanalysen deuten stark darauf hin, dass eine langfristige Einnahme von Ernährungsweisen, die reich an pflanzlichen Polyphenolen sind, Schutz vor der Entwicklung von Krebs, Herz-Kreislauf-Erkrankungen, Diabetes, Osteoporose und neurodegenerativen Erkrankungen bietet.</p><p>Polyphenole sind natürlich vorkommende Verbindungen, die größtenteils in Obst, Gemüse, Getreide und Getränken vorkommen. Früchte wie Trauben, Äpfel, Birnen, Kirschen und Beeren enthalten bis zu 200–300 mg Polyphenole pro 100 Gramm Frischgewicht. Die aus diesen Früchten hergestellten Produkte enthalten auch Polyphenole in erheblichen Mengen. Typischerweise enthält ein Glas Rotwein oder eine Tasse Tee oder Kaffee etwa 100 mg Polyphenole. Getreide, getrocknete Hülsenfrüchte und Schokolade tragen ebenfalls zur Aufnahme von Polyphenolen bei.</p><p>Im Olivenöl tragen Polyphenole zu Herbem Geschmack, Bitterkeit und Schärfe bei. Welche dieser Attribute in einem nativem Olivenöl extra wahrgenommen werden können, hängt von der Art der Oliven und dem Zeitpunkt ihrer Ernte ab.</p><p>Bei einer wissenschaftlichen Untersuchung der Universität Athen aus dem Jahre 2021 wurde festgestellt dass die Kolovi Olive, welche wir für unser Jordan Olivenöl verwenden, über besonders vorteilhafte Eigenschaften wegen Ihres Polyphenolgehalts verfügt. Die identifizierten phenolischen Verbindungen zeigen günstige gesundheitliche Wirkungen im Bezug auf oxidativen Stress und antithrombotische Profile und kardiovaskuläre Risikofaktoren sowie Wirkung gegen chronische Krankheiten wie Krebs und Diabetes sowie gegen Fettleiigkeit. Ausserdem zeigen Sie Wirkung<br/>gegen die Alzheimer-Krankheit. Ausessendem wirken Sie blutdrucksenkend, antimikrobiell und entzündungshemmend. Diese Ergebnisse deuten stark darauf hin, dass Olivenöle aus der Kolovi Olive über eine angemessene Ernährung hinaus die Gesundheit verbesseren und das Wohlbefinden fördern.</p><p>Quellen: National Library of Medicine USA. <br/>Plant polyphenols as dietary antioxidants in human health and disease, Autoren: Kanti Bhooshan Pandey and Syed Ibrahim Rizvi<br/>Characterization of the Phenolic Fingerprint of Kolovi Extra Virgin Olive Oils from Lesvos with Regard to Altitude and Farming System Analyzed by UHPLC-QTOF-MS<br/>Natasa P. Kalogiouri, Evangelia Kritikou, Ioannis C. Martakos, Constantina Lazarou, Michalis Pentogennis, and Nikolaos S. Thomaidis*</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_29": {
+          "type": "accordion",
+          "settings": {
+            "title": "Muss Olivenöl reifen?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Direkt nach der Ernte ist Olivenöl besonders intensiv und scharf-würzig im Geschmack. Wie ein guter Wein sollte es daher reifen wobei man eher von ruhen spricht. Dies findet in Tanks unter Luftabschluss statt und dauert zwischen drei und fünf Monaten. </p><p>Die Reifung von Olivenöl ist ein äußerst komplexer Prozess, der sowohl von der Qualität der Oliven als auch von den spezifischen Bedingungen während der Lagerung abhängt.</p><p>Erstens spielt die Qualität der Oliven eine wesentliche Rolle. Diese Qualität wird durch verschiedene Faktoren bestimmt, darunter die Sorte der Oliven, der Reifegrad zum Zeitpunkt der Ernte, die Bodenbeschaffenheit, in der die Olivenbäume wachsen, sowie klimatische Bedingungen während der Wachstumsperiode.</p><p>Zweitens ist der Prozess der Olivenölherstellung selbst entscheidend. Beispielsweise ist es wichtig, die Oliven so schnell wie möglich nach der Ernte zu pressen, um die Oxidation und den Verlust an Geschmack zu minimieren. Außerdem sollte das Öl unter niedriger Temperatur gepresst werden, um ein hochwertiges \"kaltgepresstes\" Olivenöl zu erhalten, das die meisten gesundheitlichen Vorteile bietet.</p><p>Was den Reifungsprozess betrifft, so ist es wichtig zu beachten, dass Olivenöl im Gegensatz zu Wein nicht wirklich \"reift\", sondern eher \"ruht\". Dieser Ruheprozess ermöglicht es den verschiedenen Aromen und Geschmacksnoten, sich auszugleichen und zu harmonisieren. Es ist wichtig, dass der Reifungsprozess unter kontrollierten Bedingungen stattfindet, um die Qualität des Öls zu gewährleisten. Die Tanks, in denen das Olivenöl gelagert wird, sollten luftdicht sein, um den Kontakt mit Sauerstoff zu minimieren, der das Öl oxidieren und seinen Geschmack beeinträchtigen könnte.</p><p>Die ideale Lagertemperatur für Olivenöl liegt zwischen 15 und 20 Grad Celsius. Extreme Temperaturen können dazu führen, dass das Öl ranzig wird oder seine Aromen verliert. Die Lagerung sollte auch dunkel erfolgen, da Licht die Oxidation des Öls beschleunigen kann.</p><p>Schließlich ist es wichtig, dass das Öl nach der Reifung richtig abgefüllt wird. Es sollte in dunklen Flaschen oder Behältern verpackt werden, um das Öl vor Licht zu schützen. Darüber hinaus sollten die Behälter aus Materialien bestehen, die das Öl nicht beeinträchtigen oder verändern, wie zum Beispiel Glas oder Edelstahl.</p><p>Zusammengefasst ist die Reifung von Olivenöl ein sorgfältig kontrollierter Prozess, der sowohl von der Qualität der Oliven und der Art der Ölherstellung als auch von den Bedingungen während der Lagerung und Abfüllung abhängt. Ein gut gereiftes Olivenöl ist ein wahrer Genuss, der mit seiner Harmonie von Aromen und Geschmacksnoten begeistert.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_30": {
+          "type": "accordion",
+          "settings": {
+            "title": "Warum ist Olivenöl gesund?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Bisher gibt es zwei zugelassene Aussagen der europäsischen \"Health Claims\"-Verordnung. </p><p>Zum einen zu den Sterinen/Stanolen. Phytosterine/Phytostanole tragen zur Aufrechterhaltung eines normalen Cholesterinspiegels im Blut bei. Die positive Wirkung stellt sich bei einer täglichen Aufnahme von mindestens 0,8 g Phytosterinen/Phytostanolen ein. In Olivenöl sind zwischen einem Gramm bis zwei Gramm pro Liter enthalten. Mit Olivenöl allein wäre somit eine Aufnahme von 0,5 Liter - 1,00 Liter nötig um eine positive Wirkung zu erzielen. Da man diese Menge in der Regel nicht täglich zu sich nimmt, ist Olivenöl hier als Ergänzung zu sehen.</p><p>Zum anderen zu den Polyphenolen. Olivenöl-Polyphenole tragen dazu bei, die Blutfette vor Oxidativem Stress zu schützen.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_31": {
+          "type": "accordion",
+          "settings": {
+            "title": "Was versteht man unter kalt gepresst und erste Pressung?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Sie finden sich nach wie vor auf viel zu vielen Olivenöl-Flaschen: die Bezeichnungen „kalt gepresst“, „erste Pressung“ oder sogar „Erste Kaltpressung“. Wer glaubt, dies seien Hinweise auf Qualität, liegt schlichtweg falsch. Denn faktisch kann Olivenöl nicht kalt hergestellt werden. Und ebenso existieren Mehrfach-Pressungen auch seit sehr langer Zeit schon nicht mehr.</p><p>Aber woher kommen überhaupt die Bezeichnungen überhaupt? Hierfür müssen wir rund ein Jahrhundert in der Geschichte zurückgehen. Damals hatten die Ölmüller nämlich keine andere Möglichkeit, als den Olivenbrei in mehreren Pressgängen zu bearbeiten, um aus ihm auch noch das letzte Tröpfchen Öl wortwörtlich herauszupressen. Diese Pressgänge geschahen erst kalt, dann heiß, da erst durch das Übergießen mit heißem Wasser die wirklich letzten Ölreste herausgeholt werden konnten. Während kaltgepresst zu dieser Zeit ein Argument für Qualität war, ist es heutzutage nicht wertend gedacht. Aus dem ganz einfachen Grund, weil Olivenöl nirgendwo mehr heiß gepresst wird.</p><p>Es existieren zwei unterschiedliche Herstellungsverfahren für die Gewinnung von Olivenöl: die Kaltextraktion und Kaltpressung. Bei der Kaltpressung werden traditionellerweise hydraulische Pressen in einem offenen Kreislauf eingesetzt. Um die offizielle Bezeichnung „kalt gepresst“ oder „kalt extrahiert“ zu tragen, darf bei beiden Methoden während des gesamten Verarbeitungsprozesses die Temperatur der involvierten Stoffe wie Oliven, Olivenbrei und Oliven-Wasser-Gemisch nie über 27 °C steigen.</p><p>Ideal für die Herstellung eines Olivenöls ist eine Mindesttemperatur von 18 – 20 °C. Unterhalb dieser Temperaturen ist nicht nur die Herstellung an sich komplizierter, sondern es muss auch mit einem geringeren und viel helleren Ölertrag gerechnet werden. Allgemein lässt sich sagen, dass diegrüne Farbigkeit des Olivenöls zunimmt, je höher die Temperatur über 24 °C steigt. Hier sollte der Verbraucher jedoch aufpassen! Während eine möglichst grüne Farbe des Öls optisch etwas hermacht, büßt es dafür an sensorischer Reintönigkeit ein, weil Temperaturen über 25 °C ungünstigerweise die Aktivität unerwünschter Enzyme fördern. Was zu der Schlussfolgerung führt, dass der weitverbreitete Glaube, die grüne Farbe würde durch das Mitmahlen der Olivenblätter hervorgerufen, völliger Unsinn ist. Vielmehr resultiert die grüne Farbe eines Olivenöls aus der Verarbeitung von grünen, noch unreifen Früchten. Eher gelbliche, süßliche Öle ohne deutliche Fruchtigkeit werden hingegen aus schwarzen, überreifen oder sogar von zu Boden gefallenen Oliven gewonnen. Qualitativ ist dies ein erheblicher Unterschied. Resümierend ist somit klar, dass die Temperaturkontrolle oberste Priorität in der Ölmühle haben sollte, wenn man bewusst auf Qualität und nicht auf Masse setzt. Denn nicht zu selten wird Olivenöl bis auf über 30 °C erhitzt, um so den Pressvorgang und den damit verbundenen höheren Ertrag zu forcieren. Mit dieser hohen Temperatur geht leider auch der Verlust von ölivenöltypischen Aromen verloren und es kommt zur Bildung von Fermentationsnoten. Darüber hinaus sinkt der Polyphenolgehalt, je höher die Gradzahl und länger die Knetzeit ist. Sollte es aufgrund von klimatischen Bedingungen zu einem starken Abfall der Temperaturen kommen, können diese glücklicherweise in der Knetwanne reguliert werden.</p><p>Auch gesetzlich ist mit der EU-Verordnung 1019 seit 2002 verankert, wann sich ein Olivenöl mit der Angabe „kalt gepresst“ und „kalt extrahiert“ auszeichnen darf: „Die Angabe ‚erste Kaltpressung’ ist nur zulässig bei Nativem Olivenöl und Nativem Olivenöl Extra, das durch die erste mechanische Pressung der Olivenmasse bei maximal 27 °C in einem traditionellen Extraktionssystem mit hydraulischer Presse gewonnen wurde. Die Angabe ‚Kaltextraktion’ ist nur bei Nativem Olivenöl und Nativem Olivenöl Extra erlaubt, das durch Perkolation („Heraussickern“) oder Zentrifugieren der Olivenmasse bei maximal 27 °C gewonnen wurde.“</p><p>Generell ist diese gesetzliche Regelung, was unter „kalt“ zu verstehen ist, natürlich zu begrüßen, da somit Qualität gefördert wird. Wenngleich 27 °C für eine gesicherte Qualität im Olivenöl schon recht hoch ist. Daher setzen Qualitätsproduzenten lieber auf Temperaturen unter 25 °C, um dadurch geschmackliche Veränderungen im Olivenöl zu verhindern. Dass sie dadurch weniger Olivenöl produzieren, nehmen sie gern in Kauf.</p><p>Bei Jordan Olivenöl wird im Übrigen ausschließlich mit dem Verfahren der Kaltextraktion gearbeitet, dem sowohl besten als auch fortschrittlichsten Verfahren.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_32": {
+          "type": "accordion",
+          "settings": {
+            "title": "Was geschieht mit der Olive während des Reifeprozesses?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Oliven, die kostbaren Früchte des Olivenbaums, enthalten neben gesunden Inhaltsstoffen wie ungesättigten Fettsäuren unter anderem auch Zucker! Denn, wie andere Pflanzen auch, besitzt die mediterrane Olivenpflanze die Eigenschaft, Zucker zu bilden. Abhängig vom Zeitpunkt der Ernte kann die Menge des enthaltenen Zuckers kann jedoch stark variieren und gibt darüber hinaus Aufschluss über die Qualität. Sprich, der Zeitpunkt der Ernte hat sowohl einen erheblichen Einfluss auf den Geschmack und die Qualität des späteren Olivenöls, als auch auf die Quantität des enthaltenen Zuckers.</p><p></p><p></p><p>Aber kann der Olivenbauer den Zuckergehalt seiner Olivenfrüchte überhaupt beeinflussen? Und wenn ja, wie?</p><p>Allgemein gilt hier, dass ein sinkender Zuckergehalt dem Olivenbauer signalisiert, dass der richtige Zeitpunkt der Ernte bevorsteht. Im Umkehrschluss tut der Olivenbauer jedoch gut daran, bei hohen Zuckerwerten, die bei noch unreifen Oliven oder an sonnigen Tagen nach einer regnerischen Periode auftreten können, den Beginn der Ernte heraus zu zögern. Hier heißt es also Geduld haben.</p><p>Je nach Anbaugebiet und nach Qualitätsbewusstsein kann die Olivenernte schon Ende September beginnen und bis teilweise in den März hinein dauern.  Die Familie Jordan erntet in der Regel im November, da dies oft der ideale Zeitpunkt ist, um die höchste Qualität an Olivenöl zu produzieren. Abhängig von klimatischen Veränderungen kann sich der Zeitpunkt der Jordan-Ernte jedoch durchaus auch bis hin zu Anfang Dezember verschieben.</p><p></p><p>Warum es sich lohnt, mit der Ernte zu warten, zeigt der Blick auf den Zuckergehalt in den Oliven im Frühherbst, der sich auf bis über 80 Kilogramm pro Kilo Olivenbrei belaufen kann. Dies hängt mit den klimatischen Bedingungen zusammen. Denn die immer noch hohen Temperaturen, die in den frühen Erntetagen in den mediterranen Herkunftsländern herrschen, fördern auf ungünstige Weise die hohe Enzymaktivität und den hohen Zuckergehalt im Olivenbrei. Eine unerwünschte Folge dieser enzymatischen Prozesse können ausgeprägte Fehlaromen sein, die sich zum einen in den Knetwannen bemerkbar machen, aber zum anderen auch nach dem Pressen in den Lagerbehältern weitergehen. Lediglich eine Filterung des Öls nach der Pressung kann hier Abhilfe schaffen.</p><p> </p><p>Diese notwendige Filterung bei fehlerhaften Olivenölen benötigen die Jordan Olivenöle hingegen nicht, da die Jordan Oliven ein sehr ausgewogenes Zucker-Verhältnis besitzen. Sehr vorteilhaft, denn so bleiben Geschmack und gesunde Inhaltsstoffe in höherer Menge erhalten.</p><p></p><p>Wann ist also der ideale Erntezeitpunkt, wenn ein ausbalancierter Zuckergehalt erzielt werden möchte? Experten empfehlen, erst mit der Ernte zu beginnen, wenn der Zuckergehalt unter 30 Gramm pro Kilo liegt. Ab den ersten kalten Tagen im Herbst, die dafür sorgen, dass die Olivenzellen Zucker in Fett verwandeln, beginnt die spannende Phase für die Olivenbauern. Je früher die Kältetage Einzug halten, desto früher kommt es zu einer tiefen Konzentration des Zuckers in den Oliven. Erneute Anstiege des Zuckergehalts sind auch hier wieder klimatisch bedingt – auftretende Wärmeperioden Ende Oktober oder Anfang November sind schuld. Daher ist es ratsam, erst mit der Ernte zu beginnen, wenn die klimatischen Bedingungen optimal sind.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_33": {
+          "type": "accordion",
+          "settings": {
+            "title": "Welche verarbeiteten Produkte kann man aus Oliven bzw. dem Olivenbaum gewinnen?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Das bekannteste Produkt, das aus Oliven gewonnen wird, ist zweifelsohne das in der Küche vielseitig einsetzbare Olivenöl. Direkt gefolgt von den Früchten selber, die es in allerlei Variationen zu genießen gibt: schwarz, grün, getrocknet, mariniert. Eine ganz besondere Delikatesse sind die kandierten Oliven von Jordan Olivenöl, die in Zusammenarbeit mit dem Spitzenkoch Heiko Antoniewicz kreiert wurden. Für die Jordan Candy Oliven werden die entsteinten Oliven erst dehydriert und dann mit braunem Rohrzucker aus Mauritius verfeinert. Ein raffinierter Oliven-Snack mit einem leicht nussigen, salzigen und zugleich an Süßholz erinnernden Geschmack.</p><p>Als Tapenade oder auch Pesto machen die grob pürierten Oliven eine gute Figur - beispielsweise als Brotaufstrich oder als besondere Zugabe zu Pasta-Gerichten. Der Olivenölkäse, auch Ladotyri Mytilene genannt, gilt als berühmteste Käsesorte der Insel Lesbos, trägt eine geschützte Ursprungsbezeichnung und darf nur auf der Insel selber produziert werden. Aber warum eigentlich Olivenölkäse? Dies ist die wortgetreue Übersetzung der altertümlichen Bezeichnung Ladotyri, dessen Herstellung weit bis ins antike Griechenland zurückreicht. Aufgrund fehlender elektrischer Kühlung wurde der Käse damals in Behältern gelagert, die bis zum Rande mit Olivenöl aus den Sorten Kolovi und Adramitiani gefüllt waren. Aus einem einfachen Grunde: um es zu konservieren.</p><p>Wie perfekt sich Oliven und Olivenöl für die Zubereitung unterschiedlicher köstlicher Gerichte eignen, zeigt Olivenölexperte Bastian Jordan eindrucksvoll in seinem brandneuen Olivenöl-Kochbuch. Ob für Suppen, Mayonnaisen, Focaccia oder Vanillesauce, ob für einfache Brote oder exquisite 3-Sterne-Gerichte – im kulinarischen Leben sind Oliven beziehungsweise Olivenöl nicht mehr wegzudenken.</p><p>Aber nicht nur aus den Früchten, sondern auch aus dem Olivenbaum selber können tolle Produkte gewonnen werden. Denn das Holz der Olivenbäume mit seiner charakteristischen Naturmaserung eignet sich beispielsweise ideal für die Herstellung von Küchenaccessoires wie Löffel oder Pfannenwender.</p><p>Reich an ungesättigten Fettsäuren, Vitaminen und Polyphenolen kann das kostbare Olivenöl darüber hinaus sehr gut für kosmetische Zwecke eingesetzt werden. Erst in den letzten Jahren hat die Kosmetikindustrie den besonderen Wert von Olivenöl entdeckt und nutzt das „flüssige Gold“ für die Produktion von reichhaltigen Hautcremes, Seifen, Badeölen, Peelings und Haarpflegeprodukten. Laut Meinung der Experten von Jordan Olivenöl sollte man allerdings am besten zu purem, hochwertigem Olivenöl greifen, da in den meisten Kosmetikprodukten der Olivenöl-Anteil zu gering ist.</p><p>Eines ist klar: Olivenöl kann eben nicht nur innerlich, sondern auch äußerlich Gutes bewirken und es gibt noch viele weitere Produkte außer den hier aufgezählten, in denen das wertvolle Olivenöl eine Rolle spielt. Viel Freude beim Entdecken! </p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_34": {
+          "type": "accordion",
+          "settings": {
+            "title": "Oliven ohne Salz: Eine kulinarische Unmöglichkeit?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Es gibt wenige kulinarische Genüsse, die so universell und vielseitig sind wie die bescheidene Olive. Diese kleinen Früchte, reich an gesunden Fettsäuren und voller Geschmack, sind eine wichtige Zutat in vielen Küchen weltweit. Doch während Olivenöle variieren können - von leicht und fruchtig bis intensiv und pfeffrig - gibt es eine Konstante bei Tafeloliven: Salz. Der Versuch, \"Oliven ohne Salz\" zu googeln, führt zu wenig erfolgversprechenden Ergebnissen. Warum ist das so? Warum ist Salz so unerlässlich in der Verarbeitung von Tafeloliven?</p><p>Die Antwort liegt in der einzigartigen Natur der Olive selbst. Frisch vom Baum geerntet, sind Oliven ungenießbar. Sie enthalten hohe Mengen an Oleuropein, einer bitteren Verbindung, die dem menschlichen Gaumen nicht angenehm ist. Hier kommt das Salz ins Spiel. Ein essentielles Element in der Verarbeitung von Tafeloliven, Salz spielt eine entscheidende Rolle beim Entfernen des bitteren Geschmacks, um die köstlichen Früchte, die wir kennen und lieben, hervorzubringen.</p><p>Der traditionelle Prozess der Olivenverarbeitung, oft als \"Wässern\" oder \"Einlegen in Salzlake\" bezeichnet, umfasst das Einweichen der Oliven in Wasser, das regelmäßig gewechselt wird, und schließlich das Einlegen in eine Salzlösung. Diese Prozedur, die mehrere Wochen bis Monate dauern kann, ermöglicht es, dass das Oleuropein aus den Oliven auslaugt und in das Wasser übergeht. Was bleibt, ist eine Olive, die ihre Bitterkeit verloren hat und einen angenehm milden bis herzhaften Geschmack entwickelt hat.</p><p>Die Frage nach \"Oliven ohne Salz\" führt also zu einem Dilemma: Ohne Salz bleibt die Olive in ihrem bitteren, ungenießbaren Zustand. Aber es gibt eine zunehmende Nachfrage nach weniger salzigen Lebensmitteln, hauptsächlich aus gesundheitlichen Gründen. Also, wie lässt sich das lösen?</p><p>Es ist wichtig zu beachten, dass das Salz in der Verarbeitung von Oliven eine funktionale, keine geschmackliche Rolle spielt. Es geht darum, die Bitterkeit zu entfernen, nicht um Salzigkeit hinzuzufügen. Sobald die Oliven ihre Bitterkeit verloren haben, können sie gründlich abgespült werden, um überschüssiges Salz zu entfernen. In der Tat enthalten viele in Geschäften erhältliche Oliven nur eine geringe Menge Salz.</p><p>Forschung und Innovation haben auch zu Methoden geführt, um den Salzgehalt in Oliven weiter zu reduzieren. Einige Verfahren verwenden Lauge anstelle von Salz, um die Bitterkeit zu reduzieren. Andere Methoden spielen mit der Zeit und der Temperatur, um den Salzbedarf zu minimieren.</p><p>Die Wahrheit bleibt jedoch: Eine Olive ohne jeglichen Kontakt mit Salz ist ein Ding der Unmöglichkeit. Die Rolle, die Salz in der Verarbeitung spielt, ist einfach zu entscheidend. Dennoch sind die Möglichkeiten für Oliven mit reduziertem Salzgehalt reichlich und vielfältig. So kann das Verlangen nach \"Oliven ohne Salz\" zwar nicht vollständig erfüllt werden, aber es gibt viele Alternativen für diejenigen, die ihren Salzkonsum reduzieren wollen, ohne auf den Geschmack und die gesundheitlichen Vorteile dieser mediterranen Frucht verzichten zu müssen.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "owl_35": {
+          "type": "accordion",
+          "settings": {
+            "title": "Warum sind manche Olivenblüten verkümmert?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Olivenbäume steuern aktiv ihre Energie durch einen natürlichen Selektionsprozess, um nur die lebensfähigsten Blüten zur Fruchtbildung zu bringen. Verkümmerte, bräunliche Blüten zeigen an, dass der Baum Ressourcen spart, indem er schwächere Blüten aussortiert. Dieser Vorgang wird durch Umweltfaktoren wie Temperatur, Licht und Wasserverfügbarkeit beeinflusst und ist entscheidend für die Qualität der Oliven, die letztlich zu hochwertigem Olivenöl verarbeitet werden. Für mehr Details <a href=\"/blogs/news/naturliche-selektion-am-olivenbaum-wie-die-natur-die-besten-fruchte-wahlt\" title=\"Natürliche Selektion am Olivenbaum: Wie die Natur die besten Früchte wählt\">hier klicken.</a></p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        }
+      },
+      "block_order": [
+        "section_heading",
+        "owl_0",
+        "owl_1",
+        "owl_2",
+        "owl_3",
+        "owl_4",
+        "owl_5",
+        "owl_6",
+        "owl_7",
+        "owl_8",
+        "owl_9",
+        "owl_10",
+        "owl_11",
+        "owl_12",
+        "owl_13",
+        "owl_14",
+        "owl_15",
+        "owl_16",
+        "owl_17",
+        "owl_18",
+        "owl_19",
+        "owl_20",
+        "owl_21",
+        "owl_22",
+        "owl_23",
+        "owl_24",
+        "owl_25",
+        "owl_26",
+        "owl_27",
+        "owl_28",
+        "owl_29",
+        "owl_30",
+        "owl_31",
+        "owl_32",
+        "owl_33",
+        "owl_34",
+        "owl_35"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 16,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "schema": {
+      "type": "custom-liquid",
+      "blocks": {},
+      "block_order": [],
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"Wie wird Olivenöl hergestellt?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Olivenöl wird entweder traditionell mit hydraulischen Pressen oder modern durch Kaltextraktion mit Zentrifugen hergestellt. Entscheidend ist, dass die Verarbeitung bei maximal 27 °C erfolgt, damit es als kaltgepresst gilt.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Wie lange ist Olivenöl haltbar?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Olivenöl ist bis zu zwei Jahre haltbar, hochwertiges sogar länger ohne Qualitätsverlust. Minderwertiges Öl wird oft schon nach wenigen Monaten ranzig.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Wie stark kann ich Olivenöl erhitzen?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Olivenöl extra vergine ist bis 190 °C erhitzbar und bleibt dabei stabil sowie gesund. Damit eignet es sich ideal zum Braten, Schmoren, Dünsten und Backen.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Was versteht man unter Frühernte Olivenöl?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Frühernte-Olivenöl wird aus unreifen Oliven gewonnen und hat einen intensiven, krautigen Geschmack mit hohem Polyphenolgehalt. Da die Ausbeute gering ist, ist es selten und besonders geschätzt.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Was sagt die Farbe des Olivenöls aus?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Die Farbe von Olivenöl sagt fast nichts über Qualität oder Geschmack aus. Nur starke Abweichungen von Gelb oder Grün deuten auf Verunreinigungen hin.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Was bedeutet gefiltert und ungefiltert?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Gefiltertes Olivenöl ist klarer, ungefiltertes enthält natürliche Schwebstoffe mit wertvollen Nährstoffen und mehr Geschmack. Chemische Filterung verlängert zwar die Haltbarkeit, zerstört aber den typischen Charakter des Öls.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Was haben Singvögel mit Olivenöl zu tun?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Im Gegensatz zu Jordan Olivenöl arbeiten viele andere Produzenten bei der Olivenernte mit sogenannten Vollerntern bei Nachts.Die automatischen Erntemaschinen saugen die Vögel mit ein, was für die Tiere tödlich endet. Die Erntemaschinen fahren durch die Olivenhaine und schütteln die Oliven ab und saugen Sie dann ein. Dies passiert auch Nachts um die maximale Zeit auszunutzen. Da in der Erntezeit im Winter Millionen von Vögeln, darunter auch viele geschützte Arten, in den mediterranen Gebieten überwintern, sind Sie hier besonders bedroht. Allein in Spanien geht man von einer Zahl von ca. 2,6 Millionen Tieren aus, die jedes Jahr eingesaugt und getötet werden. In Portugal, Frankreich und Italien sind es viele weitere. Laut den Fachleuten sind die Vögel durch helle Lichter und laute Geräusche der Maschinen so verwirrt, dass Sie nicht fliehen.Bei Jordan Olivenöl wird von hand und tagsüber geerntet. Hier kommen keine Tiere zu schaden.Aufgrund der geografischen Gegebenheiten ist es bei uns rein technisch schon nicht möglich mit Maschinen zu arbeiten. Unsere Olivenhaine liegen auf hügeleigem und unwegsamen Gelände und sind für die Maschinen gar nicht erreichbar. Darüberhinaus tun wir es auch nicht, da ein hochwertiges Olivenöl nur hergestellt werden kann, wenn man zum richtigen Zeitpunkt erntet. Die ist bei uns je nach Jahrgang zwischen Oktober und Dezember. Zu diesem Zeitpunkt sitzen die Oliven noch zu fest am Baum um durch rütteln oder absaugen vom Baum gelöst zu werden. Dies ist erst möglich wenn die Oliven bereits weiter gereift sind. Und dies ist erst viel später der Fall, ab Februar bis Mai des folgenden Jahres.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Kann ich Olivenöl, welches Schwebstoffe enthält, weiterhin verwenden?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Ja, Sie können Olivenöl mit Schwebstoffen bedenkenlos verwenden. Die Eintrübungen sind ein Qualitätsmerkmal und enthalten wertvolle Antioxidantien.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Olivenöl als Emulgator und Bindemittel\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Olivenöl bindet und emulgiert Speisen und sorgt für cremige Konsistenz, z. B. in Mayonnaise, Kuchen oder Brot. Beim Ersetzen von Butter gilt das Verhältnis 4:3, wichtig ist mildes, hochwertiges Öl.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Olivenöl zur Konservierung\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Olivenöl schützt Lebensmittel vor Oxidation und Verderb, wenn sie vollständig darin eingelagert sind. Wichtig sind saubere Produkte, luftdichter Verschluss und kühle, dunkle Lagerung.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Wie hoch ist der Verbrauch von Olivenöl pro Kopf in Deutschland?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"In Deutschland liegt der Pro-Kopf-Verbrauch von Olivenöl bei nur 0,8 Litern. In Südeuropa und Nordafrika liegt er deutlich höher, Spitzenreiter ist Griechenland mit 13 Litern.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Was sind Antioxidantien? Was haben Antioxidantien mit Olivenöl zu tun?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Antioxidantien schützen vor oxidativem Stress und kommen im Olivenöl in natürlicher Form vor. Natives Olivenöl enthält besonders viele davon und ist dadurch ernährungsphysiologisch wertvoll.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Was bedeutet Fettsäuregehalt und freie Fettsäuren?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Beim Olivenöl gilt: Ein hoher Ölsäuregehalt spricht für Qualität, ein niedriger Wert freier Fettsäuren für Frische. Grenzwerte weiterer Fettsäuren helfen, Fälschungen zu erkennen.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Weichmacher in Olivenölen und anderen Lebensmitteln?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Weichmacher können zwar in Olivenöl nachgewiesen werden, die Mengen sind aber zu gering, um die Gesundheit zu gefährden. Hochwertiges Olivenöl gilt im Gegenteil als förderlich für Herz und Lebenserwartung.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Wie erklären sich die großen Preisunterschiede bei Olivenölen?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Preisunterschiede bei Olivenöl entstehen vor allem durch Erntemethode, Personalkosten und Produktionsmenge. Handarbeit, kleine Hainen und schnelle Verarbeitung sichern Qualität – machen Öl aber teurer als Massenware.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Kann ich Olivenöl im Kühlschrank aufbewahren?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Olivenöl hält im Kühlschrank nicht länger und verliert dabei Aroma. Besser bei Zimmertemperatur lagern.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Wie werden Oliven geerntet?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Oliven können maschinell oder per Hand geerntet werden. Für hochwertiges Olivenöl ist die mühsame Handarbeit mit Stöcken und Rechen entscheidend, da die Früchte direkt reif und schnell verarbeitet werden.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Wann werden Oliven geerntet?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Oliven werden geerntet, wenn sie sich von grün zu violett verfärben – meist im November. Bei industrieller Produktion kann die Ernte bis ins Frühjahr verschoben werden, was die Qualität mindert.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Wie wird Olivenöl hergestellt?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Olivenöl wird entweder traditionell durch Kaltpressung mit hydraulischen Pressen oder modern durch Kaltextraktion mit Zentrifugen hergestellt. Beide Methoden arbeiten ohne hohe Temperaturen, damit das Öl seine Qualität behält.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Über welche Wirkstoffe verfügt Olivenöl\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Olivenöl enthält viele wertvolle Begleitstoffe wie Vitamine, Phenole und Phytosterine. Sie unterstützen Cholesterinregulation, schützen vor Oxidation und machen Olivenöl zu einem zentralen Bestandteil der Mittelmeerkost.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Worin unterscheiden sich grüne und schwarze Oliven?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Grüne Oliven sind unreif oder stammen von großen Sorten mit wenig Öl, schwarze Oliven sind reifere kleine Früchte mit mehr Aroma. Für Jordan Olivenöl werden nur die kleinen Sorten Adramitiani und Kolovi von Lesbos verwendet.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Wie viele Oliven kommen in einen Liter Olivenöl?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Ein Liter Olivenöl enthält etwa fünf bis zehn Kilo Oliven. Je nach Sorte und Auslese schwankt die Menge.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Was versteht man unter der Fruchtfliege auch bekannt als Olivenfliege?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Die Olivenfliege ist ein gefährlicher Schädling im Mittelmeerraum, der Olivenfrüchte befällt und die Ölqualität mindert. Bauern bekämpfen sie mit Fallen, natürlichen Methoden oder speziellen Techniken wie SIT.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Mineralölrückstände in Olivenölen: Gesundheitsgefahr oder Panikmache?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Mineralölrückstände in Olivenöl sorgen seit Jahren für Schlagzeilen, doch ihre tatsächliche Gesundheitsgefahr ist wissenschaftlich nicht belegt. Trotz nachweisbarer Spuren fehlen klare Grenzwerte und einheitliche Tests, während Olivenöl nachweislich viele positive Gesundheitseffekte hat.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Was bedeutet Fettsäuregehalt und freie Fettsäuren?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Der Fettsäuregehalt beschreibt den Anteil bestimmter Fettsäuren im Olivenöl, während freie Fettsäuren entstehen, wenn Oliven zu lange vor der Verarbeitung lagern. Gutes Olivenöl hat viel Ölsäure, aber einen sehr niedrigen Wert an freien Fettsäuren.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Was versteht man unter Frühabfüllung?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Frühabfüllung bedeutet, dass Olivenöl direkt nach der Pressung ohne Lagerung abgefüllt wird. So bleiben Bitterstoffe und Schwebstoffe erhalten, die für ein kräftiges Aroma sorgen.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Was ist besser: Pressung oder Extraktion?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Extraktion liefert hochwertigeres Olivenöl, da weniger Oxidation entsteht und mehr gesunde Stoffe erhalten bleiben. Pressung birgt höhere Risiken für Qualitätsverlust und Verunreinigung.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Wie lagere ich Olivenöl am besten?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Olivenöl bleibt am längsten frisch, wenn es dunkel, kühl und luftdicht gelagert wird. Optimal sind 15 Grad und lichtundurchlässige, saubere Behälter.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Was sind Polyphenole?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Polyphenole sind Pflanzenstoffe mit antioxidativer Wirkung, die das Risiko für Krebs, Herz-Kreislauf-Erkrankungen, Diabetes und Alzheimer senken können. Besonders Olivenöl aus der Kolovi Olive zeigt laut Studien starke gesundheitsfördernde Effekte.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Muss Olivenöl reifen?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Olivenöl reift nicht wie Wein, sondern ruht drei bis fünf Monate, damit sich Aromen ausgleichen. Qualität, Lagerung und Abfüllung entscheiden über Geschmack und Haltbarkeit.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Warum ist Olivenöl gesund?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Olivenöl enthält Phytosterine und Polyphenole. Sie können den Cholesterinspiegel unterstützen und Blutfette vor oxidativem Stress schützen.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Was versteht man unter kalt gepresst und erste Pressung?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"„Kalt gepresst“ und „erste Pressung“ sind heute keine Qualitätsmerkmale mehr, sondern historisch überholte Begriffe. Entscheidend für gutes Olivenöl ist die Temperaturkontrolle – unter 25 °C bleibt Aroma und Qualität erhalten.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Was geschieht mit der Olive während des Reifeprozesses?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Der Zuckergehalt in Oliven bestimmt Geschmack und Qualität des Öls und zeigt dem Bauern den richtigen Erntezeitpunkt. Experten empfehlen die Ernte erst, wenn der Wert unter 30 g pro Kilo liegt.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Welche verarbeiteten Produkte kann man aus Oliven bzw. dem Olivenbaum gewinnen?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Aus Oliven entstehen vielfältige Produkte: Olivenöl, eingelegte Früchte, Tapenade, Käse, Süßwaren und Kosmetik. Auch das Holz des Olivenbaums wird genutzt, etwa für Küchenutensilien.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Oliven ohne Salz: Eine kulinarische Unmöglichkeit?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Oliven ohne Salz sind unmöglich, da Salz die Bitterstoffe entfernt. Wer weniger Salz möchte, findet aber schonend verarbeitete Alternativen mit reduziertem Gehalt.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Warum sind manche Olivenblüten verkümmert?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Olivenbäume sortieren schwache Blüten aus, um Energie zu sparen. Umweltfaktoren wie Licht, Wasser und Temperatur entscheiden, welche Blüten Früchte tragen.\"\n    }\n  }]\n}\n</script>",
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero",
+    "accordion_1",
+    "schema"
+  ]
+}

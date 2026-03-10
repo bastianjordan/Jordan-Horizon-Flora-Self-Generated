@@ -1,0 +1,354 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "blocks": {
+        "kicker": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Jordan Olivenöl</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "0.875rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "title": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Die Region</h1>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Lesbos </strong>(1630 qkm - 84.000 Einwohner)</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "kicker",
+        "title",
+        "subtitle"
+      ],
+      "settings": {
+        "media_type_1": "image",
+        "section_width": "full-width",
+        "section_height": "medium",
+        "color_scheme": "scheme-6",
+        "toggle_overlay": true,
+        "overlay_color": "#00000040",
+        "padding-block-start": 0,
+        "padding-block-end": 0,
+        "image_1": "shopify://shop_images/309-1M5B5114_5.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "Title",
+          "settings": {
+            "text": "<h1>{{ closest.page.title }}</h1>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "page-content": {
+          "type": "page-content",
+          "settings": {},
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "page-content"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 32,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 80
+      }
+    },
+    "text_1": {
+      "type": "section",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Lesbos</strong> (1630 qkm - 84.000 Einwohner) gehört zu den ostägäischen Inseln und ist die drittgrößte Insel Griechenlands. Hauptstadt ist Mytilini (knapp 30.000 Einwohner). Die Insel ist bisher vom Massentourismus verschont geblieben. Besonders im Süden gibt es einige kilometerlange Strände.</p><p>Haupteinnahmequelle der Insel ist weiterhin der sehr intensiv betriebene Olivenanbau - nach Kreta ist Lesbos der wichtigste Produzent von Olivenöl Griechenlands. Aber auch der Schiffbau sowie das Zimmer- und Keramikhandwerk werden noch sehr häufig betrieben. Neben den riesigen Olivenhainen beherrschen zahlreiche Kiefernwälder die Landschaft. Außergewöhnlich sind die beiden großen Golfe (Golf von Kalloni und Golf von Geras), die sich weit ins Inselinnere ziehen.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 24,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "gallery_1": {
+      "type": "carousel",
+      "blocks": {
+        "slide_0": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/448-DSC09673.jpg",
+            "link": ""
+          },
+          "blocks": {}
+        },
+        "slide_1": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/248-DSC07838.jpg",
+            "link": ""
+          },
+          "blocks": {}
+        },
+        "slide_2": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/281-DSC07992.jpg",
+            "link": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "slide_0",
+        "slide_1",
+        "slide_2"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "text_2": {
+      "type": "section",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Die Hauptstadt Mytilini</strong> liegt an der Ostküste (ziemlich weit im Süden) und ist mit Sicherheit keine \"Touristenstadt\". Sehenswert ist das Kastro aus dem 6. Jahrhundert, welches von den Genuesern im 14. und 15. Jahrhundert zu einer der größten Festungen in der östlichen Ägäis ausgebaut wurde. Das Lesbos bis 1912 von den Türken besetzt war, wird einem verdeutlicht, wenn man durch die Odos Ermou, eine Basarstraße mit vielen kleinen Geschäften, schlendert. Am Ende befindet sich dann noch eine größere Moschee. Auf der großen Insel liegen die einzelnen Dörfer weit verstreut. Nicht weit von Mytilini entfernt liegt etwas nordwestlich ein römisches Aquädukt beim Dorf Moria. Ein schönes Küstendorf ist Skala Sikamineas im Nordosten der Insel. Zahlreiche Serpentinen führen hinunter zu diesem Ort, in dem es mehrere gemütliche Tavernen gibt.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 24,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "mosaic_1": {
+      "type": "section",
+      "blocks": {
+        "card_0": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/239-DSC07686_1e5c3f18-f0aa-4f11-8323-fd3ff17c5f1f.jpg",
+            "link": ""
+          },
+          "blocks": {},
+          "block_order": []
+        },
+        "card_1": {
+          "type": "_card",
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/240-DSC07696.jpg",
+            "link": ""
+          },
+          "blocks": {},
+          "block_order": []
+        }
+      },
+      "block_order": [
+        "card_0",
+        "card_1"
+      ],
+      "settings": {
+        "content_direction": "row",
+        "gap": 16,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "text_3": {
+      "type": "section",
+      "blocks": {
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>An der Südküste liegt Plomari, </strong>ein kleines Städtchen unterhalb des Olympos (mit knapp unter 1.000 Metern der höchste Berg der Insel). In diesem Ort gibt es noch einige Ouzo-Destillerien, die man meistens auch besichtigen kann. Der Ouzo von Lesbos gilt als einer der besten Griechenlands. Ein sehr schönes Bergdorf mit vielen engen Gassen ist Agiassos (nordöstlich vom Olympos). Viele der Häuser haben hübsche Erker und Balkone. In dem Dorf gibt es mehrere Werkstätten in denen Holz verarbeitet wird bzw. Töpferarbeiten hergestellt werden. Auf der Westküstenseite (zwischen den Orten Antissa und Sigri) befindet sich ein versteinerter Wald von Mammutbäumen, der durch die Lava eines Vulkanausbruchs entstanden ist. Das Gebiet ist eingezäunt, einige Stämme können aber über Fußwege erreicht werden.</p><p>Das größte Touristenzentrum liegt um Vatera an der Nordküste auf einer Länge von ca. 6 Kilometern. Südlich von Mytilini liegt der Flughafen der Insel, Verbindungen gibt es mit Athen, Thessaloniki, Limnos und Chios. Diverse Fähren laufen die Hauptstadt Mytilini an (u.a. Piräus, Samos, Chios, Patmos, Leros, Rhodos, Thessaloniki und Limnos).</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "center",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 24,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero",
+    "text_1",
+    "gallery_1",
+    "text_2",
+    "mosaic_1",
+    "text_3"
+  ]
+}

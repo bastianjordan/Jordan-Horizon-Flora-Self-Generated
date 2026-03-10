@@ -1,0 +1,639 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "Title",
+          "settings": {
+            "text": "<h1>{{ closest.page.title }}</h1>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "page-content": {
+          "type": "page-content",
+          "settings": {},
+          "blocks": {}
+        }
+      },
+      "block_order": ["heading", "page-content"],
+      "settings": {
+        "content_direction": "column",
+        "gap": 32,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 80
+      }
+    },
+    "hero_engagement": {
+      "type": "hero",
+      "blocks": {
+        "group": {
+          "type": "group",
+          "name": "Content",
+          "settings": {
+            "link": "",
+            "open_in_new_tab": false,
+            "content_direction": "column",
+            "vertical_on_mobile": true,
+            "horizontal_alignment": "center",
+            "vertical_alignment": "center",
+            "align_baseline": false,
+            "horizontal_alignment_flex_direction_column": "flex-start",
+            "vertical_alignment_flex_direction_column": "flex-start",
+            "gap": 16,
+            "width": "fit-content",
+            "custom_width": 70,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "background_media": "none",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "overlay_style": "solid",
+            "gradient_direction": "to top",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "kicker": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Jordan Olivenöl</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "overline",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "uppercase",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "heading": {
+              "type": "text",
+              "settings": {
+                "text": "<h1>Engagement</h1>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h1",
+                "font": "var(--font-primary--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "subtext": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Auch wenn wir ein kleines Familienunternehmen sind, versuchen wir uns einzubringen und zu helfen.</p><p>Folgende Projekte und Vereine versuchen wir zu unterstützen.</p>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": ["kicker", "heading", "subtext"]
+        }
+      },
+      "block_order": ["group"],
+      "settings": {
+        "media_type_1": "image",
+        "image_1": "shopify://shop_images/361-DSC08568.jpg",
+        "section_width": "full-width",
+        "section_height": "medium",
+        "section_height_custom": 5,
+        "color_scheme": "scheme-6",
+        "toggle_overlay": true,
+        "overlay_color": "#00000033",
+        "overlay_style": "solid",
+        "gradient_direction": "to bottom",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "solingen": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/Unbenannt-3.jpg",
+            "link": "",
+            "video_loop": true,
+            "video_autoplay": false
+          },
+          "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 24
+          },
+          "blocks": {
+            "kicker": {
+              "type": "text",
+              "name": "Kicker",
+              "settings": {
+                "text": "<p>Hilfsorganisationen für ein menschenwürdeiges Leben in überfüllten Flüchtlingscamps:</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "overline",
+                "font": "var(--font-body--family)",
+                "font_size": "0.875rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "heading": {
+              "type": "text",
+              "name": "Heading",
+              "settings": {
+                "text": "<h2>Solingen hilft e.V.</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Nicht wegsehen, sondern da helfen, wo Hilfe gebraucht wird. Das ist das Ziel des Vereins Solingen hilft e.V.</p><p>Solingen hilft e.V. unterstützt und initiiert internationale und lokale Projekte, die nachhaltig die Lebenssituation Benachteiligter verbessern. Ziel ist ihnen ein würdevolles und selbstbestimmtes Leben zu ermöglichen.</p><p>Angesicht der überfüllten Flüchtlingscamps auf der griechischen Insel Lesbos steht aktuell die Verbesserung der medizinischen Versorgung im <a href=\"https://solingen-hilft.de/moria/\">Camp Moria</a> im Mittelpunkt.</p><p>Dr. Christoph Zenses ist regelmäßig ehrenamtlich dort und betreut die Menschen medizinisch. Täglich werden zwischen 60 und 70 Patienten behandelt. Es fehlt an allem: Weder EKG noch ein Ultraschall-Gerät sind vorhanden, selbst Medikamente und Verbrauchsmaterial wie Verbände und sind Mangelware. Die Menschen in Camp Moria leiden an den Folgen ihrer Flucht wie Gewalt, Folter und Vergewaltigungen sowie an Krankheiten, die auf die Lebensumstände im überfüllten Camp zurückzuführen sind.</p>",
+                "width": "100%",
+                "max_width": "narrow",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": ["kicker", "heading", "text"]
+        }
+      },
+      "block_order": ["media", "content"],
+      "name": "Solingen hilft e.V.",
+      "settings": {
+        "media_position": "right",
+        "media_width": "wide",
+        "media_height": "60svh",
+        "section_width": "full-width",
+        "extend_media": true,
+        "color_scheme": "",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "heimatstern": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/Unbenannt-5.jpg",
+            "link": "",
+            "video_loop": true,
+            "video_autoplay": false
+          },
+          "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 24
+          },
+          "blocks": {
+            "heading": {
+              "type": "text",
+              "name": "Heading",
+              "settings": {
+                "text": "<h2>Heimatstern e.V. & Betterplace</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Seit über 2 Jahren ist Griechenland erstes, europäisches Ziel vieler Menschen, die vor Krieg, Folter und Verfolgung fliehen. Trotz dreistelliger Millionenbeträge, die die EU zur Verfügung stellt, sind die Lebensbedingungen der Flüchtlinge speziell auf den griechischen Inseln noch immer katastrophal. Und im Winter verschärft sich die Lage durch die kalte Witterung noch weiter.Während die offiziellen Stellen noch immer den Mangel verwalten, haben unzählige Graswurzelorganisationen ihre Arbeit immer weiter professionalisiert und leisten vor Ort wertvolle Arbeit, von der Erstversorgung ankommender Menschen bis hin zu Bildungsmaßnahmen, Integration, Traumatherapie und der Schaffung von Arbeitsplätzen für Geflüchtete.Ohne die Arbeit der Ehrenamtlichen wäre die Lage für Geflüchtete komplett aussichtlos. Aus diesem Grund ist es besonders wichtig, gut funktionierende Initiativen weiter zu fördern.Mit diesem Projekt arbeitet Heimatstern von München aus gezielt mit kleinen Organisationen auf Lesbos und anderen Ägäisinseln zusammen. Es geht darum, ganz elementare Bedürfnisse abzudecken, von Unterkunftszelten über Decken, Schlafsäcke bis hin zu Heizlüftern. Wo immer sinnvoll werden die Artikel lokal beschafft oder besonders günstige Quellen genutzt, um möglichst viele Hilfsgüter mit den eingesetzten Mitteln zu beschaffen.</p><p><a href=\"https://www.heimatstern.org/\" title=\"https://www.heimatstern.org/\"><strong>Heimatstern Website</strong></a></p><p><a href=\"https://www.betterplace.org/\" title=\"https://www.betterplace.org/\"><strong>Betterplace Website</strong></a></p>",
+                "width": "100%",
+                "max_width": "narrow",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": ["heading", "text"]
+        }
+      },
+      "block_order": ["media", "content"],
+      "name": "Heimatstern e.V. & Betterplace",
+      "settings": {
+        "media_position": "right",
+        "media_width": "wide",
+        "media_height": "60svh",
+        "section_width": "full-width",
+        "extend_media": true,
+        "color_scheme": "",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "molyvos": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/Unbenannt-4.jpg",
+            "link": "",
+            "video_loop": true,
+            "video_autoplay": false
+          },
+          "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 24
+          },
+          "blocks": {
+            "kicker": {
+              "type": "text",
+              "name": "Kicker",
+              "settings": {
+                "text": "<p>Kulturförderung:</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "overline",
+                "font": "var(--font-body--family)",
+                "font_size": "0.875rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "heading": {
+              "type": "text",
+              "name": "Heading",
+              "settings": {
+                "text": "<h2>Verein der Freunde des Molyvos International Music Festival e.V.</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Der Verein „Freunde des Molyvos International Music Festival\" wurde 2016 gegründet. Eckpfeiler seiner Aktivitäten sind die nachhaltige Unterstützung der hohen Qualität des Festivals und des damit verbundenen umfangreichen musikalischen Jugendförderprogramms wie auch die Stärkung der Völkerverständigung durch Kunst- und Kulturförderung. Wegen dieser Ziele wurde dem Verein die Gemeinnützigkeit zuerkannt.</p><p>Musikfreunde, die dazu beitragen wollen, dass das „Molyvos International Music Festival\" ein bedeutendes europäisches Kulturereignis bleibt, seine Kontinuität gesichert wird und junge Menschen an klassische Musik auf höchstem Niveau herangeführt werden, sind eingeladen, Mitglieder zu werden und/oder die Arbeit des Vereins durch Spenden zu unterstützen.</p>",
+                "width": "100%",
+                "max_width": "narrow",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": ["kicker", "heading", "text"]
+        }
+      },
+      "block_order": ["media", "content"],
+      "name": "Molyvos Music Festival",
+      "settings": {
+        "media_position": "right",
+        "media_width": "wide",
+        "media_height": "60svh",
+        "section_width": "full-width",
+        "extend_media": true,
+        "color_scheme": "",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "unitas": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/Unbenannt-6.jpg",
+            "link": "",
+            "video_loop": true,
+            "video_autoplay": false
+          },
+          "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 24
+          },
+          "blocks": {
+            "kicker": {
+              "type": "text",
+              "name": "Kicker",
+              "settings": {
+                "text": "<p>Sportförderung:</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "overline",
+                "font": "var(--font-body--family)",
+                "font_size": "0.875rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "heading": {
+              "type": "text",
+              "name": "Heading",
+              "settings": {
+                "text": "<h2>DJK Unitas Haan e.V.</h2>",
+                "width": "fit-content",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h3",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Die Vereinsgeschichte der UNITAS begann schon im Jahr 1925, als der Mandolinenclub und der katholische Jünglingsverein sich entschlossen, einen Sportverein zu gründen. Im Bezirk Solingen war der Sportbund DJK UNITAS Haan einer der ersten Vereine. Es wurden Turn-, Leichtathletik-, Handball, Fußball- und Faustballabteilungen gegründet. Sangesfreudige und musizierende Mitglieder bildeten sogar eine Gesangsabteilung, den heutigen \"Städtischen Singverein Haan\".</p><p>Heute sind Sportler in insgesamt 17 Mannschaften (4 Herren-, 2 Damenmannschaften und 11 Jugendmannschaften) im Verein aktiv.</p><p>Trikotsponsoring im kleinen und engagement als Trainer für die ganz kleinen sind ein Teil unseres Engagements.</p>",
+                "width": "100%",
+                "max_width": "narrow",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": ["kicker", "heading", "text"]
+        }
+      },
+      "block_order": ["media", "content"],
+      "name": "DJK Unitas Haan e.V.",
+      "settings": {
+        "media_position": "right",
+        "media_width": "wide",
+        "media_height": "60svh",
+        "section_width": "full-width",
+        "extend_media": true,
+        "color_scheme": "",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_engagement",
+    "solingen",
+    "heimatstern",
+    "molyvos",
+    "unitas"
+  ]
+}

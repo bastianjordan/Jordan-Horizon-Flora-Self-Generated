@@ -1,0 +1,897 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "blocks": {
+        "kicker": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Jordan Olivenöl</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "0.875rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "title": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>Die besten Olivenöle der Welt</h1>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "subtitle": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ein ultimativer Qualitäts-Kompass – Von der Kraft Spaniens bis zum Geheimnis von Lesbos</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "kicker",
+        "title",
+        "subtitle"
+      ],
+      "settings": {
+        "media_type_1": "image",
+        "section_width": "full-width",
+        "section_height": "medium",
+        "color_scheme": "scheme-6",
+        "toggle_overlay": true,
+        "overlay_color": "#00000040",
+        "padding-block-start": 0,
+        "padding-block-end": 0,
+        "image_1": "shopify://shop_images/olivenhain_lesbos.jpg"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "Title",
+          "settings": {
+            "text": "<h1>{{ closest.page.title }}</h1>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "page-content": {
+          "type": "page-content",
+          "settings": {},
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "page-content"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 32,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 80
+      }
+    },
+    "woher": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "Heading",
+          "settings": {
+            "text": "<h2>Woher stammen die weltbesten Olivenöle?</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Eine analytische Reise zu den Top-Regionen, ihren charakteristischen Sorten und den Geheimnissen der Spitzenqualität.</strong></p><p>Die Suche nach dem „flüssigen Gold\" – einem <strong>Olivenöl von Weltklasse-Format</strong> – führt uns quer durch die globalen Anbaugebiete. Doch es geht nicht nur um die schiere Menge; es geht um <strong>Terroir, Sortenreinheit und Experten-Anerkennung.</strong> Ein besonders faszinierender Leuchtturm in dieser Qualitätslandschaft ist die griechische Insel Lesbos.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 24,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "lesbos": {
+      "type": "media-with-content",
+      "blocks": {
+        "media": {
+          "type": "_media-without-appearance",
+          "static": true,
+          "settings": {
+            "media_type": "image",
+            "image": "shopify://shop_images/241118_JordanOlivenoel_Lesbos__Rebecca_Pfiffer_16-Photoroom.jpg",
+            "link": "",
+            "video_loop": true,
+            "video_autoplay": false
+          },
+          "blocks": {}
+        },
+        "content": {
+          "type": "_content-without-appearance",
+          "static": true,
+          "settings": {
+            "horizontal_alignment_flex_direction_column": "center",
+            "vertical_alignment_flex_direction_column": "center",
+            "gap": 24
+          },
+          "blocks": {
+            "heading": {
+              "type": "text",
+              "name": "Heading",
+              "settings": {
+                "text": "<h2>Lesbos: Das Aushängeschild für Gourmet-Qualität</h2>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h2",
+                "font": "var(--font-primary--family)",
+                "font_size": "",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Lesbos vereint alles, was ein <a href=\"/collections/jordan-olivenol\" title=\"Jordan - Olivenöl\"><strong>erstklassiges Olivenöl</strong></a> auszeichnet: Ein ideales mediterranes Klima, mineralreiche Böden und eine außergewöhnliche Olivenbaum-Dichte. Mit rund 11 Millionen Bäumen (etwa 130 pro Einwohner) hebt sich die Insel im internationalen Vergleich deutlich ab – sie ist ein <strong>Hotspot für authentische, dichte Qualität.</strong></p><p><strong>Warum Lesbos in die Top-Liga gehört:</strong></p><ul><li><strong>Charakteristische Sorten:</strong> Die lokalen Varietäten <strong>Koloví (Kolovi)</strong> und <strong>Adramytiáni</strong> sind der Schlüssel zum unverwechselbaren Geschmack. Sie liefern <strong>feine, dezente Öle</strong> mit komplexen Aromen, die sich von den intensiveren Ölen anderer Regionen absetzen.</li><li><strong>Referenz der Spitzenklasse:</strong> Das Olivenöl der Marke Jordan ist ein Paradebeispiel. Von <strong>Spitzengastronomen</strong> hoch geschätzt und von vielen <strong>Kennern als eines der besten Olivenöle der Welt</strong> bezeichnet, demonstriert es eindrücklich den hohen Qualitätsanspruch der Insel.</li></ul>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "button": {
+              "type": "button",
+              "settings": {
+                "label": "Prämierte Jordan Olivenöle",
+                "link": "shopify://pages/auszeichnungen",
+                "open_in_new_tab": false,
+                "style_class": "button",
+                "width": "fit-content",
+                "custom_width": 100,
+                "width_mobile": "fit-content",
+                "custom_width_mobile": 100
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "heading",
+            "text",
+            "button"
+          ]
+        }
+      },
+      "block_order": [
+        "media",
+        "content"
+      ],
+      "settings": {
+        "media_position": "left",
+        "media_width": "wide",
+        "media_height": "60svh",
+        "section_width": "full-width",
+        "extend_media": true,
+        "color_scheme": "",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "europa": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "Heading",
+          "settings": {
+            "text": "<h2>Europas Top-Olivenöle: Mengen-Kraft und Sorten-Vielfalt</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die besten Olivenöle der Welt entstehen in einem gesunden Wettbewerb der Regionen. Während Lesbos in Sachen Dichte herausragt, dominieren andere Märkte in Volumen und Sortenvielfalt, die ebenfalls <strong>Premium-Qualität</strong> hervorbringen.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 24,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "table_1": {
+      "type": "custom-liquid",
+      "blocks": {},
+      "block_order": [],
+      "settings": {
+        "custom_liquid": "<table class=\"c24\"><tbody><tr class=\"c2\"><td class=\"c8 c14\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Land</span></p></td><td class=\"c17 c14\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Wichtige Sorten &amp; Charakteristik</span></p></td><td class=\"c19 c14\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Fokus-Qualität</span></p></td></tr><tr class=\"c16\"><td class=\"c8\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Spanien</span></p></td><td class=\"c17\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Picual</span><span class=\"c3\">&nbsp;(robust, pfeffrig), </span><span class=\"c0\">Arbequina</span><span class=\"c3\">&nbsp;(fruchtig-mild), </span><span class=\"c0\">Hojiblanca</span><span class=\"c3\">&nbsp;(grüner, komplex) – </span><span class=\"c0\">Andalusien</span><span class=\"c1\">&nbsp;ist das Herz.</span></p></td><td class=\"c19\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c1\">Menge &amp; International anerkannte Premium-Öle.</span></p></td></tr><tr class=\"c16\"><td class=\"c8\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Italien</span></p></td><td class=\"c17\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Frantoio, Leccino, Moraiolo, Coratina</span><span class=\"c1\">&nbsp;– Jede Region (Toskana, Apulien, Sizilien) prägt einzigartige, oft komplexe Öle.</span></p></td><td class=\"c19\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c3\">Tiefe Sortenvielfalt und </span><span class=\"c0\">exklusive Terroir-Öle.</span></p></td></tr><tr class=\"c18\"><td class=\"c8\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Griechenland</span></p></td><td class=\"c17\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Koroneiki</span><span class=\"c3\">&nbsp;(dominierend, intensiv fruchtig), </span><span class=\"c0\">Koloví</span><span class=\"c3\">&nbsp;(Lesbos, fein), </span><span class=\"c0\">Nocellara del Belice</span><span class=\"c1\">&nbsp;(Sizilien).</span></p></td><td class=\"c19\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c3\">Hochwertige, oft </span><span class=\"c0\">fruchtige Öle mit hoher Polyphenolzahl.</span></p></td></tr><tr class=\"c18\"><td class=\"c8\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Türkei</span></p></td><td class=\"c17\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Ayvalık, Gemlik, Memecik</span><span class=\"c3\">&nbsp;– Starke Entwicklung im Bereich </span><span class=\"c0\">Frühlese und Bio-Qualität.</span></p></td><td class=\"c19\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c1\">Aufstrebender Markt mit Fokus auf Qualität.</span></p></td></tr></tbody></table>",
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "sorten": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "Heading",
+          "settings": {
+            "text": "<h2>Detaillierter Sorten-Check: Der Schlüssel zum besten Geschmack</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Der Geschmack eines Olivenöls wird primär durch die Sorte bestimmt – und hier liegt das Geheimnis der <strong>weltbesten Öle</strong>.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 24,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "table_2": {
+      "type": "custom-liquid",
+      "blocks": {},
+      "block_order": [],
+      "settings": {
+        "custom_liquid": "<table class=\"c24\"><tbody><tr class=\"c2\"><td class=\"c13 c14\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Region</span></p></td><td class=\"c10 c14\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Top-Sorten für Premium-Öle</span></p></td><td class=\"c14 c15\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Aroma-Profil</span></p></td></tr><tr class=\"c2\"><td class=\"c13\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Toskana (IT)</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c1\">Frantoio, Leccino, Moraiolo</span></p></td><td class=\"c15\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c1\">Harmonisch, leicht bitter und scharf.</span></p></td></tr><tr class=\"c2\"><td class=\"c13\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Apulien (IT)</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c1\">Coratina, Peranzana</span></p></td><td class=\"c15\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c1\">Intensiv, hocharomatisch, oft pfeffrig (hohe Polyphenole).</span></p></td></tr><tr class=\"c2\"><td class=\"c13\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Andalusien (ES)</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c1\">Picual</span></p></td><td class=\"c15\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c1\">Robust, grün-fruchtig, stark pfeffrig im Abgang.</span></p></td></tr><tr class=\"c2\"><td class=\"c13\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Katalonien (ES)</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c1\">Arbequina</span></p></td><td class=\"c15\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c1\">Milde Fruchtigkeit, süßlich, wenig bitter.</span></p></td></tr><tr class=\"c2\"><td class=\"c13\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Kreta / Peloponnes (GR)</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c1\">Koroneiki</span></p></td><td class=\"c15\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c1\">Intensiv fruchtig, grasig, ausgewogene Schärfe.</span></p></td></tr><tr class=\"c2\"><td class=\"c13\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c0\">Lesbos (GR)</span></p></td><td class=\"c10\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c1\">Koloví, Adramytiáni</span></p></td><td class=\"c15\" colspan=\"1\" rowspan=\"1\"><p class=\"c7\"><span class=\"c1\">Feine Mandelnote, dezent, sehr elegantes Profil.</span></p></td></tr></tbody></table>",
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "aussereuropa": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "Heading",
+          "settings": {
+            "text": "<h2>Außereuropäische Geheimtipps: Die aufstrebenden Sterne</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die Qualitätskarte dehnt sich aus. Länder wie Tunesien (Chemlali, Chetoui) und Marokko (Picholine marocaine) sind starke Player. Doch auch in der „Neuen Welt“ entsteht <strong>Spitzenqualität</strong>:</p><ul><li><strong>USA (Kalifornien):</strong> Öle aus Mission und Manzanillo gewinnen bei internationalen Wettbewerben Anerkennung.</li><li><strong>Australien / Chile:</strong> Produzenten setzen auf Sorten wie Arbequina, Picual und Frantoio und punkten mit <strong>innovativer Anbautechnik und Frische.</strong></li></ul>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 24,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "fazit": {
+      "type": "section",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "name": "Heading",
+          "settings": {
+            "text": "<h2>Fazit: Was macht das beste Olivenöl aus?</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Die schiere Baumzahl ist irrelevant. <strong>Das beste Olivenöl der Welt</strong> vereint:</p><ol><li><strong>Terroir-Klarheit:</strong> Optimale Klima- und Bodenbedingungen (wie auf Lesbos).</li><li><strong>Sortenprofil:</strong> Eine Sorte, die zu einzigartigen Aromen führt (z. B. Koloví, Coratina oder Picual).</li><li><strong>Experten-Anerkennung:</strong> Prämierungen bei internationalen Wettbewerben und die Wertschätzung der Spitzengastronomie.</li></ol><p>Egal, ob Sie die <strong>fruchtige Intensität</strong> eines spanischen Picuals oder die <strong>feine Eleganz</strong> eines Koloví aus Lesbos suchen – dieser Kompass hilft Ihnen, <strong>echte Spitzenöle</strong> zu identifizieren.</p>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "paragraph",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "heading",
+        "text"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 24,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "faq": {
+      "type": "section",
+      "blocks": {
+        "section_heading": {
+          "type": "text",
+          "name": "Section Heading",
+          "settings": {
+            "text": "<h2>Häufig gestellte Fragen zu den besten Olivenölen der Welt</h2>",
+            "width": "100%",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h2",
+            "font": "var(--font-primary--family)",
+            "font_size": "",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "",
+            "background": false,
+            "background_color": "#00000026",
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "faq_0": {
+          "type": "accordion",
+          "settings": {
+            "title": "Was ist der Unterschied zwischen \"Extra Nativ\" und \"Beste Qualität\"?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<ul><li><strong>Extra Nativ (Extra Virgin):</strong> Dies ist die höchste offizielle <strong>Qualitätsstufe</strong>. Das Öl muss kalt gepresst sein, einen sehr geringen Säuregehalt (≤ 0,8%) aufweisen und in sensorischen Tests fehlerfrei sein.</li><li><strong>Beste Qualität (Gourmet-Niveau):</strong> Dies geht über die gesetzliche Norm hinaus. Es bedeutet <strong>Spitzen-Terroir, sortenreine Öle</strong> mit komplexen Aromen, hoher Polyphenolzahl (gesundheitlicher Wert) und Auszeichnungen bei renommierten Wettbewerben (z. B. NYIOOC, Flos Olei). <strong>Nicht jedes Extra Native ist Gourmet-Qualität.</strong></li></ul>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "faq_1": {
+          "type": "accordion",
+          "settings": {
+            "title": "Welches Land produziert mengenmäßig das beste Olivenöl?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p><strong>Spanien</strong> ist der unangefochtene mengenmäßige Marktführer, insbesondere die Region Andalusien (mit der Sorte <strong>Picual</strong>). Weltweit preisgekrönte Öle stammen aber auch aus <strong>Italien, Griechenland, Portugal</strong> und sogar aus Ländern wie <strong>Australien</strong> und den <strong>USA</strong>. <strong>Es gibt kein einzelnes \"bestes\" Land, sondern Top-Regionen.</strong></p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "faq_2": {
+          "type": "accordion",
+          "settings": {
+            "title": "Wie erkenne ich ein echtes Olivenöl von Weltklasse?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Achten Sie auf folgende drei Merkmale beim Verkosten:</p><ol><li><strong>Scharf (Pungent):</strong> Ein Kratzen im Hals, das auf hohe Polyphenole hinweist.</li><li><strong>Süß/Mild (Sweet/Smooth):</strong> Eine Balance in der Textur und im ersten Geschmackseindruck.</li><li><strong>Fruchtig (Fruity):</strong> Noten von frisch geschnittenem Gras, Artischocke, Tomatenblättern oder Mandeln.</li></ol><p><strong>Zusätzlich:</strong> Prüfen Sie die <strong>Erntezeit (aktuelles Jahr)</strong> und ob es sich um eine <strong>geschützte Herkunftsbezeichnung (DOP/g.U.)</strong> handelt.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "faq_3": {
+          "type": "accordion",
+          "settings": {
+            "title": "Welche Olivenöl-Sorte gilt als die gesündeste?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Öle mit der höchsten Konzentration an <strong>Polyphenolen</strong> (natürliche Antioxidantien) gelten als am gesündesten. Hier stechen vor allem die italienische Sorte <strong>Coratina</strong> und die spanische Sorte <strong>Picual</strong> hervor, oft gefolgt von der griechischen <strong>Koroneiki</strong>. Diese Öle sind typischerweise intensiver im Geschmack und schärfer im Abgang.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        },
+        "faq_4": {
+          "type": "accordion",
+          "settings": {
+            "title": "Warum wird Lesbos als Referenzpunkt für Qualität genannt, obwohl es kleine Mengen produziert?",
+            "open": false,
+            "width": "100%",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "answer": {
+              "type": "text",
+              "settings": {
+                "text": "<p>Lesbos sticht durch seine <strong>extrem hohe Baumdichte pro Kopf</strong> hervor, was eine tief verwurzelte Tradition und hohe Sorgfalt beim Anbau impliziert. Die spezifischen Sorten <strong>Koloví</strong> und <strong>Adramytiáni</strong> bieten ein einzigartiges, elegantes Geschmacksprofil, das von Kennern als <strong>Ausnahmeöl</strong> sehr geschätzt wird – also Qualität statt Quantität.</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "paragraph",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "color": "",
+                "background": false,
+                "background_color": "#00000026",
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "answer"
+          ]
+        }
+      },
+      "block_order": [
+        "section_heading",
+        "faq_0",
+        "faq_1",
+        "faq_2",
+        "faq_3",
+        "faq_4"
+      ],
+      "settings": {
+        "content_direction": "column",
+        "gap": 16,
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    },
+    "schema": {
+      "type": "custom-liquid",
+      "blocks": {},
+      "block_order": [],
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"Was ist der Unterschied zwischen Extra Nativ und Beste Qualität?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Extra Nativ (Extra Virgin): Dies ist die höchste offizielle Qualitätsstufe. Das Öl muss kalt gepresst sein, einen sehr geringen Säuregehalt (≤ 0,8%) aufweisen und in sensorischen Tests fehlerfrei sein. Beste Qualität (Gourmet-Niveau): Dies geht über die gesetzliche Norm hinaus. Es bedeutet Spitzen-Terroir, sortenreine Öle mit komplexen Aromen, hoher Polyphenolzahl (gesundheitlicher Wert) und Auszeichnungen bei renommierten Wettbewerben (z. B. NYIOOC, Flos Olei). Nicht jedes Extra Native ist Gourmet-Qualität.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Welches Land produziert mengenmäßig das beste Olivenöl?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Spanien ist der unangefochtene mengenmäßige Marktführer, insbesondere die Region Andalusien (mit der Sorte Picual). Weltweit preisgekrönte Öle stammen aber auch aus Italien, Griechenland, Portugal und sogar aus Ländern wie Australien und den USA. Es gibt kein einzelnes \\\"bestes\\\" Land, sondern Top-Regionen.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Wie erkenne ich ein echtes Olivenöl von Weltklasse?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Achten Sie auf folgende drei Merkmale beim Verkosten: 1. Scharf (Pungent): Ein Kratzen im Hals, das auf hohe Polyphenole hinweist. 2. Süß/Mild (Sweet/Smooth): Eine Balance in der Textur und im ersten Geschmackseindruck. 3. Fruchtig (Fruity): Noten von frisch geschnittenem Gras, Artischocke, Tomatenblättern oder Mandeln. Zusätzlich: Prüfen Sie die Erntezeit (aktuelles Jahr) und ob es sich um eine geschützte Herkunftsbezeichnung (DOP/g.U.) handelt.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Welche Olivenöl-Sorte gilt als die gesündeste?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Öle mit der höchsten Konzentration an Polyphenolen (natürliche Antioxidantien) gelten als am gesündesten. Hier stechen vor allem die italienische Sorte Coratina und die spanische Sorte Picual hervor, oft gefolgt von der griechischen Koroneiki. Diese Öle sind typischerweise intensiver im Geschmack und schärfer im Abgang.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Warum wird Lesbos als Referenzpunkt für Qualität genannt, obwohl es kleine Mengen produziert?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Lesbos sticht durch seine extrem hohe Baumdichte pro Kopf hervor, was eine tief verwurzelte Tradition und hohe Sorgfalt beim Anbau impliziert. Die spezifischen Sorten Koloví und Adramytiáni bieten ein einzigartiges, elegantes Geschmacksprofil, das von Kennern als Ausnahmeöl sehr geschätzt wird – also Qualität statt Quantität.\"\n    }\n  }]\n}\n</script>",
+        "color_scheme": "",
+        "padding-block-start": 40,
+        "padding-block-end": 40
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "main",
+    "woher",
+    "lesbos",
+    "europa",
+    "table_1",
+    "sorten",
+    "table_2",
+    "aussereuropa",
+    "fazit",
+    "faq",
+    "schema"
+  ]
+}
