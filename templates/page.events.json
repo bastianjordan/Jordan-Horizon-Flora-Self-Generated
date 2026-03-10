@@ -136,7 +136,7 @@
               },
               "blocks": {}
             },
-            "event_info": {
+            "event_details": {
               "type": "text",
               "settings": {
                 "text": "<h2>Miele Lounge I Allianz Arena I 7.12.2025 - 14:00</h2><h2>----AUSGEBUCHT ----</h2><h3>5-Gänge-Verführung - veredelt mit Jordan Olivenöl</h3><p>In der sinnlichen Weihnachtszeit trifft ein fein komponiertes Menü auf das vielfach prämierte Jordan Olivenöl.Herr Jordan persönlich entführt Sie in die Welt edler Öle – ein exklusives Tasting voller Aromenvielfalt, spannender Geschichten und feinsinniger Nuancen.Ein kulinarisches Erlebnis zwischen flüssigem Gold und Genuss, das die festliche Zeit mit neuen Dimensionen bereichert.Dauer: 4 Stunden</p><h5>Was erwartet Sie</h5><ul><li>Olivenöl - Tasting</li><li>Menü folgt</li><li>Weinauswahl</li></ul><p><a href=\"https://www.miele.de/c/event-detail.htm?&courseID=73fb5054-1d3a-4927-9e09-c9ff782a722a\" target=\"_blank\" title=\"https://www.miele.de/c/event-detail.htm?&courseID=73fb5054-1d3a-4927-9e09-c9ff782a722a\">Zur Veranstaltung und zur Buchung</a></p>",
@@ -162,7 +162,7 @@
               "blocks": {}
             }
           },
-          "block_order": ["kicker", "heading", "event_info"]
+          "block_order": ["kicker", "heading", "event_details"]
         }
       },
       "block_order": ["group"],
